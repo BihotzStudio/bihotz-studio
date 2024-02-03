@@ -16,7 +16,7 @@
   flex-direction: column;
   height: 200vh;
   animation: 1s forwards slidein;
-  animation-delay: 0.2s;
+  animation-delay: 0.15s;
 }
 
 .contact,
@@ -45,7 +45,11 @@
   top: 0;
   width: 100%;
   height: 100vh;
-  animation: 2s fadeIn;
+}
+
+.coverImage,
+.secondaryImage {
+  animation: 1.5s fadeIn;
 }
 
 @keyframes slidein {

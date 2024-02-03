@@ -17,6 +17,7 @@ const links = [
 export default function Navbar() {
   const pathname = usePathname();
   const [indicatorPosition, setIndicatorPosition] = useState(null);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
   const linksRef = useRef([]);
 
   useEffect(() => {
@@ -38,13 +39,22 @@ export default function Navbar() {
       <Link href="/" className={styles.logo}>
         <Logo />
       </Link>
-      <ul className={styles.links}>
+      <button
+        className={`${styles.menu} ${showMobileMenu ? styles.menuClose : ""}`}
+        onClick={() => setShowMobileMenu(!showMobileMenu)}
+      >
+        <div />
+        <div />
+        <div />
+      </button>
+      <ul className={`${styles.links} ${showMobileMenu ? styles.open : ""}`}>
         {links.map((link, index) => (
           <li key={link.name}>
             <Link
               href={link.href}
               className={styles.link}
               ref={(el) => (linksRef.current[index] = el)}
+              onClick={() => setShowMobileMenu(false)}
             >
               {link.name}
             </Link>
