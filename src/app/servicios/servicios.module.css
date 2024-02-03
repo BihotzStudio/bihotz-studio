@@ -1,0 +1,47 @@
+.container {
+  display: grid;
+  grid-template-columns: auto 30vw;
+  height: 100%;
+}
+
+.coverImage {
+  position: fixed;
+  top: 135px;
+  width: 30vw;
+  height: calc(100vh - 135px);
+  border-left: 1px solid #171717;
+}
+
+.secondaryImage,
+.image {
+  position: relative !important;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.containerInfo {
+  min-height: 330px;
+}
+
+.containerInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 1px solid #171717;
+  padding: 54px;
+}
+
+.number {
+  align-self: flex-end;
+}
+
+.containerInfo:last-of-type {
+  border-bottom: none;
+}
+
+.description {
+  text-align: justify;
+}
