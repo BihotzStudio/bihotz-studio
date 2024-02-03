@@ -12,7 +12,7 @@ export const metadata = {
 export default function Home() {
   return (
     <div className={styles.container}>
-      <div>
+      <div className={styles.secondary}>
         <div className={styles.coverImage}>
           <Link href="/" className={styles.logo}>
             <Logo />
@@ -44,7 +44,12 @@ export default function Home() {
           <p>Siguenos en Instagram</p>
         </div>
         <div className={styles.secondaryImage}>
-          <Image alt="" src="/images/home_1.webp" width={462} height={469} />
+          <Image
+            alt=""
+            src="/images/home_1.webp"
+            fill
+            style={{ objectFit: "cover" }}
+          />
         </div>
       </div>
     </div>
