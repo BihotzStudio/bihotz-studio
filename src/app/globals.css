@@ -17,6 +17,7 @@ a {
 
 main {
   height: 100vh;
+  padding-top: 88px;
 }
 
 @media (min-width: 600px) {

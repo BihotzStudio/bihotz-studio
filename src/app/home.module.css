@@ -47,7 +47,10 @@
   height: 100vh;
 }
 
-.coverImage,
+.coverImage {
+  background-color: #fff;
+}
+
 .secondaryImage {
   animation: 1.5s fadeIn;
 }
