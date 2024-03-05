@@ -66,7 +66,7 @@ export default function Servicios() {
             fill
             priority
             className={styles.image}
-            style={{ objectFit: "cover" }}
+            style={{ objectFit: "cover", objectPosition: "bottom" }}
             sizes="30vw"
           />
         </div>

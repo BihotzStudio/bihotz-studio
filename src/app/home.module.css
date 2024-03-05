@@ -57,11 +57,11 @@
 
 @keyframes slidein {
   from {
-    height: 200vh;
+    height: calc(200vh - 88px);
   }
 
   to {
-    height: 100vh;
+    height: calc(100vh - 88px);
   }
 }
 
@@ -70,21 +70,21 @@
   100% { opacity: 1; }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .secondary {
     display: block;
   }
 
   .container {
     display: grid;
-    grid-template-columns: 30vw auto;
+    grid-template-columns: 40vw auto;
     height: 100%;
   }
   
   .coverImage {
     position: fixed;
     top: 0;
-    width: 30vw;
+    width: 40vw;
     z-index: 1;
     height: 100vh;
     border-right: 1px solid #171717;
@@ -103,6 +103,8 @@
     height: auto;
     justify-content: initial;
     animation: none;
+    z-index: 0;
+    min-height: calc(100vh - 134px);
   }
   
   .info {
@@ -122,6 +124,8 @@
     flex-direction: column;
     gap: 12px;
     padding: 0;
+    align-self: flex-end;
+    padding: 54px;
   }
   
   .description {
@@ -136,10 +140,10 @@
     left: 56px;
     z-index: 1;
   }
-  
-  .contact {
-    align-self: flex-end;
-    padding: 54px;
+
+  .contact,
+  .info {
+    background-color: transparent;
   }
   
   .secondaryImage {
@@ -147,7 +151,7 @@
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
-    height: 429px;
+    height: 25vw;
   }
 
   .title {

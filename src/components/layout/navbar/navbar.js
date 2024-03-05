@@ -9,7 +9,6 @@ import styles from "./navbar.module.css";
 
 const links = [
   { name: "Servicios", href: "/servicios" },
-  { name: "Proyectos", href: "/proyectos" },
   { name: "Nosotros", href: "/nosotros" },
   { name: "Contacto", href: "/contacto" },
 ];

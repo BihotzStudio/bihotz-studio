@@ -33,6 +33,7 @@
   height: 100vh;
   z-index: 5;
   transition: left 0.5s;
+  padding: 84px 36px 36px;
 }
 
 .open {
@@ -67,14 +68,14 @@
   transform: rotate(-45deg) translate(-4px, 4px);
 }
 
-@media (max-width: 740px) {
+@media (max-width: 800px) {
   .transparent {
     background-color: transparent;
     border-bottom: 0;
   }
 }
 
-@media (min-width: 740px) {
+@media (min-width: 800px) {
   .container {
     padding: 56px;
     background-color: #fff;
@@ -98,6 +99,8 @@
     height: auto;
     transition: none;
     left: initial;
+    padding: 0;
+    margin-top: 0;
   }
 
   .link {
