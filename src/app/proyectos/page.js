@@ -1,4 +1,5 @@
 export const metadata = {
+  title: "Proyectos - Bihotz Studio",
   description: "",
 };
 

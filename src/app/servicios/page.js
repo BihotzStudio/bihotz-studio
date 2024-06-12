@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./servicios.module.css";
 
 export const metadata = {
+  title: "Servicios - Bihotz Studio",
   description: "",
 };
 

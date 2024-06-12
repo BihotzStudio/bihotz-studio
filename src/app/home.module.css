@@ -22,7 +22,7 @@
 .contact,
 .description,
 .title {
-  color: #4D4D4D;
+  color: #4d4d4d;
   font-size: 16px;
   font-weight: normal;
 }
@@ -66,11 +66,15 @@
 }
 
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .secondary {
     display: block;
   }
@@ -80,7 +84,7 @@
     grid-template-columns: 40vw auto;
     height: 100%;
   }
-  
+
   .coverImage {
     position: fixed;
     top: 0;
@@ -89,12 +93,12 @@
     height: 100vh;
     border-right: 1px solid #171717;
   }
-  
+
   .secondaryImage,
   .image {
     position: relative !important;
   }
-  
+
   .main {
     position: relative;
     display: grid;
@@ -106,7 +110,7 @@
     z-index: 0;
     min-height: calc(100vh - 134px);
   }
-  
+
   .info {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -127,16 +131,16 @@
     align-self: flex-end;
     padding: 54px;
   }
-  
+
   .description {
     align-self: flex-end;
     max-width: 542px;
     margin-left: 0;
   }
-  
+
   .logo {
     position: fixed;
-    top: 56px;
+    top: 31px;
     left: 56px;
     z-index: 1;
   }
@@ -145,7 +149,7 @@
   .info {
     background-color: transparent;
   }
-  
+
   .secondaryImage {
     position: relative;
     overflow: hidden;

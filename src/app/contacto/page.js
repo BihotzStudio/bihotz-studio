@@ -1,8 +1,11 @@
-"use client";
-
 import Image from "next/image";
 
 import styles from "./contacto.module.css";
+
+export const metadata = {
+  title: "Contacto - Bihotz Studio",
+  description: "",
+};
 
 export default function Contacto() {
   return (

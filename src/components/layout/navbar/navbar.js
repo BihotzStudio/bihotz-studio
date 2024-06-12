@@ -9,6 +9,7 @@ import styles from "./navbar.module.css";
 
 const links = [
   { name: "Servicios", href: "/servicios" },
+  { name: "Proyectos", href: "/proyectos" },
   { name: "Nosotros", href: "/nosotros" },
   { name: "Contacto", href: "/contacto" },
 ];
@@ -48,26 +49,37 @@ export default function Navbar() {
         <div />
         <div />
       </button>
-      <ul className={`${styles.links} ${showMobileMenu ? styles.open : ""}`}>
-        {links.map((link, index) => (
-          <li key={link.name}>
-            <Link
-              href={link.href}
-              className={styles.link}
-              ref={(el) => (linksRef.current[index] = el)}
-              onClick={() => setShowMobileMenu(false)}
-            >
-              {link.name}
-            </Link>
-          </li>
-        ))}
-        {indicatorPosition && (
-          <div
-            className={styles.indicator}
-            style={{ left: indicatorPosition + "px", width: "6px" }}
-          />
-        )}
-      </ul>
+      <div
+        className={`${styles.containerLinks} ${
+          showMobileMenu ? styles.open : ""
+        }`}
+      >
+        <ul className={styles.links}>
+          {links.map((link, index) => (
+            <li key={link.name}>
+              <Link
+                href={link.href}
+                className={styles.link}
+                ref={(el) => (linksRef.current[index] = el)}
+                onClick={() => setShowMobileMenu(false)}
+              >
+                {link.name}
+              </Link>
+            </li>
+          ))}
+          {indicatorPosition && (
+            <div
+              className={styles.indicator}
+              style={{ left: indicatorPosition + "px" }}
+            />
+          )}
+        </ul>
+        <div className={styles.menuFooter}>
+          <p>info@bihotz-studio.com</p>
+          <p>+34 697 525 425</p>
+          <p>Siguenos en Instagram</p>
+        </div>
+      </div>
     </nav>
   );
 }

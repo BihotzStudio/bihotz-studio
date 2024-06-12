@@ -6,7 +6,7 @@
   top: 0;
   right: 0;
   width: 100%;
-  padding: 36px 24px;
+  padding: 20px;
   z-index: 2;
   background-color: white;
   border-bottom: 1px solid #171717;
@@ -16,24 +16,31 @@
 .logo {
   position: fixed;
   left: 24px;
-  top: 36px;
+  top: 20px;
   z-index: 0;
 }
 
-.links {
+.containerLinks {
   position: fixed;
-  display: flex;
-  flex-direction: column;
   background-color: #fff;
-  list-style-type: none;
-  gap: 56px;
-  top: 0;
+  top: 56px;
   left: 100vw;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 56px);
   z-index: 5;
   transition: left 0.5s;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 24px;
   padding: 84px 36px 36px;
+  align-items: center;
+  justify-content: center;
 }
 
 .open {
@@ -43,7 +50,7 @@
 .menu {
   display: flex;
   flex-direction: column;
-  width:15px;
+  width: 15px;
   height: 15px;
   border: 0;
   background: transparent;
@@ -53,31 +60,47 @@
 }
 
 .menu > div {
-  background-color: #171717;
+  background-color: black;
   height: 1px;
   width: 100%;
-  transition: all .5s;
+  transition: all 0.5s;
   transform-origin: left;
 }
 
-.menuClose div:first-child{
-  transform: rotate(45deg);
+.menuClose div:first-child {
+  transform: rotate(45deg) translate(0px, -4px);
 }
 
-.menuClose div:last-child{
-  transform: rotate(-45deg) translate(-4px, 4px);
+.menuClose div:last-child {
+  transform: rotate(-45deg) translate(0px, 4px);
 }
 
-@media (max-width: 800px) {
+.link {
+  text-transform: uppercase;
+}
+
+.menuFooter {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  border-top: 1px solid;
+  padding: 40px 20px;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
   .transparent {
     background-color: transparent;
     border-bottom: 0;
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
+  .menuFooter {
+    display: none;
+  }
+
   .container {
-    padding: 56px;
+    padding: 20px 40px;
     background-color: #fff;
     z-index: 1;
   }
@@ -90,27 +113,34 @@
     display: none;
   }
 
-  .links {
+  .containerLinks {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    gap: 40px;
+    top: 0;
     width: auto;
     height: auto;
     transition: none;
     left: initial;
+  }
+
+  .links {
+    flex-direction: row;
+    gap: 40px;
+
     padding: 0;
     margin-top: 0;
   }
 
   .link {
+    display: block;
     color: #171717;
-    text-transform: uppercase;
+
+    padding: 14px 0 8px 0;
   }
 
   .logo {
     left: 56px;
-    top: 56px;
+    top: 32px;
+    width: 160px;
   }
 
   .item {
@@ -119,10 +149,17 @@
 
   .indicator {
     position: absolute;
-    bottom: -8px;
-    height: 6px;
+    bottom: 0px;
+    height: 4px;
+    width: 4px;
     background-color: black;
     border-radius: 50%;
     transition: left 0.3s ease, width 0.3s ease;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container {
+    padding: 20px 56px;
   }
 }
