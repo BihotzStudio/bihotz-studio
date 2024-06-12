@@ -19,7 +19,6 @@ export default function Navbar() {
   const [indicatorPosition, setIndicatorPosition] = useState(null);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const linksRef = useRef([]);
-  const transparent = pathname === "/";
 
   useEffect(() => {
     const index = links.findIndex((link) => link.href === pathname);
@@ -36,9 +35,7 @@ export default function Navbar() {
   }, [pathname]);
 
   return (
-    <nav
-      className={`${styles.container} ${transparent ? styles.transparent : ""}`}
-    >
+    <nav className={styles.container}>
       <Link
         href="/"
         onClick={() => setShowMobileMenu(false)}

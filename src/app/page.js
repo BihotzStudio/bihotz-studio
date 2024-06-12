@@ -38,11 +38,21 @@ export default function Home() {
             digitales aportando experiencia en innovación digital.
           </p>
         </div>
-        <div className={styles.contact}>
+        <div className={styles.imageSmallScreen}>
+          <Image
+            alt="Imagen en blanco y negro de una habitación minimalista con dos cuadros vacíos colgados en la pared y una silla moderna de diseño curvo colocada en el suelo de parqué."
+            src="/images/portada.webp"
+            fill
+            priority
+            style={{ objectFit: "cover", objectPosition: "center -130px" }}
+            sizes="100vw"
+          />
+        </div>
+        <footer className={styles.contact}>
           <p>info@bihotz-studio.com</p>
           <p>+34 697 525 425</p>
           <p>Siguenos en Instagram</p>
-        </div>
+        </footer>
         <div className={styles.secondaryImage}>
           <Image
             alt=""

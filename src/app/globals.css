@@ -2,6 +2,24 @@
   --breakpoint-small: 375px;
   --breakpoint-medium: 768px;
   --breakpoint-large: 1920px;
+
+  --header-height: 56px;
+
+  --padding-horizontal: 20px;
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --header-height: 64px;
+
+    --padding-horizontal: 40px;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --padding-horizontal: 54px;
+  }
 }
 
 * {
@@ -16,7 +34,8 @@ body {
   overflow-x: hidden;
   font-family: var(--font-founders-grotesk);
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 a {
@@ -25,17 +44,12 @@ a {
 }
 
 main {
-  padding-top: 88px;
+  padding-top: var(--header-height);
 }
 
 @media (min-width: 768px) {
-  main {
-    padding-top: 74px;
-  }
-}
-
-@media (min-width: 1920px) {
   body {
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 27px;
   }
 }

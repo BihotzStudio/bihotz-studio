@@ -7,16 +7,12 @@
   position: relative;
   z-index: 1;
   background-color: #fff;
-  padding: 40px;
+  padding: 48px 40px;
 }
 
 .main {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  height: 200vh;
-  animation: 1s forwards slidein;
-  animation-delay: 0.15s;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 .contact,
@@ -27,12 +23,19 @@
   font-weight: normal;
 }
 
+.contact {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .title {
   margin-bottom: 56px;
 }
 
 .description {
-  margin-left: 36px;
+  margin-left: 68px;
   text-align: justify;
 }
 
@@ -41,28 +44,20 @@
 }
 
 .secondaryImage {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100vh;
+  display: none;
 }
 
 .coverImage {
   background-color: #fff;
 }
 
-.secondaryImage {
-  animation: 1.5s fadeIn;
+.logo {
+  display: none;
 }
 
-@keyframes slidein {
-  from {
-    height: calc(200vh - 88px);
-  }
-
-  to {
-    height: calc(100vh - 88px);
-  }
+.container {
+  height: calc(100vh - var(--header-height));
+  display: flex;
 }
 
 @keyframes fadeIn {
@@ -74,7 +69,11 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
+  .imageSmallScreen {
+    display: none;
+  }
+
   .secondary {
     display: block;
   }
@@ -82,7 +81,6 @@
   .container {
     display: grid;
     grid-template-columns: 40vw auto;
-    height: 100%;
   }
 
   .coverImage {
@@ -101,9 +99,8 @@
 
   .main {
     position: relative;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: 1fr;
+    grid-template-columns: 0.9fr 1.1fr;
+    grid-template-rows: 1fr 1fr;
     height: auto;
     justify-content: initial;
     animation: none;
@@ -124,25 +121,15 @@
   }
 
   .contact {
-    display: flex;
-    flex-direction: column;
     gap: 12px;
-    padding: 0;
     align-self: flex-end;
-    padding: 54px;
   }
 
   .description {
     align-self: flex-end;
-    max-width: 542px;
+    max-width: 426px;
     margin-left: 0;
-  }
-
-  .logo {
-    position: fixed;
-    top: 31px;
-    left: 56px;
-    z-index: 1;
+    text-align: justify;
   }
 
   .contact,
@@ -155,10 +142,28 @@
     overflow: hidden;
     display: flex;
     justify-content: flex-end;
-    height: 25vw;
+    height: 100%;
   }
 
   .title {
     margin-bottom: 0;
+  }
+
+  .logo {
+    display: block;
+    position: fixed;
+    top: 24px;
+    left: 40px;
+    z-index: 1;
+  }
+}
+
+@media (min-width: 1440px) {
+  .contact {
+    padding: 56px;
+  }
+
+  .logo {
+    left: 56px;
   }
 }
