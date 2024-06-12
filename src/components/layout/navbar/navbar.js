@@ -39,7 +39,11 @@ export default function Navbar() {
     <nav
       className={`${styles.container} ${transparent ? styles.transparent : ""}`}
     >
-      <Link href="/" className={styles.logo}>
+      <Link
+        href="/"
+        onClick={() => setShowMobileMenu(false)}
+        className={styles.logo}
+      >
         <Logo />
       </Link>
       <button
@@ -77,7 +81,13 @@ export default function Navbar() {
         <div className={styles.menuFooter}>
           <p>info@bihotz-studio.com</p>
           <p>+34 697 525 425</p>
-          <p>Siguenos en Instagram</p>
+          <a
+            href="https://www.instagram.com/bihotz.studio/"
+            target="_blank"
+            rel="noopener"
+          >
+            Siguenos en <span className={styles.underlined}>Instagram</span>
+          </a>
         </div>
       </div>
     </nav>

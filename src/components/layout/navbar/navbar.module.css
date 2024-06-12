@@ -87,6 +87,10 @@
   gap: 20px;
 }
 
+.underlined {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .transparent {
     background-color: transparent;
