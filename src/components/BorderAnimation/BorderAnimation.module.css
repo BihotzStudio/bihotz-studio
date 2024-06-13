@@ -1,0 +1,116 @@
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+}
+
+.hideBorder {
+  display: none;
+}
+
+.border {
+  box-sizing: border-box;
+}
+
+.border span {
+  opacity: 0;
+  z-index: 1000;
+}
+
+.borderTop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: black;
+  animation: borderTopAnimation var(--top-border-duration)
+    var(--top-border-transition) forwards;
+}
+
+@keyframes borderTopAnimation {
+  0% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.borderRight {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: black;
+  animation: borderRightAnimation var(--right-border-duration)
+    var(--right-border-transition) forwards;
+  animation-delay: var(--right-border-delay);
+}
+
+@keyframes borderRightAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.borderBottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: black;
+  animation: borderBottomAnimation var(--bottom-border-duration)
+    var(--bottom-border-transition) forwards;
+  animation-delay: var(--bottom-border-delay);
+}
+
+@keyframes borderBottomAnimation {
+  0% {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.borderLeft {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: black;
+  animation: borderLeftAnimation var(--left-border-duration)
+    var(--left-border-transition) forwards;
+  animation-delay: var(--left-border-delay);
+}
+
+@keyframes borderLeftAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
