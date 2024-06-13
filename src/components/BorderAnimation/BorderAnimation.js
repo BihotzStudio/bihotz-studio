@@ -39,19 +39,27 @@ export const BorderAnimation = ({
       <div className={styles.border}>
         <span
           className={`
-            ${!top ? styles.hideBorder : ""} ${styles.borderTop}`}
+            ${!top ? styles.hideBorder : ""} ${styles.borderTop} ${
+            top?.reverse ? styles.borderTopReverse : ""
+          }`}
         ></span>
         <span
           className={`
-            ${!right ? styles.hideBorder : ""} ${styles.borderRight}`}
+            ${!right ? styles.hideBorder : ""} ${styles.borderRight} ${
+            right?.reverse ? styles.borderRightReverse : ""
+          }`}
         ></span>
         <span
           className={`
-            ${!bottom ? styles.hideBorder : ""} ${styles.borderBottom}`}
+            ${!bottom ? styles.hideBorder : ""} ${styles.borderBottom} ${
+            bottom?.reverse ? styles.borderBottomReverse : ""
+          }`}
         ></span>
         <span
           className={`
-            ${!left ? styles.hideBorder : ""} ${styles.borderLeft}`}
+            ${!left ? styles.hideBorder : ""} ${styles.borderLeft} ${
+            left?.reverse ? styles.borderLeftReverse : ""
+          }`}
         ></span>
       </div>
     </div>

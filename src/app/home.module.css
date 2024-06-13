@@ -20,7 +20,7 @@
 .title {
   color: #4d4d4d;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .contact {
@@ -52,8 +52,14 @@
 }
 
 .container {
-  height: calc(100vh - var(--header-height));
+  height: calc(100dvh - var(--header-height));
   display: flex;
+}
+
+.image,
+.imageSmallScreen,
+.secondaryImage {
+  animation: fadeIn 2s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
@@ -79,13 +85,16 @@
     grid-template-columns: 40vw auto;
   }
 
-  .coverImage {
+  .secondary .coverImage {
     position: fixed;
     top: 0;
     width: 40vw;
-    z-index: 1;
-    height: 100vh;
-    border-right: 1px solid #171717;
+    z-index: 3;
+    height: 100dvh;
+  }
+
+  .containerImage {
+    height: 100dvh;
   }
 
   .secondaryImage,
@@ -101,7 +110,7 @@
     justify-content: initial;
     animation: none;
     z-index: 0;
-    min-height: calc(100vh - 134px);
+    min-height: calc(100dvh - 134px);
   }
 
   .borderInfo {
@@ -129,6 +138,7 @@
     max-width: 426px;
     margin-left: 0;
     text-align: justify;
+    font-size: 17px;
   }
 
   .contact,
@@ -146,12 +156,13 @@
 
   .title {
     margin-bottom: 0;
+    font-size: 17px;
   }
 
   .logo {
     display: block;
     position: fixed;
-    top: 24px;
+    top: 26px;
     left: 40px;
     z-index: 1;
   }
@@ -163,6 +174,6 @@
   }
 
   .logo {
-    left: 56px;
+    left: var(--padding-horizontal);
   }
 }

@@ -65,7 +65,7 @@
     position: fixed;
     top: 134px;
     width: 40vw;
-    height: calc(100vh - 134px);
+    height: calc(100dvh - 134px);
     animation: 1.5s fadeIn;
     overflow: hidden;
   }

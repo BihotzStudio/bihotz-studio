@@ -14,23 +14,31 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.secondary}>
-        <div className={styles.coverImage}>
-          <Link href="/" className={styles.logo}>
-            <Logo />
-          </Link>
-          <Image
-            alt="Imagen en blanco y negro de una habitación minimalista con dos cuadros vacíos colgados en la pared y una silla moderna de diseño curvo colocada en el suelo de parqué."
-            src="/images/portada.webp"
-            fill
-            priority
-            className={styles.image}
-            style={{ objectFit: "cover" }}
-            sizes="30vw"
-          />
-        </div>
+        <BorderAnimation
+          right={{ reverse: true }}
+          className={styles.coverImage}
+        >
+          <div className={styles.containerImage}>
+            <Link href="/" className={styles.logo}>
+              <Logo />
+            </Link>
+            <Image
+              alt="Imagen en blanco y negro de una habitación minimalista con dos cuadros vacíos colgados en la pared y una silla moderna de diseño curvo colocada en el suelo de parqué."
+              src="/images/portada.webp"
+              fill
+              priority
+              className={styles.image}
+              style={{ objectFit: "cover" }}
+              sizes="30vw"
+            />
+          </div>
+        </BorderAnimation>
       </div>
       <div className={styles.main}>
-        <BorderAnimation bottom className={styles.borderInfo}>
+        <BorderAnimation
+          bottom={{ duration: "2s" }}
+          className={styles.borderInfo}
+        >
           <div className={styles.info}>
             <h1 className={styles.title}>Digital Design & Development.</h1>
             <p className={styles.description}>
@@ -41,7 +49,6 @@ export default function Home() {
             </p>
           </div>
         </BorderAnimation>
-
         <div className={styles.imageSmallScreen}>
           <Image
             alt="Imagen en blanco y negro de una habitación minimalista con dos cuadros vacíos colgados en la pared y una silla moderna de diseño curvo colocada en el suelo de parqué."

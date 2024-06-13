@@ -17,7 +17,7 @@
 
 .border span {
   opacity: 0;
-  z-index: 1000;
+  z-index: 2;
 }
 
 .borderTop {
@@ -31,10 +31,27 @@
     var(--top-border-transition) forwards;
 }
 
+.borderTopReverse {
+  animation: borderTopReverseAnimation var(--top-border-duration)
+    var(--top-border-transition) forwards;
+}
+
 @keyframes borderTopAnimation {
   0% {
     opacity: 1;
     transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes borderTopReverseAnimation {
+  0% {
+    opacity: 1;
+    transform: translateX(100%);
   }
 
   100% {
@@ -55,10 +72,27 @@
   animation-delay: var(--right-border-delay);
 }
 
+.borderRightReverse {
+  animation: borderRightReverseAnimation var(--right-border-duration)
+    var(--right-border-transition) forwards;
+}
+
 @keyframes borderRightAnimation {
   0% {
     opacity: 1;
     transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes borderRightReverseAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(100%);
   }
 
   100% {
@@ -79,10 +113,27 @@
   animation-delay: var(--bottom-border-delay);
 }
 
+.borderBottomReverse {
+  animation: borderBottomReverseAnimation var(--bottom-border-duration)
+    var(--bottom-border-transition) forwards;
+}
+
 @keyframes borderBottomAnimation {
   0% {
     opacity: 1;
     transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes borderBottomReverseAnimation {
+  0% {
+    opacity: 1;
+    transform: translateX(-100%);
   }
 
   100% {
@@ -103,10 +154,25 @@
   animation-delay: var(--left-border-delay);
 }
 
+.borderLeftReverse {
+}
+
 @keyframes borderLeftAnimation {
   0% {
     opacity: 1;
     transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes borderLefReversetAnimation {
+  0% {
+    opacity: 1;
+    transform: translateY(-100%);
   }
 
   100% {
