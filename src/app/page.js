@@ -55,23 +55,30 @@ export default function Home() {
             src="/images/portada.webp"
             fill
             priority
-            style={{ objectFit: "cover", objectPosition: "center -130px" }}
+            style={{ objectFit: "contain", objectPosition: "center 112px" }}
             sizes="100vw"
           />
         </div>
-        <footer className={styles.contact}>
-          <p>info@bihotz-studio.com</p>
-          <p>+34 697 525 425</p>
-          <p>Siguenos en Instagram</p>
-        </footer>
-        <div className={styles.secondaryImage}>
-          <Image
-            alt=""
-            src="/images/home_1.webp"
-            fill
-            style={{ objectFit: "cover" }}
-          />
-        </div>
+        <BorderAnimation
+          top={{ duration: "2s", className: styles.hideBoder }}
+          className={styles.footerBorder}
+        >
+          <footer className={styles.contact}>
+            <p>info@bihotz-studio.com</p>
+            <p>+34 697 525 425</p>
+            <p>Siguenos en Instagram</p>
+          </footer>
+        </BorderAnimation>
+        <BorderAnimation left={{ duration: "1s" }}>
+          <div className={styles.secondaryImage}>
+            <Image
+              alt=""
+              src="/images/home_1.webp"
+              fill
+              style={{ objectFit: "cover" }}
+            />
+          </div>
+        </BorderAnimation>
       </div>
     </div>
   );

@@ -52,7 +52,7 @@
 }
 
 .container {
-  height: calc(100dvh - var(--header-height));
+  min-height: calc(100dvh - var(--header-height));
   display: flex;
 }
 
@@ -60,6 +60,10 @@
 .imageSmallScreen,
 .secondaryImage {
   animation: fadeIn 2s ease-in-out forwards;
+}
+
+.imageSmallScreen {
+  height: 200px;
 }
 
 @keyframes fadeIn {
@@ -72,6 +76,10 @@
 }
 
 @media (min-width: 1024px) {
+  .hideBoder {
+    display: none;
+  }
+
   .imageSmallScreen {
     display: none;
   }
@@ -91,6 +99,7 @@
     width: 40vw;
     z-index: 3;
     height: 100dvh;
+    border-bottom: none;
   }
 
   .containerImage {
