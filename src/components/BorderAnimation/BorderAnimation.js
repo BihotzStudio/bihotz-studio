@@ -47,7 +47,7 @@ export const BorderAnimation = ({
           className={`
             ${!right ? styles.hideBorder : ""} ${styles.borderRight} ${
             right?.reverse ? styles.borderRightReverse : ""
-          }`}
+          } ${right?.className ? right.className : ""}`}
         ></span>
         <span
           className={`

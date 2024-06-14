@@ -30,11 +30,13 @@
   background: black;
   animation: borderTopAnimation var(--top-border-duration)
     var(--top-border-transition) forwards;
+  animation-delay: var(--top-border-delay);
 }
 
 .borderTopReverse {
   animation: borderTopReverseAnimation var(--top-border-duration)
     var(--top-border-transition) forwards;
+  animation-delay: var(--top-border-delay);
 }
 
 @keyframes borderTopAnimation {
@@ -76,6 +78,7 @@
 .borderRightReverse {
   animation: borderRightReverseAnimation var(--right-border-duration)
     var(--right-border-transition) forwards;
+  animation-delay: var(--right-border-delay);
 }
 
 @keyframes borderRightAnimation {
@@ -117,6 +120,7 @@
 .borderBottomReverse {
   animation: borderBottomReverseAnimation var(--bottom-border-duration)
     var(--bottom-border-transition) forwards;
+  animation-delay: var(--bottom-border-delay);
 }
 
 @keyframes borderBottomAnimation {
@@ -156,6 +160,9 @@
 }
 
 .borderLeftReverse {
+  animation: borderLefReversetAnimation var(--left-border-duration)
+    var(--left-border-transition) forwards;
+  animation-delay: var(--left-border-delay);
 }
 
 @keyframes borderLeftAnimation {

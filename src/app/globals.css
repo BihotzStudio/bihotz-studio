@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  margin-top: var(--header-height);
+}
+
 @media (min-width: 1280px) {
   body {
     font-size: 17px;
