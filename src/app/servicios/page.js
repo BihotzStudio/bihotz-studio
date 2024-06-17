@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import styles from "./servicios.module.css";
 import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
+import { Footer } from "@/components/layout/footer/Footer";
 
 export const metadata = {
   title: "Servicios - Bihotz Studio",
@@ -16,15 +17,13 @@ export default function Servicios() {
           className={styles.borderAnimation}
           top={{
             className: styles.hideBorderTop,
-            delay: "0.75s",
-            duration: "0.5s",
+            delay: "1s",
           }}
           left={{ className: styles.hideBorderLeft }}
-          bottom={{ reverse: true, duration: "0.75s" }}
+          bottom={{ reverse: true }}
           right={{
             reverse: true,
-            delay: "0.75s",
-            duration: "0.5s",
+            delay: "1s",
             className: styles.hideBorderRight,
           }}
         >
@@ -46,14 +45,12 @@ export default function Servicios() {
           className={styles.borderAnimation}
           top={{
             className: styles.hideBorderTop,
-            delay: "0.75s",
-            duration: "0.5s",
+            delay: "1s",
           }}
           left={{ className: styles.hideBorderLeft }}
-          bottom={{ delay: "1.25s" }}
+          bottom={{ delay: "2s" }}
           right={{
-            delay: "0.75s",
-            duration: "0.5s",
+            delay: "1s",
             className: styles.hideBorderRight,
           }}
         >
@@ -74,15 +71,13 @@ export default function Servicios() {
           className={styles.borderAnimation}
           top={{
             className: styles.hideBorderTop,
-            delay: "0.75s",
-            duration: "0.5s",
+            delay: "1s",
           }}
           left={{ className: styles.hideBorderLeft }}
-          bottom={{ reverse: true, duration: "0.75s" }}
+          bottom={{ reverse: true }}
           right={{
             reverse: true,
-            delay: "0.75s",
-            duration: "0.5s",
+            delay: "1s",
             className: styles.hideBorderRight,
           }}
         >
@@ -102,14 +97,12 @@ export default function Servicios() {
           className={styles.borderAnimation}
           top={{
             className: styles.hideBorderTop,
-            delay: "0.75s",
-            duration: "0.5s",
+            delay: "1s",
           }}
           left={{ className: styles.hideBorderLeft }}
           bottom={{ className: styles.hideBorderBottom }}
           right={{
-            delay: "0.75s",
-            duration: "0.5s",
+            delay: "1s",
             className: styles.hideBorderRight,
           }}
         >
@@ -136,9 +129,16 @@ export default function Servicios() {
             className={styles.image}
             style={{ objectFit: "cover", objectPosition: "bottom" }}
             sizes="30vw"
+            quality={100}
           />
         </div>
       </div>
+      <BorderAnimation
+        top={{ reverse: true, delay: "2s" }}
+        right={{ className: styles.borderRightFooter, delay: "2s" }}
+      >
+        <Footer className={styles.footer} />
+      </BorderAnimation>
     </div>
   );
 }

@@ -30,6 +30,14 @@
   display: none;
 }
 
+.footer {
+  display: flex;
+  padding: 80px 56px;
+  z-index: 10;
+  background-color: white;
+  gap: 40px;
+}
+
 .borderAnimation {
   z-index: 10;
   margin: 20px;
@@ -42,6 +50,10 @@
 .description {
   text-align: justify;
   padding-top: 16px;
+}
+
+.borderRightFooter {
+  display: none;
 }
 
 @keyframes fadeIn {
@@ -60,6 +72,7 @@
     display: none;
   }
 
+  .borderRightFooter,
   .hideBorderRight {
     display: block;
   }

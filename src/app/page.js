@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import styles from "./home.module.css";
 import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
+import { Footer } from "@/components/layout/footer/Footer";
 
 export const metadata = {
   description:
@@ -29,7 +30,8 @@ export default function Home() {
               priority
               className={styles.image}
               style={{ objectFit: "cover" }}
-              sizes="30vw"
+              sizes="100vw"
+              quality={100}
             />
           </div>
         </BorderAnimation>
@@ -55,19 +57,16 @@ export default function Home() {
             src="/images/portada.webp"
             fill
             priority
-            style={{ objectFit: "contain", objectPosition: "center 112px" }}
+            style={{ objectFit: "contain", objectPosition: "center 225px" }}
             sizes="100vw"
+            quality={100}
           />
         </div>
         <BorderAnimation
           top={{ duration: "2s", className: styles.hideBoder }}
           className={styles.footerBorder}
         >
-          <footer className={styles.contact}>
-            <p>info@bihotz-studio.com</p>
-            <p>+34 697 525 425</p>
-            <p>Siguenos en Instagram</p>
-          </footer>
+          <Footer className={styles.contact} />
         </BorderAnimation>
         <BorderAnimation left={{ duration: "1s" }}>
           <div className={styles.secondaryImage}>
@@ -76,6 +75,7 @@ export default function Home() {
               src="/images/home_1.webp"
               fill
               style={{ objectFit: "cover" }}
+              quality={100}
             />
           </div>
         </BorderAnimation>
