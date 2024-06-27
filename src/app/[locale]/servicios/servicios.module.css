@@ -32,10 +32,11 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   padding: 80px 56px;
   z-index: 10;
   background-color: white;
-  gap: 40px;
+  gap: 20px;
 }
 
 .borderAnimation {
@@ -66,6 +67,11 @@
 }
 
 @media (min-width: 800px) {
+  .footer {
+    flex-direction: row;
+    gap: 40px;
+  }
+
   .hideBorderLeft,
   .hideBorderBottom,
   .hideBorderTop {

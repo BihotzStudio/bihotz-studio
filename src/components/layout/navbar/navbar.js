@@ -8,7 +8,10 @@ import { useEffect, useRef, useState } from "react";
 import styles from "./navbar.module.css";
 import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
 
-const links = [{ name: "Servicios", href: "/servicios" }];
+const links = [
+  { name: "Servicios", href: "/servicios" },
+  { name: "Proyectos", href: "/proyectos" },
+];
 
 export default function Navbar({ locale }) {
   const pathname = usePathname();

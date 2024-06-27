@@ -1,0 +1,77 @@
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageContainer {
+  position: relative;
+  display: flex;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 20px 24px;
+}
+
+.infoTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.client {
+  text-transform: uppercase;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.rightBorder {
+  display: none;
+}
+
+.container:nth-last-of-type(-n + 1) .bottomBorder {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container:nth-of-type(odd) .rightBorder {
+    display: block;
+  }
+
+  .container:nth-last-of-type(-n + 2) .bottomBorder {
+    display: none;
+  }
+}
+
+@media (min-width: 1920px) {
+  .projects {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .container:nth-of-type(odd) .rightBorder {
+    display: none;
+  }
+
+  .container:nth-child(3n + 1) .rightBorder,
+  .container:nth-child(3n + 2) .rightBorder {
+    display: block;
+  }
+
+  .container:nth-last-of-type(-n + 3) .bottomBorder {
+    display: none;
+  }
+}
