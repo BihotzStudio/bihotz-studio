@@ -5,13 +5,19 @@ import Link from "next/link";
 import styles from "./home.module.css";
 import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
 import { Footer } from "@/components/layout/footer/Footer";
+import { getTranslations } from "@/utils/getTranslations";
 
-export const metadata = {
-  description:
-    "Somos un estudio de diseño y desarrollo web y app especializado en el sector retail. Colaboramos con grandes empresas ofreciendo servicios que les ayuden a hacer crecer y consolidar sus negocios digitales aportando experiencia en innovación digital.",
-};
+export async function generateMetadata({ params }) {
+  const t = await getTranslations(params.locale, "Home");
 
-export default function Home() {
+  return {
+    description: t.description,
+  };
+}
+
+export default async function Home({ params }) {
+  const t = await getTranslations(params.locale, "Home");
+
   return (
     <div className={styles.container}>
       <div className={styles.secondary}>
@@ -24,7 +30,7 @@ export default function Home() {
               <Logo />
             </Link>
             <Image
-              alt="Imagen en blanco y negro de una habitación minimalista con dos cuadros vacíos colgados en la pared y una silla moderna de diseño curvo colocada en el suelo de parqué."
+              alt={t.altImage}
               src="/images/portada.webp"
               fill
               priority
@@ -42,18 +48,13 @@ export default function Home() {
           className={styles.borderInfo}
         >
           <div className={styles.info}>
-            <h1 className={styles.title}>Digital Design & Development.</h1>
-            <p className={styles.description}>
-              Somos un estudio de diseño y desarrollo web y app especializado en
-              el sector retail. Colaboramos con grandes empresas ofreciendo
-              servicios que les ayuden a hacer crecer y consolidar sus negocios
-              digitales aportando experiencia en innovación digital.
-            </p>
+            <h1 className={styles.title}>{t.title}</h1>
+            <p className={styles.description}>{t.description}</p>
           </div>
         </BorderAnimation>
         <div className={styles.imageSmallScreen}>
           <Image
-            alt="Imagen en blanco y negro de una habitación minimalista con dos cuadros vacíos colgados en la pared y una silla moderna de diseño curvo colocada en el suelo de parqué."
+            alt={t.altImage}
             src="/images/portada.webp"
             fill
             priority
@@ -71,7 +72,7 @@ export default function Home() {
         <BorderAnimation left={{ duration: "1s" }}>
           <div className={styles.secondaryImage}>
             <Image
-              alt=""
+              alt={t.altSecondaryImage}
               src="/images/home_1.webp"
               fill
               style={{ objectFit: "cover" }}

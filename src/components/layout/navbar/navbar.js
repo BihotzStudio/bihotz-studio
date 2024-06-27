@@ -10,7 +10,7 @@ import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
 
 const links = [{ name: "Servicios", href: "/servicios" }];
 
-export default function Navbar() {
+export default function Navbar({ locale }) {
   const pathname = usePathname();
   const [indicatorPosition, setIndicatorPosition] = useState(null);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -59,7 +59,7 @@ export default function Navbar() {
             {links.map((link, index) => (
               <li key={link.name}>
                 <Link
-                  href={link.href}
+                  href={`/${locale}/${link.href}`}
                   className={styles.link}
                   ref={(el) => (linksRef.current[index] = el)}
                   onClick={() => setShowMobileMenu(false)}

@@ -1,0 +1,22 @@
+{
+  "Home": {
+    "altImage": "Imagen en blanco y negro de una habitación minimalista con dos cuadros vacíos colgados en la pared y una silla moderna de diseño curvo colocada en el suelo de parqué.",
+    "title": "Digital Design & Development.",
+    "description": "Somos un estudio de diseño y desarrollo web y app especializado en el sector retail. Colaboramos con grandes empresas ofreciendo servicios que les ayuden a hacer crecer y consolidar sus negocios   digitales aportando experiencia en innovación digital.",
+    "altSecondaryImage": ""
+  },
+  "Services": {
+    "titleMetaData": "Servicios - Bihotz Studio",
+    "designTitle": "Diseño UX/UI",
+    "designDescription": "Nuestro equipo de diseño se dedica a entender las necesidades y comportamientos de los usuarios para desarrollar interfaces intuitivas centradas en la usabilidad y la estética. Nos esforzamos por optimizar la interacción entre los usuarios y los productos digitales, brindando soluciones que no solo sean visualmente atractivas, sino también funcionales.",
+    "developmentTitle": "Desarrollo web y app",
+    "developmentDescription": "Llevamos las ideas desde la concepción hasta la realidad digital. Nuestro equipo de desarrollo trabaja en estrecha colaboración con nuestros clientes para crear aplicaciones y páginas web a medida. Nos destacamos por la implementación de soluciones tecnológicas avanzadas escalables y seguras.",
+    "brandingTitle": "Branding digital",
+    "brandingDescription": "Ofrecemos servicios de diseño enfocados en transmitir la esencia única de cada marca. Desde la creación de contenido para campañas publicitarias online hasta el diseño de elementos gráficos para redes sociales, banners y más.",
+    "implantTitle": "Servicio Implant",
+    "implantDescription": "Entendemos que la implementación exitosa de soluciones digitales va más allá de la entrega del producto final. Nos integramos directamente en la operativa diaria de nuestros clientes brindando asesoramiento y soporte continuo.",
+    "backgrountImageAlt": ""
+  },
+  "Footer": {},
+  "Header": {}
+}

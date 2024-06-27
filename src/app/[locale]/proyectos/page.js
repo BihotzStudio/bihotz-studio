@@ -1,4 +1,4 @@
-import { BorderAnimation } from "../../components/BorderAnimation/BorderAnimation";
+import { BorderAnimation } from "../../../components/BorderAnimation/BorderAnimation";
 
 export const metadata = {
   title: "Proyectos - Bihotz Studio",

@@ -1,0 +1,22 @@
+{
+  "Home": {
+    "altImage": "Black and white image of a minimalist room with two empty frames hanging on the wall and a modern curved design chair placed on the parquet floor.",
+    "title": "Digital Design & Development.",
+    "description": "We are a web and app design and development studio specialized in the retail sector. We collaborate with large companies offering services that help them grow and consolidate their digital businesses by bringing expertise in digital innovation.",
+    "altSecondaryImage": ""
+  },
+  "Services": {
+    "titleMetaData": "Services - Bihotz Studio",
+    "designTitle": "UX/UI Design",
+    "designDescription": "Our design team focuses on understanding user needs and behaviors to develop intuitive interfaces focused on usability and aesthetics. We strive to optimize interaction between users and digital products, providing solutions that are not only visually appealing but also functional.",
+    "developmentTitle": "Web and App Development",
+    "developmentDescription": "We take ideas from conception to digital reality. Our development team works closely with our clients to create custom applications and websites. We specialize in implementing scalable and secure advanced technological solutions.",
+    "brandingTitle": "Digital Branding",
+    "brandingDescription": "We offer design services focused on conveying the unique essence of each brand. From creating content for online advertising campaigns to designing graphic elements for social media, banners, and more.",
+    "implantTitle": "Implant Service",
+    "implantDescription": "We understand that the successful implementation of digital solutions goes beyond delivering the final product. We integrate directly into our clients' daily operations, providing continuous advice and support.",
+    "backgrountImageAlt": ""
+  },
+  "Footer": {},
+  "Header": {}
+}

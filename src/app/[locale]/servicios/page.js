@@ -3,13 +3,20 @@ import Image from "next/image";
 import styles from "./servicios.module.css";
 import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
 import { Footer } from "@/components/layout/footer/Footer";
+import { getTranslations } from "@/utils/getTranslations";
 
-export const metadata = {
-  title: "Servicios - Bihotz Studio",
-  description: "",
-};
+export async function generateMetadata({ params }) {
+  const t = await getTranslations(params.locale, "Services");
 
-export default function Servicios() {
+  return {
+    title: t.titleMetaData,
+    description: t.description,
+  };
+}
+
+export default async function Servicios({ params }) {
+  const t = await getTranslations(params.locale, "Services");
+
   return (
     <div className={styles.container}>
       <div className={styles.main}>
@@ -30,15 +37,8 @@ export default function Servicios() {
           <div className={styles.containerInfo}>
             <p className={styles.number}>01.</p>
             <br />
-            <p>Diseño UX/UI</p>
-            <p className={styles.description}>
-              Nuestro equipo de diseño se dedica a entender las necesidades y
-              comportamientos de los usuarios para desarrollar interfaces
-              intuitivas centradas en la usabilidad y la estética. Nos
-              esforzamos por optimizar la interacción entre los usuarios y los
-              productos digitales, brindando soluciones que no solo sean
-              visualmente atractivas, sino también funcionales.
-            </p>
+            <p>{t.designTitle}</p>
+            <p className={styles.description}>{t.designDescription}</p>
           </div>
         </BorderAnimation>
         <BorderAnimation
@@ -57,14 +57,8 @@ export default function Servicios() {
           <div className={styles.containerInfo}>
             <p className={styles.number}>02.</p>
             <br />
-            <p>Desarrollo web y app.</p>
-            <p className={styles.description}>
-              Llevamos las ideas desde la concepción hasta la realidad digital.
-              Nuestro equipo de desarrollo trabaja en estrecha colaboración con
-              nuestros clientes para crear aplicaciones y páginas web a medida.
-              Nos destacamos por la implementación de soluciones tecnológicas
-              avanzadas escalables y seguras.
-            </p>
+            <p>{t.developmentTitle}</p>
+            <p className={styles.description}>{t.developmentDescription}</p>
           </div>
         </BorderAnimation>
         <BorderAnimation
@@ -84,13 +78,8 @@ export default function Servicios() {
           <div className={styles.containerInfo}>
             <p className={styles.number}>03.</p>
             <br />
-            <p>Branding Digital</p>
-            <p className={styles.description}>
-              Ofrecemos servicios de diseño enfocados en transmitir la esencia
-              única de cada marca. Desde la creación de contenido para campañas
-              publicitarias online hasta el diseño de elementos gráficos para
-              redes sociales, banners y más.
-            </p>
+            <p>{t.brandingTitle}</p>
+            <p className={styles.description}>{t.brandingDescription}</p>
           </div>
         </BorderAnimation>
         <BorderAnimation
@@ -109,20 +98,15 @@ export default function Servicios() {
           <div className={styles.containerInfo}>
             <p className={styles.number}>04.</p>
             <br />
-            <p>Servicio Implant</p>
-            <p className={styles.description}>
-              Entendemos que la implementación exitosa de soluciones digitales
-              va más allá de la entrega del producto final. Nos integramos
-              directamente en la operativa diaria de nuestros clientes brindando
-              asesoramiento y soporte continuo.
-            </p>
+            <p>{t.implantTitle}</p>
+            <p className={styles.description}>{t.implantDescription}</p>
           </div>
         </BorderAnimation>
       </div>
       <div>
         <div className={styles.coverImage}>
           <Image
-            alt=""
+            alt={t.backgroundImageAlt}
             src="/images/servicios.webp"
             fill
             priority

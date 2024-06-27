@@ -1,0 +1,22 @@
+{
+  "Home": {
+    "altImage": "Imatge en blanc i negre d'una habitació minimalista amb dos quadres buits penjats a la paret i una cadira de disseny modern corbat col·locada sobre el terra de parquet.",
+    "title": "Disseny Digital i Desenvolupament.",
+    "description": "Som un estudi de disseny i desenvolupament web i d'aplicacions especialitzat en el sector retail. Col·laborem amb grans empreses oferint serveis que els ajudin a fer créixer i consolidar els seus negocis digitals aportant experiència en innovació digital.",
+    "altSecondaryImage": ""
+  },
+  "Services": {
+    "titleMetaData": "Serveis - Bihotz Studio",
+    "designTitle": "Disseny UX/UI",
+    "designDescription": "El nostre equip de disseny es dedica a entendre les necessitats i comportaments dels usuaris per desenvolupar interfícies intuitives centrades en la usabilitat i l'estètica. Ens esforcem per optimitzar la interacció entre els usuaris i els productes digitals, oferint solucions que no només siguin visualment atractives sinó també funcionals.",
+    "developmentTitle": "Desenvolupament web i d'aplicacions",
+    "developmentDescription": "Portem les idees des de la concepció fins a la realitat digital. El nostre equip de desenvolupament treballa estretament amb els nostres clients per crear aplicacions i pàgines web a mida. Ens destaquem per la implementació de solucions tecnològiques avançades escalables i segures.",
+    "brandingTitle": "Branding digital",
+    "brandingDescription": "Oferim serveis de disseny enfocats a transmetre l'essència única de cada marca. Des de la creació de contingut per a campanyes publicitàries online fins al disseny d'elements gràfics per a xarxes socials, banners i més.",
+    "implantTitle": "Servei Implant",
+    "implantDescription": "Entenem que la implementació exitosa de solucions digitals va més enllà de l'entrega del producte final. Ens integrem directament en l'operativa diària dels nostres clients oferint assessorament i suport continu.",
+    "backgrountImageAlt": ""
+  },
+  "Footer": {},
+  "Header": {}
+}

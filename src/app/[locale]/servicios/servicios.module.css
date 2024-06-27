@@ -91,7 +91,7 @@
     top: var(--header-height);
     width: 40vw;
     height: calc(100dvh - var(--header-height));
-    animation: 1.5s fadeIn;
+    animation: 2s fadeIn;
     overflow: hidden;
     left: inherit;
   }
