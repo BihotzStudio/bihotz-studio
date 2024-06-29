@@ -10,7 +10,7 @@ export default function Project({ params }) {
 
   return (
     <div className={styles.project}>
-      {project.project.map((image) =>
+      {project.project.map((image, index) =>
         image.media.type === "video" ? (
           <video
             key={image.url}
@@ -18,8 +18,8 @@ export default function Project({ params }) {
             className={styles.image}
             autoPlay={!isBot()}
             loop
-            poster={`/images/projects/${params.project}/${image.url}.jpg`}
             muted
+            preload="none"
           >
             <source
               src={`/images/projects/${params.project}/${image.url}.${image.media.format}`}
@@ -30,12 +30,14 @@ export default function Project({ params }) {
         ) : (
           <div key={image.url} className={styles.imageContainer}>
             <Image
+              priority={index < 2}
               alt={image.altImage}
               src={`/images/projects/${params.project}/${image.url}.${image.media.format}`}
               width={2880}
               height={1116}
-              quality={100}
+              quality={75}
               className={styles.image}
+              sizes="100vw"
             />
           </div>
         )

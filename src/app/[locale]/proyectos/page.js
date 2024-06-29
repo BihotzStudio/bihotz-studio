@@ -41,7 +41,7 @@ export default function Proyecto({ params }) {
                     src={`/images/projects/${name}/portada.${project.media.format}`}
                     width={2879}
                     height={1620}
-                    quality={100}
+                    quality={75}
                     className={styles.image}
                     sizes="(max-width: 640px) 100vw, (max-width: 1920px) 50vw, 33vw"
                   />
