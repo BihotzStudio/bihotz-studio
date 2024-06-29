@@ -26,7 +26,6 @@ export default function Proyecto({ params }) {
                     className={styles.image}
                     autoPlay={!isBot()}
                     loop
-                    poster={`/images/projects/${name}/poster.jpg`}
                     muted
                   >
                     <source
