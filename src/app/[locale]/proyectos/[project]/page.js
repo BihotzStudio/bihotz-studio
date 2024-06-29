@@ -20,6 +20,7 @@ export default function Project({ params }) {
             loop
             muted
             preload="none"
+            playsInline
           >
             <source
               src={`/images/projects/${params.project}/${image.url}.${image.media.format}`}

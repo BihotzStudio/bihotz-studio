@@ -27,6 +27,7 @@ export default function Proyecto({ params }) {
                     autoPlay={!isBot()}
                     loop
                     muted
+                    playsInline
                   >
                     <source
                       src={`/images/projects/${name}/portada.${project.media.format}`}

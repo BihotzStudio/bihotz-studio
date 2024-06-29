@@ -8,7 +8,57 @@
     "altImage": "Tres mujeres vestidas de blanco, en una sesión de fotos de pronovias. La mujer en primer plano mira directamente a la cámara.",
     "client": "Pronovias",
     "type": "UI Design",
-    "description": "2024 Fashion Show Microsite."
+    "description": "2024 Fashion Show Microsite.",
+    "project": [
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Pronovias_01"
+      },
+      {
+        "media": {
+          "type": "video",
+          "format": "mp4"
+        },
+        "altImage": "",
+        "url": "Pronovias_02"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Pronovias_03"
+      },
+      {
+        "media": {
+          "type": "video",
+          "format": "mp4"
+        },
+        "altImage": "",
+        "url": "Pronovias_04"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Pronovias_05"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Pronovias_06"
+      }
+    ]
   },
   "brownie-workshop": {
     "media": {
@@ -18,17 +68,117 @@
     "altImage": "Retrato de una mujer joven con cabello rubio y largo, mirando a la cámara con una expresión seria. Ella lleva un top blanco.",
     "client": "Brownie",
     "type": "UX Research & Customer Experience",
-    "description": "Brownie APP Ideation Workshop"
+    "description": "Brownie APP Ideation Workshop",
+    "project": [
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Workshop_01"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Workshop_02"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Workshop_03"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Workshop_04"
+      }
+    ]
   },
   "brownie-ds": {
     "media": {
-      "type": "image",
-      "format": "jpg"
+      "type": "video",
+      "format": "mp4"
     },
     "altImage": "Captura de pantalla de una interfaz de usuario con diversos componentes de diseño, incluyendo botones, filtros, tarjetas y campos de búsqueda.",
     "client": "Brownie",
     "type": "UX/UI Design",
-    "description": "Brownie Design System"
+    "description": "Brownie Design System",
+    "project": [
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "1"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "png"
+        },
+        "altImage": "",
+        "url": "2"
+      },
+      {
+        "media": {
+          "type": "video",
+          "format": "mp4"
+        },
+        "altImage": "",
+        "url": "3"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "4"
+      },
+      {
+        "media": {
+          "type": "video",
+          "format": "mp4"
+        },
+        "altImage": "",
+        "url": "5"
+      },
+      {
+        "media": {
+          "type": "video",
+          "format": "mp4"
+        },
+        "altImage": "",
+        "url": "6"
+      },
+      {
+        "media": {
+          "type": "video",
+          "format": "mp4"
+        },
+        "altImage": "",
+        "url": "7"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "8"
+      }
+    ]
   },
   "nicole": {
     "media": {
@@ -38,7 +188,57 @@
     "altImage": "Mujer joven con un vestido de novia de encaje, apoyada contra una pared de piedra antigua, con un entorno natural en el fondo.",
     "client": "NICOLE MILANO",
     "type": "UI Design",
-    "description": "Nicole Home Page Redesign"
+    "description": "Nicole Home Page Redesign",
+    "project": [
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Nicole_01"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Nicole_02"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Nicole_03"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Nicole_04"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Nicole_05"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Nicole_06"
+      }
+    ]
   },
   "suly": {
     "media": {
@@ -48,7 +248,65 @@
     "altImage": "Retrato de una mujer joven sentada en la playa al atardecer. Lleva una chaqueta oscura y mira directamente a la cámara, con el océano y el cielo anaranjado de fondo.",
     "client": "Suly",
     "type": "UX/UI Design",
-    "description": "Suly Website Design"
+    "description": "Suly Website Design",
+    "project": [
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Suly_01"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Suly_02"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Suly_03"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Suly_04"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Suly_05"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Suly_06"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Suly_07"
+      }
+    ]
   },
   "five-of-us-web": {
     "media": {
