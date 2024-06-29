@@ -1,173 +1,63 @@
 import Image from "next/image";
+import Link from "next/link";
 import { BorderAnimation } from "../../../components/BorderAnimation/BorderAnimation";
 
 import styles from "./proyectos.module.css";
+import { isBot } from "@/utils/isBot";
 
-export const metadata = {
-  title: "Proyectos - Bihotz Studio",
-  description: "",
-};
+import projects from "@/mocks/projects.json";
 
-export default function Proyecto() {
+export default function Proyecto({ params }) {
   return (
     <div className={styles.projects}>
-      <BorderAnimation
-        className={styles.container}
-        bottom={{ className: styles.bottomBorder }}
-        right={{ className: styles.rightBorder }}
-      >
-        <div className={styles.card}>
-          <div className={styles.imageContainer}>
-            <Image
-              alt=""
-              src="/images/projects/pronovias-fashion-show/portada.gif"
-              width={2879}
-              height={1620}
-              quality={100}
-              className={styles.image}
-            />
-          </div>
-          <div className={styles.info}>
-            <div className={styles.infoTitle}>
-              <p className={styles.client}>Pronovias</p>
-              <p className={styles.type}>Diseño UI</p>
+      {Object.entries(projects).map(([name, project]) => (
+        <BorderAnimation
+          key={name}
+          className={styles.container}
+          bottom={{ className: styles.bottomBorder }}
+          right={{ className: styles.rightBorder }}
+        >
+          <Link href={`/${params.locale}/proyectos/${name}`}>
+            <div className={styles.card}>
+              <div className={styles.imageContainer}>
+                {project.media.type === "video" ? (
+                  <video
+                    style={{ width: "100%", height: "auto" }}
+                    className={styles.image}
+                    autoPlay={!isBot()}
+                    loop
+                    poster={`/images/projects/${name}/poster.jpg`}
+                    muted
+                  >
+                    <source
+                      src={`/images/projects/${name}/portada.${project.media.format}`}
+                      type={`video/${project.media.format}`}
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                ) : (
+                  <Image
+                    alt={project.altImage}
+                    src={`/images/projects/${name}/portada.${project.media.format}`}
+                    width={2879}
+                    height={1620}
+                    quality={100}
+                    className={styles.image}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1920px) 50vw, 33vw"
+                  />
+                )}
+              </div>
+              <div className={styles.info}>
+                <div className={styles.infoTitle}>
+                  <p className={styles.client}>{project.client}</p>
+                  <p className={styles.type}>{project.type}</p>
+                </div>
+                <p className={styles.description}>{project.description}</p>
+              </div>
             </div>
-            <p className={styles.description}>
-              Diseño para el microsite del Fashion Show 2024
-            </p>
-          </div>
-        </div>
-      </BorderAnimation>
-      <BorderAnimation
-        className={styles.container}
-        bottom={{ className: styles.bottomBorder }}
-        right={{ className: styles.rightBorder }}
-      >
-        <div className={styles.card}>
-          <div className={styles.imageContainer}>
-            <Image
-              alt=""
-              src="/images/projects/brownie-ds/portada.jpg"
-              width={2879}
-              height={1620}
-              quality={100}
-              className={styles.image}
-            />
-          </div>
-          <div className={styles.info}>
-            <div className={styles.infoTitle}>
-              <p className={styles.client}>Brownie</p>
-              <p className={styles.type}>Diseño UX/UI</p>
-            </div>
-            <p className={styles.description}>Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </BorderAnimation>
-      <BorderAnimation
-        className={styles.container}
-        bottom={{ className: styles.bottomBorder }}
-        right={{ className: styles.rightBorder }}
-      >
-        <div className={styles.card}>
-          <div className={styles.imageContainer}>
-            <Image
-              alt=""
-              src="/images/projects/brownie-workshop/portada.jpg"
-              width={2879}
-              height={1620}
-              quality={100}
-              className={styles.image}
-            />
-          </div>
-          <div className={styles.info}>
-            <div className={styles.infoTitle}>
-              <p className={styles.client}>Brownie</p>
-              <p className={styles.type}>Diseño UX/UI</p>
-            </div>
-            <p className={styles.description}>Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </BorderAnimation>
-      <BorderAnimation
-        className={styles.container}
-        bottom={{ className: styles.bottomBorder }}
-        right={{ className: styles.rightBorder }}
-      >
-        <div className={styles.card}>
-          <div className={styles.imageContainer}>
-            <Image
-              alt=""
-              src="/images/projects/nicole/portada.jpg"
-              width={2879}
-              height={1620}
-              quality={100}
-              className={styles.image}
-            />
-          </div>
-          <div className={styles.info}>
-            <div className={styles.infoTitle}>
-              <p className={styles.client}>Nicole</p>
-              <p className={styles.type}>Diseño UX/UI</p>
-            </div>
-            <p className={styles.description}>Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </BorderAnimation>
-      <BorderAnimation
-        className={styles.container}
-        bottom={{ className: styles.bottomBorder }}
-        right={{ className: styles.rightBorder }}
-      >
-        <div className={styles.card}>
-          <div className={styles.imageContainer}>
-            <Image
-              alt=""
-              src="/images/projects/suly/portada.jpg"
-              width={2879}
-              height={1620}
-              quality={100}
-              className={styles.image}
-            />
-          </div>
-          <div className={styles.info}>
-            <div className={styles.infoTitle}>
-              <p className={styles.client}>Suly</p>
-              <p className={styles.type}>Diseño UX/UI</p>
-            </div>
-            <p className={styles.description}>Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </BorderAnimation>
-      <BorderAnimation
-        className={styles.container}
-        bottom={{ className: styles.bottomBorder }}
-        right={{ className: styles.rightBorder }}
-      >
-        <div className={styles.card}>
-          <div className={styles.imageContainer}>
-            <video
-              style={{ width: "100%", height: "auto" }}
-              preload="none"
-              className={styles.image}
-              autoPlay
-              loop
-            >
-              <source
-                src="/images/projects/five-of-us-web/portada.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-          <div className={styles.info}>
-            <div className={styles.infoTitle}>
-              <p className={styles.client}>Five of us</p>
-              <p className={styles.type}>Diseño UX/UI</p>
-            </div>
-            <p className={styles.description}>Lorem ipsum dolor sit amet</p>
-          </div>
-        </div>
-      </BorderAnimation>
+          </Link>
+        </BorderAnimation>
+      ))}
     </div>
   );
 }

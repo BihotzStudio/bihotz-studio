@@ -1,0 +1,137 @@
+{
+  "pronovias-fashion-show": {
+    "media": {
+      "type": "image",
+      "format": "gif"
+    },
+
+    "altImage": "Tres mujeres vestidas de blanco, en una sesión de fotos de pronovias. La mujer en primer plano mira directamente a la cámara.",
+    "client": "Pronovias",
+    "type": "UI Design",
+    "description": "2024 Fashion Show Microsite."
+  },
+  "brownie-workshop": {
+    "media": {
+      "type": "image",
+      "format": "jpg"
+    },
+    "altImage": "Retrato de una mujer joven con cabello rubio y largo, mirando a la cámara con una expresión seria. Ella lleva un top blanco.",
+    "client": "Brownie",
+    "type": "UX Research & Customer Experience",
+    "description": "Brownie APP Ideation Workshop"
+  },
+  "brownie-ds": {
+    "media": {
+      "type": "image",
+      "format": "jpg"
+    },
+    "altImage": "Captura de pantalla de una interfaz de usuario con diversos componentes de diseño, incluyendo botones, filtros, tarjetas y campos de búsqueda.",
+    "client": "Brownie",
+    "type": "UX/UI Design",
+    "description": "Brownie Design System"
+  },
+  "nicole": {
+    "media": {
+      "type": "image",
+      "format": "jpg"
+    },
+    "altImage": "Mujer joven con un vestido de novia de encaje, apoyada contra una pared de piedra antigua, con un entorno natural en el fondo.",
+    "client": "NICOLE MILANO",
+    "type": "UI Design",
+    "description": "Nicole Home Page Redesign"
+  },
+  "suly": {
+    "media": {
+      "type": "image",
+      "format": "jpg"
+    },
+    "altImage": "Retrato de una mujer joven sentada en la playa al atardecer. Lleva una chaqueta oscura y mira directamente a la cámara, con el océano y el cielo anaranjado de fondo.",
+    "client": "Suly",
+    "type": "UX/UI Design",
+    "description": "Suly Website Design"
+  },
+  "five-of-us-web": {
+    "media": {
+      "type": "video",
+      "format": "mp4"
+    },
+    "altImage": "",
+    "client": "Five of us",
+    "type": "UX/UI Design",
+    "description": "Five of Us Website Design",
+    "project": [
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Five-of-Us_01"
+      },
+      {
+        "media": {
+          "type": "video",
+          "format": "mp4"
+        },
+        "altImage": "",
+        "url": "Five-of-Us_02"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Five-of-Us_03"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Five-of-Us_04"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Five-of-Us_05"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Five-of-Us_06"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Five-of-Us_07"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Five-of-Us_08"
+      },
+      {
+        "media": {
+          "type": "image",
+          "format": "jpg"
+        },
+        "altImage": "",
+        "url": "Five-of-Us_09"
+      }
+    ]
+  }
+}

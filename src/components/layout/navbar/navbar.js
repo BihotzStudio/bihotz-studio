@@ -11,6 +11,7 @@ import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
 const links = [
   { name: "Servicios", href: "/servicios" },
   { name: "Proyectos", href: "/proyectos" },
+  { name: "Contacto", mailto: "mailto:info@bihotz.studio.com" },
 ];
 
 export default function Navbar({ locale }) {
@@ -18,9 +19,10 @@ export default function Navbar({ locale }) {
   const [indicatorPosition, setIndicatorPosition] = useState(null);
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const linksRef = useRef([]);
+  const baseUrl = `/${locale}`;
 
   useEffect(() => {
-    const index = links.findIndex((link) => link.href === pathname);
+    const index = links.findIndex((link) => pathname.includes(link.href));
 
     if (index >= 0) {
       setIndicatorPosition(
@@ -62,7 +64,7 @@ export default function Navbar({ locale }) {
             {links.map((link, index) => (
               <li key={link.name}>
                 <Link
-                  href={`/${locale}/${link.href}`}
+                  href={`${link.href ? baseUrl + link.href : link.mailto}`}
                   className={styles.link}
                   ref={(el) => (linksRef.current[index] = el)}
                   onClick={() => setShowMobileMenu(false)}
