@@ -66,36 +66,32 @@
     "description": "Brownie APP Ideation Workshop",
     "project": [
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
         "altImage": "",
-        "url": "Workshop_01"
+        "width": "2880",
+        "height": "1668",
+        "id": "Workshop_01_fptib8"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2714",
         "altImage": "",
-        "url": "Workshop_02"
+        "id": "Workshop_02_cm40lt"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2233",
         "altImage": "",
-        "url": "Workshop_03"
+        "id": "Workshop_03_j4ypam"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2149",
         "altImage": "",
-        "url": "Workshop_04"
+        "id": "Workshop_04_peooeq"
       }
     ]
   },
@@ -183,52 +179,46 @@
     "description": "Nicole Home Page Redesign",
     "project": [
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "1062",
         "altImage": "",
-        "url": "Nicole_01"
+        "id": "Nicole_01_q8up46"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "3092",
         "altImage": "",
-        "url": "Nicole_02"
+        "id": "Nicole_02_e9hg88"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2695",
         "altImage": "",
-        "url": "Nicole_03"
+        "id": "Nicole_03_im1hie"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "3052",
         "altImage": "",
-        "url": "Nicole_04"
+        "id": "Nicole_04_udfgh2"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2350",
         "altImage": "",
-        "url": "Nicole_05"
+        "id": "Nicole_05_g4ulvt"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "3077",
         "altImage": "",
-        "url": "Nicole_06"
+        "id": "Nicole_06_bbhvx1"
       }
     ]
   },
@@ -243,60 +233,53 @@
     "description": "Suly Website Design",
     "project": [
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "1057",
         "altImage": "",
-        "url": "Suly_01"
+        "id": "Suly_01_tsdhv2"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "3345",
         "altImage": "",
-        "url": "Suly_02"
+        "id": "Suly_02_ynbjzu"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2255",
         "altImage": "",
-        "url": "Suly_03"
+        "id": "Suly_03_hr7fcy"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2233",
         "altImage": "",
-        "url": "Suly_04"
+        "id": "Suly_04_nxtr6y"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "4057",
         "altImage": "",
-        "url": "Suly_05"
+        "id": "Suly_05_zzkwdh"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "3616",
         "altImage": "",
-        "url": "Suly_06"
+        "id": "Suly_06_yjwava"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "4590",
         "altImage": "",
-        "url": "Suly_07"
+        "id": "Suly_07_yqjyl8"
       }
     ]
   },
@@ -311,76 +294,68 @@
     "description": "Five of Us Website Design",
     "project": [
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "1116",
         "altImage": "",
-        "url": "Five-of-Us_01"
+        "id": "Five-of-Us_01_vd6qcp"
       },
       {
-        "media": {
-          "type": "video",
-          "format": "mp4"
-        },
+        "type": "video",
+        "width": "2880",
+        "height": "1274",
         "altImage": "",
-        "url": "Five-of-Us_02"
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719779179/Five-of-Us_02_hjyzuw.mp4",
+        "id": "Five-of-Us_02_hjyzuw"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2693",
         "altImage": "",
-        "url": "Five-of-Us_03"
+        "id": "Five-of-Us_03_rwlfvl"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2489",
         "altImage": "",
-        "url": "Five-of-Us_04"
+        "id": "Five-of-Us_04_inqzk3"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "4874",
         "altImage": "",
-        "url": "Five-of-Us_05"
+        "id": "Five-of-Us_05_ujfiod"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "3809",
         "altImage": "",
-        "url": "Five-of-Us_06"
+        "id": "Five-of-Us_06_uppcsf"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "5233",
         "altImage": "",
-        "url": "Five-of-Us_07"
+        "id": "Five-of-Us_07_wizmw7"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "3614",
         "altImage": "",
-        "url": "Five-of-Us_08"
+        "id": "Five-of-Us_08_tussu2"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "3804",
         "altImage": "",
-        "url": "Five-of-Us_09"
+        "id": "Five-of-Us_09_xjs7xk"
       }
     ]
   }
