@@ -4,6 +4,7 @@ import styles from "./servicios.module.css";
 import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
 import { Footer } from "@/components/layout/footer/Footer";
 import { getTranslations } from "@/utils/getTranslations";
+import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
 
 export async function generateMetadata({ params }) {
   const t = await getTranslations(params.locale, "Services");
@@ -105,15 +106,16 @@ export default async function Servicios({ params }) {
       </div>
       <div>
         <div className={styles.coverImage}>
-          <Image
-            alt={t.backgroundImageAlt}
-            src="/images/servicios.webp"
-            fill
+          <CloudinaryImage
             priority
             className={styles.image}
-            style={{ objectFit: "cover", objectPosition: "bottom" }}
             sizes="30vw"
-            quality={100}
+            media={{
+              altImage: t.backgroundImageAlt,
+              id: "servicios_chcikj",
+              fill: true,
+              style: { objectFit: "cover", objectPosition: "bottom" },
+            }}
           />
         </div>
       </div>

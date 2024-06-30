@@ -6,6 +6,7 @@ import styles from "./home.module.css";
 import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
 import { Footer } from "@/components/layout/footer/Footer";
 import { getTranslations } from "@/utils/getTranslations";
+import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
 
 export async function generateMetadata({ params }) {
   const t = await getTranslations(params.locale, "Home");
@@ -29,15 +30,16 @@ export default async function Home({ params }) {
             <Link href="/" className={styles.logo}>
               <Logo />
             </Link>
-            <Image
-              alt={t.altImage}
-              src="/images/portada.webp"
-              fill
+            <CloudinaryImage
               priority
               className={styles.image}
-              style={{ objectFit: "cover" }}
-              sizes="100vw"
-              quality={100}
+              sizes="40vw"
+              media={{
+                altImage: t.altImage,
+                id: "portada_wcs0vl",
+                fill: true,
+                style: { objectFit: "cover" },
+              }}
             />
           </div>
         </BorderAnimation>
@@ -53,14 +55,16 @@ export default async function Home({ params }) {
           </div>
         </BorderAnimation>
         <div className={styles.imageSmallScreen}>
-          <Image
-            alt={t.altImage}
-            src="/images/portada.webp"
-            fill
+          <CloudinaryImage
             priority
-            style={{ objectFit: "contain", objectPosition: "center 225px" }}
+            className={styles.image}
             sizes="100vw"
-            quality={100}
+            media={{
+              altImage: t.altImage,
+              id: "portada_wcs0vl",
+              fill: true,
+              style: { objectFit: "contain", objectPosition: "center 225px" },
+            }}
           />
         </div>
         <BorderAnimation
@@ -71,12 +75,14 @@ export default async function Home({ params }) {
         </BorderAnimation>
         <BorderAnimation left={{ duration: "1s" }}>
           <div className={styles.secondaryImage}>
-            <Image
-              alt={t.altSecondaryImage}
-              src="/images/home_1.webp"
-              fill
-              style={{ objectFit: "cover" }}
-              quality={100}
+            <CloudinaryImage
+              sizes="30vw"
+              media={{
+                altImage: t.altSecondaryImage,
+                id: "home_1_gb050t",
+                fill: true,
+                style: { objectFit: "cover" },
+              }}
             />
           </div>
         </BorderAnimation>

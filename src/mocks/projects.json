@@ -1,13 +1,13 @@
 {
   "pronovias-fashion-show": {
-    "media": {
-      "type": "image",
-      "format": "gif"
-    },
+    "type": "image",
+    "width": "1500",
+    "height": "844",
     "altImage": "Tres mujeres vestidas de blanco, en una sesión de fotos de pronovias. La mujer en primer plano mira directamente a la cámara.",
     "client": "Pronovias",
-    "type": "UI Design",
+    "projectType": "UI Design",
     "description": "2024 Fashion Show Microsite.",
+    "id": "portada",
     "project": [
       {
         "type": "image",
@@ -56,14 +56,14 @@
     ]
   },
   "brownie-workshop": {
-    "media": {
-      "type": "image",
-      "format": "jpg"
-    },
+    "type": "image",
+    "width": "2870",
+    "height": "1620",
     "altImage": "Retrato de una mujer joven con cabello rubio y largo, mirando a la cámara con una expresión seria. Ella lleva un top blanco.",
     "client": "Brownie",
-    "type": "UX Research & Customer Experience",
-    "description": "Brownie APP Ideation Workshop",
+    "projectType": "UX Research & Customer Experience",
+    "description": "APP Ideation Workshop",
+    "id": "brownie_workshop_1_gk4lyp",
     "project": [
       {
         "type": "image",
@@ -96,14 +96,15 @@
     ]
   },
   "brownie-ds": {
-    "media": {
-      "type": "video",
-      "format": "mp4"
-    },
+    "type": "video",
+    "width": "2880",
+    "height": "1618",
     "altImage": "Captura de pantalla de una interfaz de usuario con diversos componentes de diseño, incluyendo botones, filtros, tarjetas y campos de búsqueda.",
     "client": "Brownie",
-    "type": "UX/UI Design",
-    "description": "Brownie Design System",
+    "projectType": "UX/UI Design",
+    "description": "Design System",
+    "id": "portada_ofivyw",
+    "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771982/portada_ofivyw.mp4",
     "project": [
       {
         "type": "image",
@@ -169,14 +170,14 @@
     ]
   },
   "nicole": {
-    "media": {
-      "type": "image",
-      "format": "jpg"
-    },
+    "type": "image",
+    "width": "2870",
+    "height": "1619",
     "altImage": "Mujer joven con un vestido de novia de encaje, apoyada contra una pared de piedra antigua, con un entorno natural en el fondo.",
     "client": "NICOLE MILANO",
-    "type": "UI Design",
-    "description": "Nicole Home Page Redesign",
+    "projectType": "UI Design",
+    "description": "Home Page Redesign",
+    "id": "nicole_1_cmh1yp",
     "project": [
       {
         "type": "image",
@@ -223,14 +224,14 @@
     ]
   },
   "suly": {
-    "media": {
-      "type": "image",
-      "format": "jpg"
-    },
+    "type": "image",
+    "width": "2159",
+    "height": "1215",
     "altImage": "Retrato de una mujer joven sentada en la playa al atardecer. Lleva una chaqueta oscura y mira directamente a la cámara, con el océano y el cielo anaranjado de fondo.",
     "client": "Suly",
-    "type": "UX/UI Design",
-    "description": "Suly Website Design",
+    "projectType": "UX/UI Design",
+    "description": "Website Design",
+    "id": "suly_1_qif5ia",
     "project": [
       {
         "type": "image",
@@ -284,14 +285,15 @@
     ]
   },
   "five-of-us-web": {
-    "media": {
-      "type": "video",
-      "format": "mp4"
-    },
+    "type": "video",
+    "width": "1438",
+    "height": "810",
     "altImage": "",
     "client": "Five of us",
-    "type": "UX/UI Design",
-    "description": "Five of Us Website Design",
+    "projectType": "UX/UI Design",
+    "description": "Website Design",
+    "id": "fou_jxpusj",
+    "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719599729/fou_jxpusj.mp4",
     "project": [
       {
         "type": "image",

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { BorderAnimation } from "../../../components/BorderAnimation/BorderAnimation";
 
@@ -6,11 +5,12 @@ import styles from "./proyectos.module.css";
 import { isBot } from "@/utils/isBot";
 
 import projects from "@/mocks/projects.json";
+import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
 
 export default function Proyecto({ params }) {
   return (
     <div className={styles.projects}>
-      {Object.entries(projects).map(([name, project]) => (
+      {Object.entries(projects).map(([name, project], index) => (
         <BorderAnimation
           key={name}
           className={styles.container}
@@ -20,28 +20,24 @@ export default function Proyecto({ params }) {
           <Link href={`/${params.locale}/proyectos/${name}`}>
             <div className={styles.card}>
               <div className={styles.imageContainer}>
-                {project.media.type === "video" ? (
+                {project.type === "video" ? (
                   <video
+                    key={project.url}
                     style={{ width: "100%", height: "auto" }}
                     className={styles.image}
                     autoPlay={!isBot()}
                     loop
                     muted
+                    preload="none"
                     playsInline
                   >
-                    <source
-                      src={`/images/projects/${name}/portada.${project.media.format}`}
-                      type={`video/${project.media.format}`}
-                    />
+                    <source src={project.url} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 ) : (
-                  <Image
-                    alt={project.altImage}
-                    src={`/images/projects/${name}/portada.${project.media.format}`}
-                    width={2879}
-                    height={1620}
-                    quality={75}
+                  <CloudinaryImage
+                    priority={index < 3}
+                    media={project}
                     className={styles.image}
                     sizes="(max-width: 640px) 100vw, (max-width: 1920px) 50vw, 33vw"
                   />
@@ -50,7 +46,7 @@ export default function Proyecto({ params }) {
               <div className={styles.info}>
                 <div className={styles.infoTitle}>
                   <p className={styles.client}>{project.client}</p>
-                  <p className={styles.type}>{project.type}</p>
+                  <p className={styles.type}>{project.projectType}</p>
                 </div>
                 <p className={styles.description}>{project.description}</p>
               </div>
