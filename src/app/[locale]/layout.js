@@ -1,6 +1,7 @@
 import Navbar from "@/components/layout/navbar/navbar";
 import { Analytics } from "@vercel/analytics/react";
 import localFont from "next/font/local";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
 import { getTranslations } from "@/utils/getTranslations";
@@ -72,6 +73,7 @@ export default async function RootLayout({ children, params }) {
         <Navbar locale={params.locale} />
         <main>{children}</main>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
