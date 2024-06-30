@@ -1,41 +1,41 @@
-import Image from "next/image";
+"use client";
+
+import { CldImage } from "next-cloudinary";
 
 import projects from "@/mocks/projects.json";
 
 import styles from "./project.module.css";
-import { isBot } from "@/utils/isBot";
 
 export default function Project({ params }) {
   const project = projects[params.project];
 
   return (
     <div className={styles.project}>
-      {project.project.map((image, index) =>
-        image.media.type === "video" ? (
-          <video
-            key={image.url}
-            style={{ width: "100%", height: "auto" }}
-            className={styles.image}
-            autoPlay={!isBot()}
-            loop
-            muted
-            preload="none"
-            playsInline
-          >
-            <source
-              src={`/images/projects/${params.project}/${image.url}.${image.media.format}`}
-              type={`video/${image.media.format}`}
-            />
-            Your browser does not support the video tag.
-          </video>
+      {project.project.map((media, index) =>
+        media.type === "video" ? (
+          <div key={media.id} className={styles.imageContainer}>
+            <video
+              key={media.url}
+              style={{ width: "100%", height: "auto" }}
+              className={styles.image}
+              autoPlay
+              loop
+              muted
+              preload="none"
+              playsInline
+            >
+              <source src={media.url} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         ) : (
-          <div key={image.url} className={styles.imageContainer}>
-            <Image
+          <div key={media.id} className={styles.imageContainer}>
+            <CldImage
               priority={index < 2}
-              alt={image.altImage}
-              src={`/images/projects/${params.project}/${image.url}.${image.media.format}`}
-              width={2880}
-              height={1116}
+              alt={media.altImage}
+              src={media.id}
+              width={media.width}
+              height={media.height}
               quality={75}
               className={styles.image}
               sizes="100vw"

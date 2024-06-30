@@ -115,68 +115,65 @@
     "description": "Brownie Design System",
     "project": [
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "1114",
         "altImage": "",
-        "url": "1"
+        "id": "1_xisdvx"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "png"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "1794",
         "altImage": "",
-        "url": "2"
+        "id": "2_kayjjd"
       },
       {
-        "media": {
-          "type": "video",
-          "format": "mp4"
-        },
+        "type": "video",
+        "width": "2880",
+        "height": "1604",
         "altImage": "",
-        "url": "3"
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771974/3_cduhdt.mp4",
+        "id": "3_cduhdt"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "1800",
         "altImage": "",
-        "url": "4"
+        "url": "https://res.cloudinary.com/deayvavyl/image/upload/v1719771975/4_xmf40v.jpg",
+        "id": "4_xmf40v"
       },
       {
-        "media": {
-          "type": "video",
-          "format": "mp4"
-        },
+        "type": "video",
+        "width": "3456",
+        "height": "2160",
         "altImage": "",
-        "url": "5"
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771975/5_nwyogl.mp4",
+        "id": "5_nwyogl"
       },
       {
-        "media": {
-          "type": "video",
-          "format": "mp4"
-        },
+        "type": "video",
+        "width": "2880",
+        "height": "1708",
         "altImage": "",
-        "url": "6"
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/6_bzkgl7.mp4",
+        "id": "6_bzkgl7"
       },
       {
-        "media": {
-          "type": "video",
-          "format": "mp4"
-        },
+        "type": "video",
+        "width": "2904",
+        "height": "884",
         "altImage": "",
-        "url": "7"
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/7_d1vumk.mp4",
+        "id": "7_d1vumk"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "516",
         "altImage": "",
-        "url": "8"
+        "id": "8_rsk6xz"
       }
     ]
   },
