@@ -36,7 +36,7 @@ export default function Project({ params }) {
               src={media.id}
               width={media.width}
               height={media.height}
-              quality={100}
+              quality={75}
               className={styles.image}
               sizes="100vw"
             />
