@@ -1,4 +1,5 @@
 import Navbar from "@/components/layout/navbar/navbar";
+import { Analytics } from "@vercel/analytics/react";
 import localFont from "next/font/local";
 
 import "./globals.css";
@@ -70,6 +71,7 @@ export default async function RootLayout({ children, params }) {
       <body className={foundersGrotesk.className}>
         <Navbar locale={params.locale} />
         <main>{children}</main>
+        <Analytics />
       </body>
     </html>
   );
