@@ -4,59 +4,54 @@
       "type": "image",
       "format": "gif"
     },
-
     "altImage": "Tres mujeres vestidas de blanco, en una sesión de fotos de pronovias. La mujer en primer plano mira directamente a la cámara.",
     "client": "Pronovias",
     "type": "UI Design",
     "description": "2024 Fashion Show Microsite.",
     "project": [
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "848",
         "altImage": "",
-        "url": "Pronovias_01"
+        "id": "Pronovias_01_vw53nm"
       },
       {
-        "media": {
-          "type": "video",
-          "format": "mp4"
-        },
+        "type": "video",
+        "width": "2880",
+        "height": "3476",
         "altImage": "",
-        "url": "Pronovias_02"
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719776925/Pronovias_02.mp4",
+        "id": "Pronovias_02"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2187",
         "altImage": "",
-        "url": "Pronovias_03"
+        "id": "Pronovias_03_jz1vb3"
       },
       {
-        "media": {
-          "type": "video",
-          "format": "mp4"
-        },
+        "type": "video",
+        "width": "2880",
+        "height": "4986",
         "altImage": "",
-        "url": "Pronovias_04"
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719776925/Pronovias_04.mp4",
+        "id": "Pronovias_04"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "2014",
         "altImage": "",
-        "url": "Pronovias_05"
+        "id": "Pronovias_05"
       },
       {
-        "media": {
-          "type": "image",
-          "format": "jpg"
-        },
+        "type": "image",
+        "width": "2880",
+        "height": "4696",
         "altImage": "",
-        "url": "Pronovias_06"
+        "id": "Pronovias_06"
       }
     ]
   },
