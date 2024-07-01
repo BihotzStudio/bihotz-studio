@@ -21,7 +21,7 @@
         "height": "3476",
         "altImage": "",
         "id": "Pronovias_02",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719776925/Pronovias_02.mp4"
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719871486/Pronovias_02.mp4"
       },
       {
         "type": "image",
@@ -55,7 +55,7 @@
   },
   "brownie-workshop": {
     "client": "Brownie",
-    "name": "Brownie workshop",
+    "name": "APP Ideation Workshop",
     "creativeFields": "UX Research & Customer Experience",
     "description": "APP Ideation Workshop",
     "largeDescription": "Colaboramos con el equipo de Brownie en un workshop dinámico que reunió a diversos perfiles de la empresa, desde el equipo directivo hasta el personal de tienda. En esta sesión de ideación, exploramos y desarrollamos conceptos innovadores para la nueva APP de la marca, asegurando que las ideas reflejen las necesidades y perspectivas de todos los niveles de la organización. El resultado fue una base sólida para una aplicación que promete mejorar la experiencia de los clientes y fortalecer la identidad digital de Brownie.",
@@ -94,7 +94,7 @@
   },
   "brownie-ds": {
     "client": "Brownie",
-    "name": "Brownie design system",
+    "name": "Design System",
     "creativeFields": "UX/UI Design",
     "description": "Design System",
     "largeDescription": "Desarrollamos un Design System completo para Brownie, unificando los elementos de diseño tanto para su APP como para su web. Este sistema garantiza una coherencia visual y funcional en todas las plataformas digitales de la marca, facilitando una experiencia de usuario fluida y atractiva. Incluye guías detalladas de estilo, componentes reutilizables y patrones de diseño que reflejan la identidad y valores de Brownie, asegurando una implementación eficiente y consistente en todos los puntos de contacto digitales.",
@@ -167,7 +167,7 @@
   },
   "nicole": {
     "client": "Nicole Milano",
-    "name": "nicole",
+    "name": "Home Page Redesign",
     "creativeFields": "UI Design",
     "description": "Home Page Redesign",
     "largeDescription": "Realizamos el rediseño completo de la home page para la web de Nicole, una de las marcas del Grupo Pronovias, que necesitaba una actualización tanto funcional como visual. Nuestro objetivo fue modernizar la interfaz, mejorando la usabilidad y la experiencia del usuario. Con un diseño renovado, elegante y fácil de navegar, la nueva home page destaca las colecciones y los valores de Nicole, ofreciendo una experiencia visualmente atractiva y optimizada que invita a los visitantes a explorar y enamorarse de la marca.",
@@ -220,7 +220,7 @@
   },
   "suly": {
     "client": "Suly",
-    "name": "suly",
+    "name": "Website Design",
     "creativeFields": "UX/UI Design",
     "description": "Website Design",
     "largeDescription": "Desarrollamos el diseño completo de la web para Suly, una start-up de moda con sede en Londres que se define como una conscious tech startup that helps you embrace sustainability. Con un diseño moderno y funcional, nuestro enfoque para el diseño fue destacar su compromiso para transformar la industria de la moda, simplificando la información sobre sostenibilidad, proporcionando las herramientas necesarias y permitiendo a los usuarios tomar decisiones de compra más responsables. ",
@@ -280,7 +280,7 @@
   },
   "five-of-us-web": {
     "client": "Five of us",
-    "name": "five-of-us-web",
+    "name": "Website Design",
     "creativeFields": "UX/UI Design",
     "description": "Website Design",
     "largeDescription": "Desarrollamos el diseño completo de la web para Five of Us, una marca que ofrece prendas custom para niñas. Nuestro diseño se centró en ofrecer una experiencia de usuario fluida y atractiva, facilitando el proceso de compra de prendas made to order. La interfaz intuitiva guía a los usuarios a través de todas las opciones de personalización disponibles, asegurando que puedan crear productos únicos. La estética visual de la web refleja el carácter distintivo de Five of Us, combinando elegancia moderna con un compromiso firme hacia la artesanía tradicional.",

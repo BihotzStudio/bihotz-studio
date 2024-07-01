@@ -21,7 +21,7 @@ export default function Project({ params }) {
           <p className={styles.clientTitle}>CLIENTE:</p>
           <p className={styles.client}>{project.client}</p>
           <p className={styles.projectTitle}>PROYECTO:</p>
-          <p className={styles.description}>{project.name}</p>
+          <p className={styles.project}>{project.name}</p>
           <p className={styles.creativeFieldsTitle}>CREATIVE FIELDS:</p>
           <p className={styles.creativeField}>{project.creativeFields}</p>
         </div>
