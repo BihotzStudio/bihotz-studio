@@ -20,7 +20,7 @@ export default function Proyecto({ params }) {
           <Link href={`/${params.locale}/proyectos/${name}`}>
             <div className={styles.card}>
               <div className={styles.imageContainer}>
-                {project.type === "video" ? (
+                {project.mediaCover[0].type === "video" ? (
                   <video
                     key={project.url}
                     style={{ width: "100%", height: "auto" }}
@@ -31,13 +31,13 @@ export default function Proyecto({ params }) {
                     preload="none"
                     playsInline
                   >
-                    <source src={project.url} type="video/mp4" />
+                    <source src={project.mediaCover[0].url} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 ) : (
                   <CloudinaryImage
                     priority={index < 3}
-                    media={project}
+                    media={project.mediaCover[0]}
                     className={styles.image}
                     sizes="(max-width: 640px) 100vw, (max-width: 1920px) 50vw, 33vw"
                   />

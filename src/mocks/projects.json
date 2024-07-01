@@ -1,28 +1,27 @@
 {
   "pronovias-fashion-show": {
-    "type": "image",
-    "width": "1500",
-    "height": "844",
-    "altImage": "Tres mujeres vestidas de blanco, en una sesión de fotos de pronovias. La mujer en primer plano mira directamente a la cámara.",
     "client": "Pronovias",
-    "projectType": "UI Design",
-    "description": "2024 Fashion Show Microsite.",
-    "id": "portada",
-    "project": [
+    "name": "Microsite del desfile",
+    "creativeFields": "UI Design",
+    "description": "2024 Fashion Show Microsite",
+    "largeDescription": "Para el desfile de moda 2024 de Pronovias, creamos un microsite que captura la esencia de la alta costura y la elegancia moderna. Nuestro diseño UI ofrece una experiencia de usuario intuitiva y visualmente impactante, destacando cada detalle de la colección con un enfoque sofisticado y contemporáneo. La navegación fluida y la estética refinada aseguran que los visitantes disfruten de una presentación inmersiva y memorable del evento.",
+    "mediaCover": [
       {
         "type": "image",
-        "width": "2880",
-        "height": "848",
-        "altImage": "",
-        "id": "Pronovias_01_vw53nm"
-      },
+        "width": "1500",
+        "height": "844",
+        "altImage": "Tres mujeres vestidas de blanco, en una sesión de fotos de pronovias. La mujer en primer plano mira directamente a la cámara.",
+        "id": "portada"
+      }
+    ],
+    "mediaDetails": [
       {
         "type": "video",
         "width": "2880",
         "height": "3476",
         "altImage": "",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719776925/Pronovias_02.mp4",
-        "id": "Pronovias_02"
+        "id": "Pronovias_02",
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719776925/Pronovias_02.mp4"
       },
       {
         "type": "image",
@@ -35,9 +34,8 @@
         "type": "video",
         "width": "2880",
         "height": "4986",
-        "altImage": "",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719776925/Pronovias_04.mp4",
-        "id": "Pronovias_04"
+        "id": "Pronovias_04",
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719776925/Pronovias_04.mp4"
       },
       {
         "type": "image",
@@ -56,22 +54,21 @@
     ]
   },
   "brownie-workshop": {
-    "type": "image",
-    "width": "2870",
-    "height": "1620",
-    "altImage": "Retrato de una mujer joven con cabello rubio y largo, mirando a la cámara con una expresión seria. Ella lleva un top blanco.",
     "client": "Brownie",
-    "projectType": "UX Research & Customer Experience",
+    "name": "Brownie workshop",
+    "creativeFields": "UX Research & Customer Experience",
     "description": "APP Ideation Workshop",
-    "id": "brownie_workshop_1_gk4lyp",
-    "project": [
+    "largeDescription": "Colaboramos con el equipo de Brownie en un workshop dinámico que reunió a diversos perfiles de la empresa, desde el equipo directivo hasta el personal de tienda. En esta sesión de ideación, exploramos y desarrollamos conceptos innovadores para la nueva APP de la marca, asegurando que las ideas reflejen las necesidades y perspectivas de todos los niveles de la organización. El resultado fue una base sólida para una aplicación que promete mejorar la experiencia de los clientes y fortalecer la identidad digital de Brownie.",
+    "mediaCover": [
       {
         "type": "image",
-        "altImage": "",
-        "width": "2880",
-        "height": "1668",
-        "id": "Workshop_01_fptib8"
-      },
+        "width": "2870",
+        "height": "1620",
+        "altImage": "Retrato de una mujer joven con cabello rubio y largo, mirando a la cámara con una expresión seria. Ella lleva un top blanco.",
+        "id": "brownie_workshop_1_gk4lyp"
+      }
+    ],
+    "mediaDetails": [
       {
         "type": "image",
         "width": "2880",
@@ -96,23 +93,22 @@
     ]
   },
   "brownie-ds": {
-    "type": "video",
-    "width": "2880",
-    "height": "1618",
-    "altImage": "Captura de pantalla de una interfaz de usuario con diversos componentes de diseño, incluyendo botones, filtros, tarjetas y campos de búsqueda.",
     "client": "Brownie",
-    "projectType": "UX/UI Design",
+    "name": "Brownie design system",
+    "creativeFields": "UX/UI Design",
     "description": "Design System",
-    "id": "portada_ofivyw",
-    "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771982/portada_ofivyw.mp4",
-    "project": [
+    "largeDescription": "Desarrollamos un Design System completo para Brownie, unificando los elementos de diseño tanto para su APP como para su web. Este sistema garantiza una coherencia visual y funcional en todas las plataformas digitales de la marca, facilitando una experiencia de usuario fluida y atractiva. Incluye guías detalladas de estilo, componentes reutilizables y patrones de diseño que reflejan la identidad y valores de Brownie, asegurando una implementación eficiente y consistente en todos los puntos de contacto digitales.",
+    "mediaCover": [
       {
-        "type": "image",
+        "type": "video",
         "width": "2880",
-        "height": "1114",
-        "altImage": "",
-        "id": "1_xisdvx"
-      },
+        "height": "1618",
+        "altImage": "Captura de pantalla de una interfaz de usuario con diversos componentes de diseño, incluyendo botones, filtros, tarjetas y campos de búsqueda.",
+        "id": "portada_ofivyw",
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771982/portada_ofivyw.mp4"
+      }
+    ],
+    "mediaDetails": [
       {
         "type": "image",
         "width": "2880",
@@ -125,40 +121,40 @@
         "width": "2880",
         "height": "1604",
         "altImage": "",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771974/3_cduhdt.mp4",
-        "id": "3_cduhdt"
+        "id": "3_cduhdt",
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771974/3_cduhdt.mp4"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "1800",
         "altImage": "",
-        "url": "https://res.cloudinary.com/deayvavyl/image/upload/v1719771975/4_xmf40v.jpg",
-        "id": "4_xmf40v"
+        "id": "4_xmf40v",
+        "url": "https://res.cloudinary.com/deayvavyl/image/upload/v1719771975/4_xmf40v.jpg"
       },
       {
         "type": "video",
         "width": "3456",
         "height": "2160",
         "altImage": "",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771975/5_nwyogl.mp4",
-        "id": "5_nwyogl"
+        "id": "5_nwyogl",
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771975/5_nwyogl.mp4"
       },
       {
         "type": "video",
         "width": "2880",
         "height": "1708",
         "altImage": "",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/6_bzkgl7.mp4",
-        "id": "6_bzkgl7"
+        "id": "6_bzkgl7",
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/6_bzkgl7.mp4"
       },
       {
         "type": "video",
         "width": "2904",
         "height": "884",
         "altImage": "",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/7_d1vumk.mp4",
-        "id": "7_d1vumk"
+        "id": "7_d1vumk",
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/7_d1vumk.mp4"
       },
       {
         "type": "image",
@@ -170,22 +166,21 @@
     ]
   },
   "nicole": {
-    "type": "image",
-    "width": "1440",
-    "height": "811",
-    "altImage": "Mujer joven con un vestido de novia de encaje, apoyada contra una pared de piedra antigua, con un entorno natural en el fondo.",
-    "client": "NICOLE MILANO",
-    "projectType": "UI Design",
+    "client": "Nicole Milano",
+    "name": "nicole",
+    "creativeFields": "UI Design",
     "description": "Home Page Redesign",
-    "id": "portada_vo5nlg",
-    "project": [
+    "largeDescription": "Realizamos el rediseño completo de la home page para la web de Nicole, una de las marcas del Grupo Pronovias, que necesitaba una actualización tanto funcional como visual. Nuestro objetivo fue modernizar la interfaz, mejorando la usabilidad y la experiencia del usuario. Con un diseño renovado, elegante y fácil de navegar, la nueva home page destaca las colecciones y los valores de Nicole, ofreciendo una experiencia visualmente atractiva y optimizada que invita a los visitantes a explorar y enamorarse de la marca.",
+    "mediaCover": [
       {
         "type": "image",
-        "width": "2880",
-        "height": "1062",
-        "altImage": "",
-        "id": "Nicole_01_q8up46"
-      },
+        "width": "1440",
+        "height": "811",
+        "altImage": "Mujer joven con un vestido de novia de encaje, apoyada contra una pared de piedra antigua, con un entorno natural en el fondo.",
+        "id": "portada_vo5nlg"
+      }
+    ],
+    "mediaDetails": [
       {
         "type": "image",
         "width": "2880",
@@ -224,22 +219,21 @@
     ]
   },
   "suly": {
-    "type": "image",
-    "width": "1439",
-    "height": "810",
-    "altImage": "Retrato de una mujer joven sentada en la playa al atardecer. Lleva una chaqueta oscura y mira directamente a la cámara, con el océano y el cielo anaranjado de fondo.",
     "client": "Suly",
-    "projectType": "UX/UI Design",
+    "name": "suly",
+    "creativeFields": "UX/UI Design",
     "description": "Website Design",
-    "id": "portada_ua11ha",
-    "project": [
+    "largeDescription": "Desarrollamos el diseño completo de la web para Suly, una start-up de moda con sede en Londres que se define como una conscious tech startup that helps you embrace sustainability. Con un diseño moderno y funcional, nuestro enfoque para el diseño fue destacar su compromiso para transformar la industria de la moda, simplificando la información sobre sostenibilidad, proporcionando las herramientas necesarias y permitiendo a los usuarios tomar decisiones de compra más responsables. ",
+    "mediaCover": [
       {
         "type": "image",
-        "width": "2880",
-        "height": "1057",
-        "altImage": "",
-        "id": "Suly_01_tsdhv2"
-      },
+        "width": "1439",
+        "height": "810",
+        "altImage": "Retrato de una mujer joven sentada en la playa al atardecer. Lleva una chaqueta oscura y mira directamente a la cámara, con el océano y el cielo anaranjado de fondo.",
+        "id": "portada_ua11ha"
+      }
+    ],
+    "mediaDetails": [
       {
         "type": "image",
         "width": "2880",
@@ -285,30 +279,29 @@
     ]
   },
   "five-of-us-web": {
-    "type": "video",
-    "width": "1438",
-    "height": "810",
-    "altImage": "",
     "client": "Five of us",
-    "projectType": "UX/UI Design",
+    "name": "five-of-us-web",
+    "creativeFields": "UX/UI Design",
     "description": "Website Design",
-    "id": "fou_jxpusj",
-    "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719599729/fou_jxpusj.mp4",
-    "project": [
+    "largeDescription": "Desarrollamos el diseño completo de la web para Five of Us, una marca que ofrece prendas custom para niñas. Nuestro diseño se centró en ofrecer una experiencia de usuario fluida y atractiva, facilitando el proceso de compra de prendas made to order. La interfaz intuitiva guía a los usuarios a través de todas las opciones de personalización disponibles, asegurando que puedan crear productos únicos. La estética visual de la web refleja el carácter distintivo de Five of Us, combinando elegancia moderna con un compromiso firme hacia la artesanía tradicional.",
+    "mediaCover": [
       {
-        "type": "image",
-        "width": "2880",
-        "height": "1116",
+        "type": "video",
+        "width": "1438",
+        "height": "810",
         "altImage": "",
-        "id": "Five-of-Us_01_vd6qcp"
-      },
+        "id": "fou_jxpusj",
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719599729/fou_jxpusj.mp4"
+      }
+    ],
+    "mediaDetails": [
       {
         "type": "video",
         "width": "2880",
         "height": "1274",
         "altImage": "",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719779179/Five-of-Us_02_hjyzuw.mp4",
-        "id": "Five-of-Us_02_hjyzuw"
+        "id": "Five-of-Us_02_hjyzuw",
+        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719779179/Five-of-Us_02_hjyzuw.mp4"
       },
       {
         "type": "image",

@@ -63,7 +63,7 @@ export default async function Home({ params }) {
               altImage: t.altImage,
               id: "portada_wcs0vl",
               fill: true,
-              style: { objectFit: "contain", objectPosition: "center 225px" },
+              style: { objectFit: "cover", objectPosition: "bottom" },
             }}
           />
         </div>
