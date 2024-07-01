@@ -171,13 +171,13 @@
   },
   "nicole": {
     "type": "image",
-    "width": "2870",
-    "height": "1619",
+    "width": "1440",
+    "height": "811",
     "altImage": "Mujer joven con un vestido de novia de encaje, apoyada contra una pared de piedra antigua, con un entorno natural en el fondo.",
     "client": "NICOLE MILANO",
     "projectType": "UI Design",
     "description": "Home Page Redesign",
-    "id": "nicole_1_cmh1yp",
+    "id": "portada_vo5nlg",
     "project": [
       {
         "type": "image",
@@ -225,13 +225,13 @@
   },
   "suly": {
     "type": "image",
-    "width": "2159",
-    "height": "1215",
+    "width": "1439",
+    "height": "810",
     "altImage": "Retrato de una mujer joven sentada en la playa al atardecer. Lleva una chaqueta oscura y mira directamente a la cámara, con el océano y el cielo anaranjado de fondo.",
     "client": "Suly",
     "projectType": "UX/UI Design",
     "description": "Website Design",
-    "id": "suly_1_qif5ia",
+    "id": "portada_ua11ha",
     "project": [
       {
         "type": "image",
