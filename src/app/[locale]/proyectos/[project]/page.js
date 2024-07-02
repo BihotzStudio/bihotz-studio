@@ -2,7 +2,9 @@ import projects from "@/mocks/projects.json";
 
 import styles from "./project.module.css";
 import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
+import { getCldImageUrl } from "next-cloudinary";
 import { isBot } from "@/utils/isBot";
+import { Video } from "@/components/Video/Video";
 
 export default function Project({ params }) {
   const project = projects[params.project];
@@ -29,19 +31,20 @@ export default function Project({ params }) {
       {project.mediaDetails.map((media, index) => (
         <div key={media.id} className={styles.imageContainer}>
           {media.type === "video" ? (
-            <video
+            <Video
               key={media.url}
+              url={media.url}
               style={{ width: "100%", height: "auto" }}
               className={styles.image}
-              autoPlay={!isBot()}
-              loop
               muted
-              preload="none"
               playsInline
-            >
-              <source src={media.url} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+              poster={getCldImageUrl({
+                src: media.coverId,
+                width: media.width,
+                height: media.height,
+              })}
+              isBot={isBot()}
+            />
           ) : (
             <CloudinaryImage
               priority={index === 0}

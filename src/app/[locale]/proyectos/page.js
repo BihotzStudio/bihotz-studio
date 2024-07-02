@@ -2,10 +2,12 @@ import Link from "next/link";
 import { BorderAnimation } from "../../../components/BorderAnimation/BorderAnimation";
 
 import styles from "./proyectos.module.css";
-import { isBot } from "@/utils/isBot";
 
 import projects from "@/mocks/projects.json";
 import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
+import { getCldImageUrl } from "next-cloudinary";
+import { Video } from "@/components/Video/Video";
+import { isBot } from "@/utils/isBot";
 
 export default function Proyecto({ params }) {
   return (
@@ -21,19 +23,20 @@ export default function Proyecto({ params }) {
             <div className={styles.card}>
               <div className={styles.imageContainer}>
                 {project.mediaCover[0].type === "video" ? (
-                  <video
+                  <Video
                     key={project.url}
+                    url={project.mediaCover[0].url}
                     style={{ width: "100%", height: "auto" }}
                     className={styles.image}
-                    autoPlay={!isBot()}
-                    loop
                     muted
-                    preload="none"
                     playsInline
-                  >
-                    <source src={project.mediaCover[0].url} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                    poster={getCldImageUrl({
+                      src: project.mediaCover[0].coverId,
+                      width: project.mediaCover[0].width,
+                      height: project.mediaCover[0].height,
+                    })}
+                    isBot={isBot()}
+                  />
                 ) : (
                   <CloudinaryImage
                     priority={index < 3}
