@@ -12,7 +12,6 @@ const links = [
   { name: "Servicios", href: "/servicios" },
   { name: "Proyectos", href: "/proyectos" },
   { name: "Contacto", mailto: "mailto:info@bihotz.studio.com" },
-  { name: "Nosotros", href: "/nosotros" },
 ];
 
 export default function Navbar({ locale }) {
