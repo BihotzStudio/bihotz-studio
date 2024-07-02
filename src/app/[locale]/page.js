@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
   const t = await getTranslations(params.locale, "Home");
 
   return {
-    description: t.description,
+    description: t.metaDescription,
   };
 }
 
@@ -51,7 +51,7 @@ export default async function Home({ params }) {
         >
           <div className={styles.info}>
             <h1 className={styles.title}>{t.title}</h1>
-            <p className={styles.description}>{t.description}</p>
+            <h2 className={styles.description}>{t.description}</h2>
           </div>
         </BorderAnimation>
         <div className={styles.imageSmallScreen}>

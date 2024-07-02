@@ -4,7 +4,6 @@ import localFont from "next/font/local";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import "./globals.css";
-import { getTranslations } from "@/utils/getTranslations";
 
 const foundersGrotesk = localFont({
   variable: "--font-founders-grotesk",

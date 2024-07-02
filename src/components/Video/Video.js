@@ -90,7 +90,6 @@ export function Video({
                 width={24}
                 height={24}
                 className={isPausedByUser ? styles.show : styles.hide}
-                alt=""
               >
                 play
               </p>
@@ -98,7 +97,6 @@ export function Video({
                 width={24}
                 height={24}
                 className={isPausedByUser ? styles.hide : styles.show}
-                alt=""
               >
                 Pause
               </p>

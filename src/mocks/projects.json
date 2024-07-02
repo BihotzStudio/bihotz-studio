@@ -1,6 +1,7 @@
 {
   "pronovias-fashion-show": {
     "client": "Pronovias",
+    "clientWebsite": "https://www.pronovias.com/",
     "name": "Microsite del desfile",
     "creativeFields": "UI Design",
     "description": "2024 Fashion Show Microsite",
@@ -19,7 +20,7 @@
         "type": "video",
         "width": "2880",
         "height": "3476",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Pronovias fashion show",
         "id": "Pronovias_02",
         "coverId": "Pronovias_02",
         "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719871486/Pronovias_02.mp4"
@@ -28,7 +29,7 @@
         "type": "image",
         "width": "2880",
         "height": "2187",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Pronovias fashion show",
         "id": "Pronovias_03_jz1vb3"
       },
       {
@@ -43,20 +44,21 @@
         "type": "image",
         "width": "2880",
         "height": "2014",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Pronovias fashion show",
         "id": "Pronovias_05"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "4696",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Pronovias fashion show",
         "id": "Pronovias_06"
       }
     ]
   },
   "brownie-workshop": {
     "client": "Brownie",
+    "clientWebsite": "https://www.browniespain.com/",
     "name": "APP Ideation Workshop",
     "creativeFields": "UX Research & Customer Experience",
     "description": "APP Ideation Workshop",
@@ -75,27 +77,28 @@
         "type": "image",
         "width": "2880",
         "height": "2714",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de workshop de Brownie",
         "id": "Workshop_02_cm40lt"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "2233",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de workshop de Brownie",
         "id": "Workshop_03_j4ypam"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "2149",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de workshop de Brownie",
         "id": "Workshop_04_peooeq"
       }
     ]
   },
   "brownie-ds": {
     "client": "Brownie",
+    "clientWebsite": "https://www.browniespain.com/",
     "name": "Design System",
     "creativeFields": "UX/UI Design",
     "description": "Design System",
@@ -116,14 +119,14 @@
         "type": "image",
         "width": "2880",
         "height": "1794",
-        "altImage": "",
+        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
         "id": "2_kayjjd"
       },
       {
         "type": "video",
         "width": "2880",
         "height": "1604",
-        "altImage": "",
+        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
         "id": "3_cduhdt",
         "coverId": "",
         "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771974/3_cduhdt.mp4"
@@ -132,7 +135,7 @@
         "type": "image",
         "width": "2880",
         "height": "1800",
-        "altImage": "",
+        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
         "id": "4_xmf40v",
         "url": "https://res.cloudinary.com/deayvavyl/image/upload/v1719771975/4_xmf40v.jpg"
       },
@@ -140,7 +143,7 @@
         "type": "video",
         "width": "3456",
         "height": "2160",
-        "altImage": "",
+        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
         "id": "5_nwyogl",
         "coverId": "",
         "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771975/5_nwyogl.mp4"
@@ -149,7 +152,7 @@
         "type": "video",
         "width": "2880",
         "height": "1708",
-        "altImage": "",
+        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
         "coverId": "",
         "id": "6_bzkgl7",
         "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/6_bzkgl7.mp4"
@@ -158,7 +161,7 @@
         "type": "video",
         "width": "2904",
         "height": "884",
-        "altImage": "",
+        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
         "id": "7_d1vumk",
         "coverId": "",
         "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/7_d1vumk.mp4"
@@ -167,13 +170,14 @@
         "type": "image",
         "width": "2880",
         "height": "516",
-        "altImage": "",
+        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
         "id": "8_rsk6xz"
       }
     ]
   },
   "nicole": {
     "client": "Nicole Milano",
+    "clientWebsite": "https://www.nicolemilano.com/",
     "name": "Home Page Redesign",
     "creativeFields": "UI Design",
     "description": "Home Page Redesign",
@@ -192,41 +196,42 @@
         "type": "image",
         "width": "2880",
         "height": "3092",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Nicole Milano",
         "id": "Nicole_02_e9hg88"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "2695",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Nicole Milano",
         "id": "Nicole_03_im1hie"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "3052",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Nicole Milano",
         "id": "Nicole_04_udfgh2"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "2350",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Nicole Milano",
         "id": "Nicole_05_g4ulvt"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "3077",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Nicole Milano",
         "id": "Nicole_06_bbhvx1"
       }
     ]
   },
   "suly": {
     "client": "Suly",
+    "clientWebsite": "https://www.linkedin.com/company/sulylife",
     "name": "Website Design",
     "creativeFields": "UX/UI Design",
     "description": "Website Design",
@@ -245,48 +250,49 @@
         "type": "image",
         "width": "2880",
         "height": "3345",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Suly",
         "id": "Suly_02_ynbjzu"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "2255",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Suly",
         "id": "Suly_03_hr7fcy"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "2233",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Suly",
         "id": "Suly_04_nxtr6y"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "4057",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Suly",
         "id": "Suly_05_zzkwdh"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "3616",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Suly",
         "id": "Suly_06_yjwava"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "4590",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Suly",
         "id": "Suly_07_yqjyl8"
       }
     ]
   },
   "five-of-us-web": {
     "client": "Five of us",
+    "clientWebsite": "https://fiveofus.com/",
     "name": "Website Design",
     "creativeFields": "UX/UI Design",
     "description": "Website Design",
@@ -296,7 +302,7 @@
         "type": "video",
         "width": "1438",
         "height": "810",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Five of us",
         "id": "fou_jxpusj",
         "coverId": "portada_ypwrlv",
         "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719599729/fou_jxpusj.mp4"
@@ -307,7 +313,7 @@
         "type": "video",
         "width": "2880",
         "height": "1274",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Five of us",
         "id": "Five-of-Us_02_hjyzuw",
         "coverId": "Five-of-Us_02_kmta88",
         "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719779179/Five-of-Us_02_hjyzuw.mp4"
@@ -316,49 +322,49 @@
         "type": "image",
         "width": "2880",
         "height": "2693",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Five of us",
         "id": "Five-of-Us_03_rwlfvl"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "2489",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Five of us",
         "id": "Five-of-Us_04_inqzk3"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "4874",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Five of us",
         "id": "Five-of-Us_05_ujfiod"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "3809",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Five of us",
         "id": "Five-of-Us_06_uppcsf"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "5233",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Five of us",
         "id": "Five-of-Us_07_wizmw7"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "3614",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Five of us",
         "id": "Five-of-Us_08_tussu2"
       },
       {
         "type": "image",
         "width": "2880",
         "height": "3804",
-        "altImage": "",
+        "altImage": "Diseño del proyecto de Five of us",
         "id": "Five-of-Us_09_xjs7xk"
       }
     ]

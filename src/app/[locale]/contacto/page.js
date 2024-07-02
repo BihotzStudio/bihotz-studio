@@ -16,7 +16,7 @@ export default function Contacto() {
       <div>
         <div className={styles.coverImage}>
           <Image
-            alt=""
+            alt="Imagen de fondo"
             src="/images/servicios.webp"
             fill
             priority

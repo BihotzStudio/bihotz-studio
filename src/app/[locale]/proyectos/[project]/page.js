@@ -21,7 +21,9 @@ export default function Project({ params }) {
         </div>
         <div className={styles.box}>
           <p className={styles.clientTitle}>CLIENTE:</p>
-          <p className={styles.client}>{project.client}</p>
+          <a href={project.clientWebsite} target="_blank" rel="noopener">
+            <p className={styles.client}>{project.client}</p>
+          </a>
           <p className={styles.projectTitle}>PROYECTO:</p>
           <p className={styles.project}>{project.name}</p>
           <p className={styles.creativeFieldsTitle}>CREATIVE FIELDS:</p>
