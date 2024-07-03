@@ -85,6 +85,8 @@
 
 .link {
   text-transform: uppercase;
+  letter-spacing: 4%;
+  font-size: 15px;
 }
 
 .menuFooter {
