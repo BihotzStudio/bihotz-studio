@@ -45,12 +45,14 @@ export default function Navbar({ locale, t }) {
           href="/"
           onClick={() => setShowMobileMenu(false)}
           className={styles.logo}
+          aria-label="Bihotz studio"
         >
           <Logo />
         </Link>
         <button
           className={`${styles.menu} ${showMobileMenu ? styles.menuClose : ""}`}
           onClick={() => setShowMobileMenu(!showMobileMenu)}
+          aria-label="Menu"
         >
           <div />
           <div />
