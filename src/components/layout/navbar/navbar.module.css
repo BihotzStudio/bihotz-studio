@@ -15,7 +15,6 @@
   top: 0;
   right: 0;
   width: 100%;
-  padding: 20px var(--padding-horizontal);
   z-index: 2;
   background-color: white;
   transition: background-color 0.5s ease;
@@ -58,13 +57,14 @@
 .menu {
   display: flex;
   flex-direction: column;
-  width: 15px;
-  height: 15px;
+  width: 55px;
+  height: 55px;
   border: 0;
   background: transparent;
   gap: 4px;
   z-index: 10;
   justify-content: center;
+  padding: 20px;
 }
 
 .menu > div {
