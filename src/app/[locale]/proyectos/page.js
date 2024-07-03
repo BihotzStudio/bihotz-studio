@@ -8,6 +8,16 @@ import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
 import { getCldImageUrl } from "next-cloudinary";
 import { Video } from "@/components/Video/Video";
 import { isBot } from "@/utils/isBot";
+import { getTranslations } from "@/utils/getTranslations";
+
+export async function generateMetadata({ params }) {
+  const t = await getTranslations(params.locale, "Projects");
+
+  return {
+    title: t.titleMetaData,
+    description: t.descriptionMetaData,
+  };
+}
 
 export default function Proyecto({ params }) {
   return (

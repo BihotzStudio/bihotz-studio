@@ -5,8 +5,19 @@ import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
 import { getCldImageUrl } from "next-cloudinary";
 import { isBot } from "@/utils/isBot";
 import { Video } from "@/components/Video/Video";
+import { getTranslations } from "@/utils/getTranslations";
 
-export default function Project({ params }) {
+export async function generateMetadata({ params }) {
+  const t = await getTranslations(params.locale, "Projects");
+
+  return {
+    title: t[params.project].titleMetaData,
+    description: t[params.project].descriptionMetaData,
+  };
+}
+
+export default async function Project({ params }) {
+  const t = await getTranslations(params.locale, "Projects");
   const project = projects[params.project];
 
   return (
@@ -17,14 +28,14 @@ export default function Project({ params }) {
             {project.client} {project.description}
           </h1>
           <span className={styles.border} />
-          <p className={styles.description}>{project.largeDescription}</p>
+          <p className={styles.description}>{t[params.project].description}</p>
         </div>
         <div className={styles.box}>
-          <p className={styles.clientTitle}>CLIENTE:</p>
+          <p className={styles.clientTitle}>{t.client}:</p>
           <a href={project.clientWebsite} target="_blank" rel="noopener">
             <p className={styles.client}>{project.client}</p>
           </a>
-          <p className={styles.projectTitle}>PROYECTO:</p>
+          <p className={styles.projectTitle}>{t.project}:</p>
           <p className={styles.project}>{project.name}</p>
           <p className={styles.creativeFieldsTitle}>CREATIVE FIELDS:</p>
           <p className={styles.creativeField}>{project.creativeFields}</p>

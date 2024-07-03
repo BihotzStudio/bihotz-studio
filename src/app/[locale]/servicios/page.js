@@ -11,7 +11,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: t.titleMetaData,
-    description: t.description,
+    description: t.metaDescription,
   };
 }
 
@@ -123,7 +123,7 @@ export default async function Servicios({ params }) {
         top={{ reverse: true, delay: "2s" }}
         right={{ className: styles.borderRightFooter, delay: "2s" }}
       >
-        <Footer className={styles.footer} />
+        <Footer className={styles.footer} locale={params.locale} />
       </BorderAnimation>
     </div>
   );

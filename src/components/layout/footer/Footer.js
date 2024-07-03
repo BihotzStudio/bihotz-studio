@@ -1,6 +1,9 @@
+import { getTranslations } from "@/utils/getTranslations";
 import styles from "./Footer.module.css";
 
-export const Footer = ({ className }) => {
+export const Footer = async ({ className, locale }) => {
+  const t = await getTranslations(locale, "Footer");
+
   return (
     <footer className={className}>
       <p>info@bihotz-studio.com</p>
@@ -10,7 +13,7 @@ export const Footer = ({ className }) => {
         target="_blank"
         rel="noopener"
       >
-        Siguenos en <span className={styles.underlined}>Instagram</span>
+        {t.followUs} <span className={styles.underlined}>Instagram</span>
       </a>
     </footer>
   );

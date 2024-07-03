@@ -1,22 +1,67 @@
 {
   "Home": {
-    "altImage": "Imatge en blanc i negre d'una habitació minimalista amb dos quadres buits penjats a la paret i una cadira de disseny modern corbat col·locada sobre el terra de parquet.",
-    "title": "Disseny Digital i Desenvolupament.",
-    "description": "Som un estudi de disseny i desenvolupament web i d'aplicacions especialitzat en el sector retail. Col·laborem amb grans empreses oferint serveis que els ajudin a fer créixer i consolidar els seus negocis digitals aportant experiència en innovació digital.",
-    "altSecondaryImage": ""
+    "altImage": "Imatge en blanc i negre d'una habitació minimalista amb dos quadres buits penjats a la paret i una cadira moderna de disseny corbat col·locada al terra de parquet.",
+    "title": "Disseny i Desenvolupament Digital.",
+    "description": "Som un estudi de disseny i desenvolupament web i app especialitzat en el sector retail. Col·laborem amb grans empreses oferint serveis que els ajudin a fer créixer i consolidar els seus negocis digitals aportant experiència en innovació digital.",
+    "altSecondaryImage": "",
+    "metaDescription": "Estudi especialitzat en disseny i desenvolupament web i app. Col·laborem amb grans empreses, impulsant i consolidant els seus negocis digitals amb innovació."
   },
   "Services": {
-    "titleMetaData": "Serveis - Bihotz Studio",
+    "titleMetaData": "Serveis | Bihotz Studio",
+    "metaDescription": "Descobreix els serveis creatius de Bihotz Studio. Oferim disseny gràfic, desenvolupament web, branding i més per impulsar la teva marca i projectes. Contacta'ns avui!",
     "designTitle": "Disseny UX/UI",
-    "designDescription": "El nostre equip de disseny es dedica a entendre les necessitats i comportaments dels usuaris per desenvolupar interfícies intuitives centrades en la usabilitat i l'estètica. Ens esforcem per optimitzar la interacció entre els usuaris i els productes digitals, oferint solucions que no només siguin visualment atractives sinó també funcionals.",
-    "developmentTitle": "Desenvolupament web i d'aplicacions",
-    "developmentDescription": "Portem les idees des de la concepció fins a la realitat digital. El nostre equip de desenvolupament treballa estretament amb els nostres clients per crear aplicacions i pàgines web a mida. Ens destaquem per la implementació de solucions tecnològiques avançades escalables i segures.",
+    "designDescription": "El nostre equip de disseny es dedica a entendre les necessitats i comportaments dels usuaris per desenvolupar interfícies intuïtives centrades en la usabilitat i l'estètica. Ens esforcem per optimitzar la interacció entre els usuaris i els productes digitals, oferint solucions que no només siguin visualment atractives, sinó també funcionals.",
+    "developmentTitle": "Desenvolupament web i app",
+    "developmentDescription": "Portem les idees des de la concepció fins a la realitat digital. El nostre equip de desenvolupament treballa en estreta col·laboració amb els nostres clients per crear aplicacions i pàgines web a mida. Ens destaquem per la implementació de solucions tecnològiques avançades escalables i segures.",
     "brandingTitle": "Branding digital",
-    "brandingDescription": "Oferim serveis de disseny enfocats a transmetre l'essència única de cada marca. Des de la creació de contingut per a campanyes publicitàries online fins al disseny d'elements gràfics per a xarxes socials, banners i més.",
+    "brandingDescription": "Oferim serveis de disseny enfocats a transmetre l'essència única de cada marca. Des de la creació de contingut per a campanyes publicitàries en línia fins al disseny d'elements gràfics per a xarxes socials, banners i més.",
     "implantTitle": "Servei Implant",
-    "implantDescription": "Entenem que la implementació exitosa de solucions digitals va més enllà de l'entrega del producte final. Ens integrem directament en l'operativa diària dels nostres clients oferint assessorament i suport continu.",
-    "backgrountImageAlt": ""
+    "implantDescription": "Entenem que la implementació exitosa de solucions digitals va més enllà del lliurament del producte final. Ens integrem directament en l'operativa diària dels nostres clients oferint assessorament i suport continu.",
+    "backgroundImageAlt": "Imatge de fons on es veu una làmpada i una taula amb dues cadires"
   },
-  "Footer": {},
-  "Header": {}
+  "Footer": {
+    "followUs": "Segueix-nos a"
+  },
+  "Header": {
+    "services": "Serveis",
+    "projects": "Projectes",
+    "contact": "Contacte"
+  },
+
+  "Projects": {
+    "titleMetaData": "Projectes | Bihotz Studio",
+    "descriptionMetaData": "Explora els projectes destacats de Bihotz Studio. Coneix els nostres casos d'èxit en disseny gràfic, desenvolupament web, branding i més. Inspira't amb el nostre treball creatiu.",
+    "client": "CLIENT",
+    "project": "PROJECTE",
+    "brownie-workshop": {
+      "titleMetaData": "Brownie Workshop | Bihotz Studio",
+      "descriptionMetaData": "Descobreix el projecte Brownie Workshop de Bihotz Studio. Una solució creativa i personalitzada en disseny gràfic i branding per potenciar la imatge de Brownie Workshop.",
+      "description": "Col·laborem amb l'equip de Brownie en un workshop dinàmic que va reunir a diversos perfils de l'empresa, des de l'equip directiu fins al personal de botiga. En aquesta sessió d'ideació, vam explorar i desenvolupar conceptes innovadors per a la nova APP de la marca, assegurant que les idees reflectissin les necessitats i perspectives de tots els nivells de l'organització. El resultat va ser una base sòlida per a una aplicació que promet millorar l'experiència dels clients i enfortir la identitat digital de Brownie."
+    },
+    "suly": {
+      "titleMetaData": "Suly | Bihotz Studio",
+      "descriptionMetaData": "Explora el projecte Suly de Bihotz Studio. Disseny gràfic innovador i branding estratègic per portar la imatge de Suly al següent nivell.",
+      "description": "Desenvolupem el disseny complet de la web per a Suly, una start-up de moda amb seu a Londres que es defineix com una conscious tech startup that helps you embrace sustainability. Amb un disseny modern i funcional, el nostre enfocament per al disseny va ser destacar el seu compromís per transformar la indústria de la moda, simplificant la informació sobre sostenibilitat, proporcionant les eines necessàries i permetent als usuaris prendre decisions de compra més responsables."
+    },
+    "pronovias-fashion-show": {
+      "titleMetaData": "Pronovias Fashion Show | Bihotz Studio",
+      "descriptionMetaData": "Submergeix-te en el món del disseny d'esdeveniments amb el projecte Pronovias Fashion Show de Bihotz Studio. Creativitat i elegància en cada detall.",
+      "description": "Per al desfilada de moda 2024 de Pronovias, vam crear un microsite que captura l'essència de l'alta costura i l'elegància moderna. El nostre disseny UI ofereix una experiència d'usuari intuïtiva i visualment impactant, destacant cada detall de la col·lecció amb un enfocament sofisticat i contemporani. La navegació fluida i l'estètica refinada asseguren que els visitants gaudeixin d'una presentació immersiva i memorable de l'esdeveniment."
+    },
+    "five-of-us-web": {
+      "titleMetaData": "Five of Us | Bihotz Studio",
+      "descriptionMetaData": "Coneix el projecte Five of Us de Bihotz Studio. Una combinació de disseny gràfic i branding per crear una identitat única i memorable.",
+      "description": "Desenvolupem el disseny complet de la web per a Five of Us, una marca que ofereix peces custom per a nenes. El nostre disseny es va centrar en oferir una experiència d'usuari fluida i atractiva, facilitant el procés de compra de peces made to order. La interfície intuïtiva guia als usuaris a través de totes les opcions de personalització disponibles, assegurant que puguin crear productes únics. L'estètica visual de la web reflecteix el caràcter distintiu de Five of Us, combinant elegància moderna amb un compromís ferm cap a l'artesania tradicional."
+    },
+    "nicole": {
+      "titleMetaData": "Nicole Milano | Bihotz Studio",
+      "descriptionMetaData": "Descobreix el projecte Nicole Milano de Bihotz Studio. Estratègia de branding i disseny gràfic per a una marca de moda de renom.",
+      "description": "Vam realitzar el redisseny complet de la home page per a la web de Nicole, una de les marques del Grup Pronovias, que necessitava una actualització tant funcional com visual. El nostre objectiu va ser modernitzar la interfície, millorant la usabilitat i l'experiència de l'usuari. Amb un disseny renovat, elegant i fàcil de navegar, la nova home page destaca les col·leccions i els valors de Nicole, oferint una experiència visualment atractiva i optimitzada que convida els visitants a explorar i enamorar-se de la marca."
+    },
+    "brownie-ds": {
+      "titleMetaData": "Brownie Design System | Bihotz Studio",
+      "descriptionMetaData": "Explora el projecte Brownie Design System de Bihotz Studio. Creació d'un sistema de disseny coherent i eficient per a la marca Brownie.",
+      "description": "Desenvolupem un Design System complet per a Brownie, unificant els elements de disseny tant per a la seva APP com per a la seva web. Aquest sistema garanteix una coherència visual i funcional en totes les plataformes digitals de la marca, facilitant una experiència d'usuari fluida i atractiva. Inclou guies detallades d'estil, components reutilitzables i patrons de disseny que reflecteixen la identitat i valors de Brownie, assegurant una implementació eficient i consistent en tots els punts de contacte digitals."
+    }
+  }
 }

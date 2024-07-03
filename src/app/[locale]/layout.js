@@ -2,6 +2,7 @@ import Navbar from "@/components/layout/navbar/navbar";
 import { Analytics } from "@vercel/analytics/react";
 import localFont from "next/font/local";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { getTranslations } from "@/utils/getTranslations";
 
 import "./globals.css";
 
@@ -66,10 +67,12 @@ export const metadata = {
 };
 
 export default async function RootLayout({ children, params }) {
+  const t = await getTranslations(params.locale, "Header");
+
   return (
     <html lang={params.locale}>
       <body className={foundersGrotesk.className}>
-        <Navbar locale={params.locale} />
+        <Navbar locale={params.locale} t={t} />
         <main>{children}</main>
         <Analytics />
         <SpeedInsights />

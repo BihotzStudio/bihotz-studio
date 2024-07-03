@@ -1,5 +1,4 @@
 import Logo from "@/components/icons/logo";
-import Image from "next/image";
 import Link from "next/link";
 
 import styles from "./home.module.css";
@@ -71,7 +70,7 @@ export default async function Home({ params }) {
           top={{ duration: "2s", className: styles.hideBoder }}
           className={styles.footerBorder}
         >
-          <Footer className={styles.contact} />
+          <Footer className={styles.contact} locale={params.locale} />
         </BorderAnimation>
         <BorderAnimation left={{ duration: "1s" }}>
           <div className={styles.secondaryImage}>
