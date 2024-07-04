@@ -3,7 +3,5 @@ User-agent: *
 Disallow: /api/
 Allow: /
 
-Host: https://www.bihotz-studio.com
-
 Sitemap: https://www.bihotz-studio.com/sitemap.xml
 
