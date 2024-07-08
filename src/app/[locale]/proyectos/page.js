@@ -59,7 +59,7 @@ export default function Proyecto({ params }) {
               <div className={styles.info}>
                 <div className={styles.infoTitle}>
                   <p className={styles.client}>{project.client}</p>
-                  <p className={styles.type}>{project.projectType}</p>
+                  <p className={styles.type}>{project.creativeFields}</p>
                 </div>
                 <p className={styles.description}>{project.description}</p>
               </div>
