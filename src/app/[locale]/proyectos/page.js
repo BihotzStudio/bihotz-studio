@@ -16,6 +16,14 @@ export async function generateMetadata({ params }) {
   return {
     title: t.titleMetaData,
     description: t.descriptionMetaData,
+    alternates: {
+      canonical: `${params.locale}/proyectos`,
+      languages: {
+        en: "/en/proyectos",
+        es: "/es/proyectos",
+        ca: "/ca/proyectos",
+      },
+    },
   };
 }
 

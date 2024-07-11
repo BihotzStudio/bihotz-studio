@@ -9,10 +9,29 @@ import { getTranslations } from "@/utils/getTranslations";
 
 export async function generateMetadata({ params }) {
   const t = await getTranslations(params.locale, "Projects");
+  const project = projects[params.project];
 
   return {
     title: t[params.project].titleMetaData,
     description: t[params.project].descriptionMetaData,
+    alternates: {
+      canonical: `${params.locale}/proyectos/${params.project}`,
+      languages: {
+        en: `/en/proyectos/${params.project}`,
+        es: `/es/proyectos/${params.project}`,
+        ca: `/ca/proyectos/${params.project}`,
+      },
+    },
+    openGraph: {
+      images: getCldImageUrl({
+        src:
+          project.mediaCover[0].type === "video"
+            ? project.mediaCover[0].coverId
+            : project.mediaCover[0].id,
+        width: project.mediaCover[0].width,
+        height: project.mediaCover[0].height,
+      }),
+    },
   };
 }
 

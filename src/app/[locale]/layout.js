@@ -62,9 +62,28 @@ const foundersGrotesk = localFont({
   ],
 });
 
-export const metadata = {
-  title: "Bihotz Studio",
-};
+export async function generateMetadata({ params }) {
+  return {
+    title: "Bihotz Studio",
+    metadataBase: new URL("https://www.bihotz-studio.com"),
+    alternates: {
+      canonical: `${params.locale}`,
+      languages: {
+        en: "/en",
+        es: "/es",
+        ca: "/ca",
+      },
+    },
+    openGraph: {
+      images: "/opengraph-image.png",
+    },
+    authors: [{ name: "Bihotz Studio" }],
+    generator: "Next.js",
+    referrer: "origin-when-cross-origin",
+    creator: "Bihotz Studio",
+    publisher: "Bihotz Studio",
+  };
+}
 
 export default async function RootLayout({ children, params }) {
   const t = await getTranslations(params.locale, "Header");

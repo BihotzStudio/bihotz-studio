@@ -1,7 +1,0 @@
-
-User-agent: *
-Disallow: /api/
-Allow: /
-
-Sitemap: https://www.bihotz-studio.com/sitemap.xml
-
