@@ -3,6 +3,7 @@ import projects from "@/mocks/projects.json";
 import { getCldImageUrl } from "next-cloudinary";
 import { getTranslations } from "@/utils/getTranslations";
 import MediaProject from "@/components/MediaProject/MediaProject";
+import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
 
 import styles from "./project.module.css";
 
@@ -45,10 +46,19 @@ export default async function Project({ params }) {
           <h1 className={styles.title}>
             {project.client} {project.description}
           </h1>
-          <span className={styles.border} />
+          <BorderAnimation className={styles.border} bottom={{ reverse: true }}>
+            <span className={styles.border} />
+          </BorderAnimation>
           <p className={styles.description}>{t[params.project].description}</p>
         </div>
-        <div className={styles.box}>
+
+        <BorderAnimation
+          className={styles.box}
+          bottom={{ reverse: true }}
+          top={{ reverse: true }}
+          left
+          right
+        >
           <p className={styles.clientTitle}>{t.client}:</p>
           <a href={project.clientWebsite} target="_blank" rel="noopener">
             <p className={styles.client}>{project.client}</p>
@@ -57,7 +67,7 @@ export default async function Project({ params }) {
           <p className={styles.project}>{project.name}</p>
           <p className={styles.creativeFieldsTitle}>CREATIVE FIELDS:</p>
           <p className={styles.creativeField}>{project.creativeFields}</p>
-        </div>
+        </BorderAnimation>
       </div>
       <MediaProject project={project} />
     </div>
