@@ -40,25 +40,25 @@ export default function Proyecto({ params }) {
           <Link href={`/${params.locale}/proyectos/${name}`}>
             <div className={styles.card}>
               <div className={styles.imageContainer}>
-                {project.mediaCover[0].type === "video" ? (
+                {project.mediaCover.desktop[0].type === "video" ? (
                   <Video
                     key={project.url}
-                    url={project.mediaCover[0].url}
+                    url={project.mediaCover.desktop[0].url}
                     style={{ width: "100%", height: "auto" }}
                     className={styles.image}
                     muted
                     playsInline
                     poster={getCldImageUrl({
-                      src: project.mediaCover[0].coverId,
-                      width: project.mediaCover[0].width,
-                      height: project.mediaCover[0].height,
+                      src: project.mediaCover.desktop[0].coverId,
+                      width: project.mediaCover.desktop[0].width,
+                      height: project.mediaCover.desktop[0].height,
                     })}
                     isBot={isBot()}
                   />
                 ) : (
                   <CloudinaryImage
                     priority={index < 3}
-                    media={project.mediaCover[0]}
+                    media={project.mediaCover.desktop[0]}
                     className={styles.image}
                     sizes="(max-width: 640px) 100vw, (max-width: 1920px) 50vw, 33vw"
                   />

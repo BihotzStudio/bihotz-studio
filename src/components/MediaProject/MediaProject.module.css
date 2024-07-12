@@ -1,0 +1,9 @@
+.imageContainer {
+  position: relative;
+  display: flex;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}

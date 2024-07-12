@@ -6,55 +6,59 @@
     "creativeFields": "UI Design",
     "description": "2024 Fashion Show Microsite",
     "largeDescription": "Para el desfile de moda 2024 de Pronovias, creamos un microsite que captura la esencia de la alta costura y la elegancia moderna. Nuestro diseño UI ofrece una experiencia de usuario intuitiva y visualmente impactante, destacando cada detalle de la colección con un enfoque sofisticado y contemporáneo. La navegación fluida y la estética refinada aseguran que los visitantes disfruten de una presentación inmersiva y memorable del evento.",
-    "mediaCover": [
-      {
-        "type": "image",
-        "width": "1500",
-        "height": "844",
-        "altImage": "Tres mujeres vestidas de blanco, en una sesión de fotos de pronovias. La mujer en primer plano mira directamente a la cámara.",
-        "id": "portada"
-      }
-    ],
-    "mediaDetails": [
-      {
-        "type": "video",
-        "width": "2880",
-        "height": "3476",
-        "altImage": "Diseño del proyecto de Pronovias fashion show",
-        "id": "Pronovias_02",
-        "coverId": "Pronovias_02",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719871486/Pronovias_02.mp4"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2187",
-        "altImage": "Diseño del proyecto de Pronovias fashion show",
-        "id": "Pronovias_03_jz1vb3"
-      },
-      {
-        "type": "video",
-        "width": "2880",
-        "height": "4986",
-        "id": "Pronovias_04",
-        "coverId": "Pronovias_04",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719776925/Pronovias_04.mp4"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2014",
-        "altImage": "Diseño del proyecto de Pronovias fashion show",
-        "id": "Pronovias_05"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "4696",
-        "altImage": "Diseño del proyecto de Pronovias fashion show",
-        "id": "Pronovias_06"
-      }
-    ]
+    "mediaCover": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "1500",
+          "height": "844",
+          "altImage": "Tres mujeres vestidas de blanco, en una sesión de fotos de pronovias. La mujer en primer plano mira directamente a la cámara.",
+          "id": "portada"
+        }
+      ]
+    },
+    "mediaDetails": {
+      "desktop": [
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "3476",
+          "altImage": "Diseño del proyecto de Pronovias fashion show",
+          "id": "Pronovias_02",
+          "coverId": "Pronovias_02",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719871486/Pronovias_02.mp4"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2187",
+          "altImage": "Diseño del proyecto de Pronovias fashion show",
+          "id": "Pronovias_03_jz1vb3"
+        },
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "4986",
+          "id": "Pronovias_04",
+          "coverId": "Pronovias_04",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719776925/Pronovias_04.mp4"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2014",
+          "altImage": "Diseño del proyecto de Pronovias fashion show",
+          "id": "Pronovias_05"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "4696",
+          "altImage": "Diseño del proyecto de Pronovias fashion show",
+          "id": "Pronovias_06"
+        }
+      ]
+    }
   },
   "brownie-workshop": {
     "client": "Brownie",
@@ -63,38 +67,42 @@
     "creativeFields": "UX Research & Customer Experience",
     "description": "APP Ideation Workshop",
     "largeDescription": "Colaboramos con el equipo de Brownie en un workshop dinámico que reunió a diversos perfiles de la empresa, desde el equipo directivo hasta el personal de tienda. En esta sesión de ideación, exploramos y desarrollamos conceptos innovadores para la nueva APP de la marca, asegurando que las ideas reflejen las necesidades y perspectivas de todos los niveles de la organización. El resultado fue una base sólida para una aplicación que promete mejorar la experiencia de los clientes y fortalecer la identidad digital de Brownie.",
-    "mediaCover": [
-      {
-        "type": "image",
-        "width": "2870",
-        "height": "1620",
-        "altImage": "Retrato de una mujer joven con cabello rubio y largo, mirando a la cámara con una expresión seria. Ella lleva un top blanco.",
-        "id": "brownie_workshop_1_gk4lyp"
-      }
-    ],
-    "mediaDetails": [
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2714",
-        "altImage": "Diseño del proyecto de workshop de Brownie",
-        "id": "Workshop_02_cm40lt"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2233",
-        "altImage": "Diseño del proyecto de workshop de Brownie",
-        "id": "Workshop_03_j4ypam"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2149",
-        "altImage": "Diseño del proyecto de workshop de Brownie",
-        "id": "Workshop_04_peooeq"
-      }
-    ]
+    "mediaCover": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "2870",
+          "height": "1620",
+          "altImage": "Retrato de una mujer joven con cabello rubio y largo, mirando a la cámara con una expresión seria. Ella lleva un top blanco.",
+          "id": "brownie_workshop_1_gk4lyp"
+        }
+      ]
+    },
+    "mediaDetails": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2714",
+          "altImage": "Diseño del proyecto de workshop de Brownie",
+          "id": "Workshop_02_cm40lt"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2233",
+          "altImage": "Diseño del proyecto de workshop de Brownie",
+          "id": "Workshop_03_j4ypam"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2149",
+          "altImage": "Diseño del proyecto de workshop de Brownie",
+          "id": "Workshop_04_peooeq"
+        }
+      ]
+    }
   },
   "brownie-ds": {
     "client": "Brownie",
@@ -103,77 +111,81 @@
     "creativeFields": "UX/UI Design",
     "description": "Design System",
     "largeDescription": "Desarrollamos un Design System completo para Brownie, unificando los elementos de diseño tanto para su APP como para su web. Este sistema garantiza una coherencia visual y funcional en todas las plataformas digitales de la marca, facilitando una experiencia de usuario fluida y atractiva. Incluye guías detalladas de estilo, componentes reutilizables y patrones de diseño que reflejan la identidad y valores de Brownie, asegurando una implementación eficiente y consistente en todos los puntos de contacto digitales.",
-    "mediaCover": [
-      {
-        "type": "video",
-        "width": "2880",
-        "height": "1618",
-        "altImage": "Captura de pantalla de una interfaz de usuario con diversos componentes de diseño, incluyendo botones, filtros, tarjetas y campos de búsqueda.",
-        "id": "portada_ofivyw",
-        "coverId": "portada_dl6qqh",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771982/portada_ofivyw.mp4"
-      }
-    ],
-    "mediaDetails": [
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "1794",
-        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-        "id": "2_kayjjd"
-      },
-      {
-        "type": "video",
-        "width": "2880",
-        "height": "1604",
-        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-        "id": "3_cduhdt",
-        "coverId": "",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771974/3_cduhdt.mp4"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "1800",
-        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-        "id": "4_xmf40v",
-        "url": "https://res.cloudinary.com/deayvavyl/image/upload/v1719771975/4_xmf40v.jpg"
-      },
-      {
-        "type": "video",
-        "width": "3456",
-        "height": "2160",
-        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-        "id": "5_nwyogl",
-        "coverId": "",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771975/5_nwyogl.mp4"
-      },
-      {
-        "type": "video",
-        "width": "2880",
-        "height": "1708",
-        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-        "coverId": "",
-        "id": "6_bzkgl7",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/6_bzkgl7.mp4"
-      },
-      {
-        "type": "video",
-        "width": "2904",
-        "height": "884",
-        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-        "id": "7_d1vumk",
-        "coverId": "",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/7_d1vumk.mp4"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "516",
-        "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-        "id": "8_rsk6xz"
-      }
-    ]
+    "mediaCover": {
+      "desktop": [
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "1618",
+          "altImage": "Captura de pantalla de una interfaz de usuario con diversos componentes de diseño, incluyendo botones, filtros, tarjetas y campos de búsqueda.",
+          "id": "portada_ofivyw",
+          "coverId": "portada_dl6qqh",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771982/portada_ofivyw.mp4"
+        }
+      ]
+    },
+    "mediaDetails": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "1794",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "2_kayjjd"
+        },
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "1604",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "3_cduhdt",
+          "coverId": "",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771974/3_cduhdt.mp4"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "1800",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "4_xmf40v",
+          "url": "https://res.cloudinary.com/deayvavyl/image/upload/v1719771975/4_xmf40v.jpg"
+        },
+        {
+          "type": "video",
+          "width": "3456",
+          "height": "2160",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "5_nwyogl",
+          "coverId": "",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771975/5_nwyogl.mp4"
+        },
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "1708",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "coverId": "",
+          "id": "6_bzkgl7",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/6_bzkgl7.mp4"
+        },
+        {
+          "type": "video",
+          "width": "2904",
+          "height": "884",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "7_d1vumk",
+          "coverId": "",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/7_d1vumk.mp4"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "516",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "8_rsk6xz"
+        }
+      ]
+    }
   },
   "nicole": {
     "client": "Nicole Milano",
@@ -182,52 +194,56 @@
     "creativeFields": "UI Design",
     "description": "Home Page Redesign",
     "largeDescription": "Realizamos el rediseño completo de la home page para la web de Nicole, una de las marcas del Grupo Pronovias, que necesitaba una actualización tanto funcional como visual. Nuestro objetivo fue modernizar la interfaz, mejorando la usabilidad y la experiencia del usuario. Con un diseño renovado, elegante y fácil de navegar, la nueva home page destaca las colecciones y los valores de Nicole, ofreciendo una experiencia visualmente atractiva y optimizada que invita a los visitantes a explorar y enamorarse de la marca.",
-    "mediaCover": [
-      {
-        "type": "image",
-        "width": "1440",
-        "height": "811",
-        "altImage": "Mujer joven con un vestido de novia de encaje, apoyada contra una pared de piedra antigua, con un entorno natural en el fondo.",
-        "id": "portada_vo5nlg"
-      }
-    ],
-    "mediaDetails": [
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "3092",
-        "altImage": "Diseño del proyecto de Nicole Milano",
-        "id": "Nicole_02_e9hg88"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2695",
-        "altImage": "Diseño del proyecto de Nicole Milano",
-        "id": "Nicole_03_im1hie"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "3052",
-        "altImage": "Diseño del proyecto de Nicole Milano",
-        "id": "Nicole_04_udfgh2"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2350",
-        "altImage": "Diseño del proyecto de Nicole Milano",
-        "id": "Nicole_05_g4ulvt"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "3077",
-        "altImage": "Diseño del proyecto de Nicole Milano",
-        "id": "Nicole_06_bbhvx1"
-      }
-    ]
+    "mediaCover": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "1440",
+          "height": "811",
+          "altImage": "Mujer joven con un vestido de novia de encaje, apoyada contra una pared de piedra antigua, con un entorno natural en el fondo.",
+          "id": "portada_vo5nlg"
+        }
+      ]
+    },
+    "mediaDetails": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "3092",
+          "altImage": "Diseño del proyecto de Nicole Milano",
+          "id": "Nicole_02_e9hg88"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2695",
+          "altImage": "Diseño del proyecto de Nicole Milano",
+          "id": "Nicole_03_im1hie"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "3052",
+          "altImage": "Diseño del proyecto de Nicole Milano",
+          "id": "Nicole_04_udfgh2"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2350",
+          "altImage": "Diseño del proyecto de Nicole Milano",
+          "id": "Nicole_05_g4ulvt"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "3077",
+          "altImage": "Diseño del proyecto de Nicole Milano",
+          "id": "Nicole_06_bbhvx1"
+        }
+      ]
+    }
   },
   "suly": {
     "client": "Suly",
@@ -236,59 +252,63 @@
     "creativeFields": "UX/UI Design",
     "description": "Website Design",
     "largeDescription": "Desarrollamos el diseño completo de la web para Suly, una start-up de moda con sede en Londres que se define como una conscious tech startup that helps you embrace sustainability. Con un diseño moderno y funcional, nuestro enfoque para el diseño fue destacar su compromiso para transformar la industria de la moda, simplificando la información sobre sostenibilidad, proporcionando las herramientas necesarias y permitiendo a los usuarios tomar decisiones de compra más responsables. ",
-    "mediaCover": [
-      {
-        "type": "image",
-        "width": "1439",
-        "height": "810",
-        "altImage": "Retrato de una mujer joven sentada en la playa al atardecer. Lleva una chaqueta oscura y mira directamente a la cámara, con el océano y el cielo anaranjado de fondo.",
-        "id": "portada_ua11ha"
-      }
-    ],
-    "mediaDetails": [
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "3345",
-        "altImage": "Diseño del proyecto de Suly",
-        "id": "Suly_02_ynbjzu"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2255",
-        "altImage": "Diseño del proyecto de Suly",
-        "id": "Suly_03_hr7fcy"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2233",
-        "altImage": "Diseño del proyecto de Suly",
-        "id": "Suly_04_nxtr6y"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "4057",
-        "altImage": "Diseño del proyecto de Suly",
-        "id": "Suly_05_zzkwdh"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "3616",
-        "altImage": "Diseño del proyecto de Suly",
-        "id": "Suly_06_yjwava"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "4590",
-        "altImage": "Diseño del proyecto de Suly",
-        "id": "Suly_07_yqjyl8"
-      }
-    ]
+    "mediaCover": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "1439",
+          "height": "810",
+          "altImage": "Retrato de una mujer joven sentada en la playa al atardecer. Lleva una chaqueta oscura y mira directamente a la cámara, con el océano y el cielo anaranjado de fondo.",
+          "id": "portada_ua11ha"
+        }
+      ]
+    },
+    "mediaDetails": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "3345",
+          "altImage": "Diseño del proyecto de Suly",
+          "id": "Suly_02_ynbjzu"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2255",
+          "altImage": "Diseño del proyecto de Suly",
+          "id": "Suly_03_hr7fcy"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2233",
+          "altImage": "Diseño del proyecto de Suly",
+          "id": "Suly_04_nxtr6y"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "4057",
+          "altImage": "Diseño del proyecto de Suly",
+          "id": "Suly_05_zzkwdh"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "3616",
+          "altImage": "Diseño del proyecto de Suly",
+          "id": "Suly_06_yjwava"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "4590",
+          "altImage": "Diseño del proyecto de Suly",
+          "id": "Suly_07_yqjyl8"
+        }
+      ]
+    }
   },
   "five-of-us-web": {
     "client": "Five of us",
@@ -297,76 +317,80 @@
     "creativeFields": "UX/UI Design",
     "description": "Website Design",
     "largeDescription": "Desarrollamos el diseño completo de la web para Five of Us, una marca que ofrece prendas custom para niñas. Nuestro diseño se centró en ofrecer una experiencia de usuario fluida y atractiva, facilitando el proceso de compra de prendas made to order. La interfaz intuitiva guía a los usuarios a través de todas las opciones de personalización disponibles, asegurando que puedan crear productos únicos. La estética visual de la web refleja el carácter distintivo de Five of Us, combinando elegancia moderna con un compromiso firme hacia la artesanía tradicional.",
-    "mediaCover": [
-      {
-        "type": "video",
-        "width": "1438",
-        "height": "810",
-        "altImage": "Diseño del proyecto de Five of us",
-        "id": "fou_jxpusj",
-        "coverId": "portada_ypwrlv",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719599729/fou_jxpusj.mp4"
-      }
-    ],
-    "mediaDetails": [
-      {
-        "type": "video",
-        "width": "2880",
-        "height": "1274",
-        "altImage": "Diseño del proyecto de Five of us",
-        "id": "Five-of-Us_02_hjyzuw",
-        "coverId": "Five-of-Us_02_kmta88",
-        "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719779179/Five-of-Us_02_hjyzuw.mp4"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2693",
-        "altImage": "Diseño del proyecto de Five of us",
-        "id": "Five-of-Us_03_rwlfvl"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "2489",
-        "altImage": "Diseño del proyecto de Five of us",
-        "id": "Five-of-Us_04_inqzk3"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "4874",
-        "altImage": "Diseño del proyecto de Five of us",
-        "id": "Five-of-Us_05_ujfiod"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "3809",
-        "altImage": "Diseño del proyecto de Five of us",
-        "id": "Five-of-Us_06_uppcsf"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "5233",
-        "altImage": "Diseño del proyecto de Five of us",
-        "id": "Five-of-Us_07_wizmw7"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "3614",
-        "altImage": "Diseño del proyecto de Five of us",
-        "id": "Five-of-Us_08_tussu2"
-      },
-      {
-        "type": "image",
-        "width": "2880",
-        "height": "3804",
-        "altImage": "Diseño del proyecto de Five of us",
-        "id": "Five-of-Us_09_xjs7xk"
-      }
-    ]
+    "mediaCover": {
+      "desktop": [
+        {
+          "type": "video",
+          "width": "1438",
+          "height": "810",
+          "altImage": "Diseño del proyecto de Five of us",
+          "id": "fou_jxpusj",
+          "coverId": "portada_ypwrlv",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719599729/fou_jxpusj.mp4"
+        }
+      ]
+    },
+    "mediaDetails": {
+      "desktop": [
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "1274",
+          "altImage": "Diseño del proyecto de Five of us",
+          "id": "Five-of-Us_02_hjyzuw",
+          "coverId": "Five-of-Us_02_kmta88",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719779179/Five-of-Us_02_hjyzuw.mp4"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2693",
+          "altImage": "Diseño del proyecto de Five of us",
+          "id": "Five-of-Us_03_rwlfvl"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2489",
+          "altImage": "Diseño del proyecto de Five of us",
+          "id": "Five-of-Us_04_inqzk3"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "4874",
+          "altImage": "Diseño del proyecto de Five of us",
+          "id": "Five-of-Us_05_ujfiod"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "3809",
+          "altImage": "Diseño del proyecto de Five of us",
+          "id": "Five-of-Us_06_uppcsf"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "5233",
+          "altImage": "Diseño del proyecto de Five of us",
+          "id": "Five-of-Us_07_wizmw7"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "3614",
+          "altImage": "Diseño del proyecto de Five of us",
+          "id": "Five-of-Us_08_tussu2"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "3804",
+          "altImage": "Diseño del proyecto de Five of us",
+          "id": "Five-of-Us_09_xjs7xk"
+        }
+      ]
+    }
   }
 }

@@ -1,11 +1,10 @@
 import projects from "@/mocks/projects.json";
 
-import styles from "./project.module.css";
-import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
 import { getCldImageUrl } from "next-cloudinary";
-import { isBot } from "@/utils/isBot";
-import { Video } from "@/components/Video/Video";
 import { getTranslations } from "@/utils/getTranslations";
+import MediaProject from "@/components/MediaProject/MediaProject";
+
+import styles from "./project.module.css";
 
 export async function generateMetadata({ params }) {
   const t = await getTranslations(params.locale, "Projects");
@@ -25,11 +24,11 @@ export async function generateMetadata({ params }) {
     openGraph: {
       images: getCldImageUrl({
         src:
-          project.mediaCover[0].type === "video"
-            ? project.mediaCover[0].coverId
-            : project.mediaCover[0].id,
-        width: project.mediaCover[0].width,
-        height: project.mediaCover[0].height,
+          project.mediaCover.desktop[0].type === "video"
+            ? project.mediaCover.desktop[0].coverId
+            : project.mediaCover.desktop[0].id,
+        width: project.mediaCover.desktop[0].width,
+        height: project.mediaCover.desktop[0].height,
       }),
     },
   };
@@ -60,33 +59,7 @@ export default async function Project({ params }) {
           <p className={styles.creativeField}>{project.creativeFields}</p>
         </div>
       </div>
-      {project.mediaDetails.map((media, index) => (
-        <div key={media.id} className={styles.imageContainer}>
-          {media.type === "video" ? (
-            <Video
-              key={media.url}
-              url={media.url}
-              style={{ width: "100%", height: "auto" }}
-              className={styles.image}
-              muted
-              playsInline
-              poster={getCldImageUrl({
-                src: media.coverId,
-                width: media.width,
-                height: media.height,
-              })}
-              isBot={isBot()}
-            />
-          ) : (
-            <CloudinaryImage
-              priority={index === 0}
-              media={media}
-              className={styles.image}
-              sizes="100vw"
-            />
-          )}
-        </div>
-      ))}
+      <MediaProject project={project} />
     </div>
   );
 }
