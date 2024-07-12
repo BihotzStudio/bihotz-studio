@@ -66,6 +66,7 @@ export default function Navbar({ locale, t }) {
             {links.map((link, index) => (
               <li key={link.name}>
                 <Link
+                  target={`${link.href ? "_self" : "_blank"}`}
                   href={`${link.href ? baseUrl + link.href : link.mailto}`}
                   className={styles.link}
                   ref={(el) => (linksRef.current[index] = el)}

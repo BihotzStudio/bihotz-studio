@@ -34,8 +34,14 @@ export default function Proyecto({ params }) {
         <BorderAnimation
           key={name}
           className={styles.container}
-          bottom={{ className: styles.bottomBorder }}
-          right={{ className: styles.rightBorder }}
+          bottom={{
+            className: styles.bottomBorder,
+            reverse: index % 2 !== 0,
+          }}
+          right={{
+            className: styles.rightBorder,
+            reverse: index % 3 === 0,
+          }}
         >
           <Link href={`/${params.locale}/proyectos/${name}`}>
             <div className={styles.card}>
