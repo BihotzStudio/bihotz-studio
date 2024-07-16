@@ -1,5 +1,7 @@
 {
   "Home": {
+    "seoTitle": "Bihotz Studio | Diseño digital y Desarrollo",
+    "seoKeywords": "Diseño UX/UI, Desarrollo de webs y de apps, Branding digital, Sistema de diseño, Estudio de diseño y desarrollo, Barcelona, UX, UI, crear página web, diseño de página web, programación",
     "altImage": "Imagen en blanco y negro de una habitación minimalista con dos cuadros vacíos colgados en la pared y una silla moderna de diseño curvo colocada en el suelo de parqué.",
     "title": "Digital Design & Development.",
     "description": "Somos un estudio de diseño y desarrollo web y app especializado en el sector retail. Colaboramos con grandes empresas ofreciendo servicios que les ayuden a hacer crecer y consolidar sus negocios   digitales aportando experiencia en innovación digital.",
@@ -25,7 +27,8 @@
   "Header": {
     "services": "Servicios",
     "projects": "Proyectos",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "followUs": "Siguenos en"
   },
   "Projects": {
     "titleMetaData": "Proyectos | Bihotz Studio",

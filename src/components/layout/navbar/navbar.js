@@ -91,7 +91,7 @@ export default function Navbar({ locale, t }) {
               target="_blank"
               rel="noopener"
             >
-              Siguenos en <span className={styles.underlined}>Instagram</span>
+              {t.followUs} <span className={styles.underlined}>Instagram</span>
             </a>
           </div>
         </div>

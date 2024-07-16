@@ -63,8 +63,11 @@ const foundersGrotesk = localFont({
 });
 
 export async function generateMetadata({ params }) {
+  const t = await getTranslations(params.locale, "Home");
+
   return {
-    title: "Bihotz Studio",
+    title: t.seoTitle,
+    keywords: t.seoKeywords,
     metadataBase: new URL("https://www.bihotz-studio.com"),
     alternates: {
       canonical: `${params.locale}`,

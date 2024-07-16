@@ -1,5 +1,7 @@
 {
   "Home": {
+    "seoTitle": "Bihotz Studio | Digital design & Development",
+    "seoKeywords": "UX/UI Design, Web and app development, Digital banding, Design system, Design and development studio, Barcelona, UX, UI, Create website, Website design, Programming",
     "altImage": "Black and white image of a minimalist room with two empty frames hanging on the wall and a modern curved design chair placed on the parquet floor.",
     "title": "Digital Design & Development.",
     "description": "We are a design and development studio specializing in the retail sector. We collaborate with large companies offering services that help them grow and consolidate their digital businesses by providing expertise in digital innovation.",
@@ -25,6 +27,7 @@
   "Header": {
     "services": "Services",
     "projects": "Projects",
+    "followUs": "Follow us on",
     "contact": "Contact"
   },
   "Projects": {
