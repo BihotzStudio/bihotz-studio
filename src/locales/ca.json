@@ -37,6 +37,7 @@
     "client": "CLIENT",
     "project": "PROJECTE",
     "brownie-workshop": {
+      "seoKeywords": "Disseny UX/UI, Branding digital, workshop, Estudi de disseny i programació, Barcelona, UX, UI, Brownie, Disseny de pàgina web, Brownie spain, Brownie roba",
       "titleMetaData": "Brownie Workshop | Bihotz Studio",
       "descriptionMetaData": "Descobreix el projecte Brownie Workshop de Bihotz Studio. Una solució creativa i personalitzada en disseny gràfic i branding per potenciar la imatge de Brownie Workshop.",
       "description": "Col·laborem amb l'equip de Brownie en un workshop dinàmic que va reunir a diversos perfils de l'empresa, des de l'equip directiu fins al personal de botiga. En aquesta sessió d'ideació, vam explorar i desenvolupar conceptes innovadors per a la nova APP de la marca, assegurant que les idees reflectissin les necessitats i perspectives de tots els nivells de l'organització. El resultat va ser una base sòlida per a una aplicació que promet millorar l'experiència dels clients i enfortir la identitat digital de Brownie."
@@ -47,6 +48,7 @@
       "description": "Desenvolupem el disseny complet de la web per a Suly, una start-up de moda amb seu a Londres que es defineix com una conscious tech startup that helps you embrace sustainability. Amb un disseny modern i funcional, el nostre enfocament per al disseny va ser destacar el seu compromís per transformar la indústria de la moda, simplificant la informació sobre sostenibilitat, proporcionant les eines necessàries i permetent als usuaris prendre decisions de compra més responsables."
     },
     "pronovias-fashion-show": {
+      "seoKeywords": "Disseny UX/UI, Branding digital, Pronovias fashion show, Desfilada pronovias, 2024, Estudi de diseny i programació, Barcelona, UX, UI, Pronovias, Diseny de pàgina web, Web de Pronovias",
       "titleMetaData": "Pronovias Fashion Show | Bihotz Studio",
       "descriptionMetaData": "Submergeix-te en el món del disseny d'esdeveniments amb el projecte Pronovias Fashion Show de Bihotz Studio. Creativitat i elegància en cada detall.",
       "description": "Per al desfilada de moda 2024 de Pronovias, vam crear un microsite que captura l'essència de l'alta costura i l'elegància moderna. El nostre disseny UI ofereix una experiència d'usuari intuïtiva i visualment impactant, destacant cada detall de la col·lecció amb un enfocament sofisticat i contemporani. La navegació fluida i l'estètica refinada asseguren que els visitants gaudeixin d'una presentació immersiva i memorable de l'esdeveniment."
@@ -62,6 +64,7 @@
       "description": "Vam realitzar el redisseny complet de la home page per a la web de Nicole, una de les marques del Grup Pronovias, que necessitava una actualització tant funcional com visual. El nostre objectiu va ser modernitzar la interfície, millorant la usabilitat i l'experiència de l'usuari. Amb un disseny renovat, elegant i fàcil de navegar, la nova home page destaca les col·leccions i els valors de Nicole, oferint una experiència visualment atractiva i optimitzada que convida els visitants a explorar i enamorar-se de la marca."
     },
     "brownie-ds": {
+      "seoKeywords": "Disseny UX/UI, Branding digital, Sistema de disseny, Brownie DS, Estudi de disseny i programació, Barcelona, UX, UI, Brownie, Disseny de pàgina web, Brownie spain, Brownie roba",
       "titleMetaData": "Brownie Design System | Bihotz Studio",
       "descriptionMetaData": "Explora el projecte Brownie Design System de Bihotz Studio. Creació d'un sistema de disseny coherent i eficient per a la marca Brownie.",
       "description": "Desenvolupem un Design System complet per a Brownie, unificant els elements de disseny tant per a la seva APP com per a la seva web. Aquest sistema garanteix una coherència visual i funcional en totes les plataformes digitals de la marca, facilitant una experiència d'usuari fluida i atractiva. Inclou guies detallades d'estil, components reutilitzables i patrons de disseny que reflecteixen la identitat i valors de Brownie, assegurant una implementació eficient i consistent en tots els punts de contacte digitals."

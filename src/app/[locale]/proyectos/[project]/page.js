@@ -14,6 +14,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t[params.project].titleMetaData,
     description: t[params.project].descriptionMetaData,
+    keywords: t[params.project].seoKeywords,
     alternates: {
       canonical: `${params.locale}/proyectos/${params.project}`,
       languages: {
