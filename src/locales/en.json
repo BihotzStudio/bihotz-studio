@@ -8,6 +8,16 @@
     "altSecondaryImage": "",
     "metaDescription": "Studio specializing in web and app design and development. We collaborate with large companies, boosting and consolidating their digital businesses with innovation."
   },
+  "About": {
+    "seoTitle": "About Us | Bihotz Studio",
+    "seoKeywords": "UX/UI Design, Web and App Development, Digital Branding, Design System, Design and Development Studio, Barcelona, UX, UI, create website, website design, programming",
+    "altImage": "Black and white image showing three Bihotz Studio workers sitting at their office desk",
+    "title": "About Us.",
+    "description": "Our story began in 2021 when Laura decided to start her own venture by founding the studio. With over a decade of experience working with renowned brands like Massimo Dutti, Mango, or Bershka, the early years focused on the vision of creating unique experiences through designs that combine usability and aesthetics.",
+    "secondaryDescription": "In 2024, with a solid track record in projects for Zara and Mango, Roger joined the project to become the other half, leading the technical side of Bihotz. This new phase allows us to offer much more comprehensive services to our clients, providing both development and design solutions.",
+    "altSecondaryImage": "Black and white image showing the door of Bihotz Studio's office, with a vinyl sticker on it",
+    "metaDescription": "Discover the story of Bihotz Studio and its founders Laura Cantabrana and Roger Gomà"
+  },
   "Services": {
     "titleMetaData": "Services | Bihotz Studio",
     "metaDescription": "Discover the creative services of Bihotz Studio. We offer graphic design, web development, branding, and more to boost your brand and projects. Contact us today!",
@@ -28,6 +38,7 @@
     "services": "Services",
     "projects": "Projects",
     "followUs": "Follow us on",
+    "about": "About",
     "contact": "Contact"
   },
   "Projects": {
