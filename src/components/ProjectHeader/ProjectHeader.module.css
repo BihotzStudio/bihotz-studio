@@ -1,0 +1,77 @@
+.projectInfo {
+  padding: 64px 8%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  row-gap: 20px;
+}
+
+.box {
+  width: 100%;
+  justify-self: center;
+  padding: 20px;
+  height: fit-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.border {
+  width: 81px;
+  height: 1px;
+  display: flex;
+}
+
+.description {
+  text-align: justify;
+  text-wrap: balance;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.clientTitle,
+.projectTitle,
+.creativeFieldsTitle {
+  font-size: 14px;
+  letter-spacing: 1%;
+}
+
+.client,
+.project,
+.creativeField {
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+@media (min-width: 950px) {
+  .description {
+    min-width: 535px;
+  }
+
+  .projectInfo {
+    padding: 120px 8%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .box {
+    width: 210px;
+    justify-self: end;
+    height: 100%;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+}

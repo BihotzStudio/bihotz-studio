@@ -63,10 +63,31 @@
       "description": "Realizamos el rediseño completo de la home page para la web de Nicole, una de las marcas del Grupo Pronovias, que necesitaba una actualización tanto funcional como visual. Nuestro objetivo fue modernizar la interfaz, mejorando la usabilidad y la experiencia del usuario. Con un diseño renovado, elegante y fácil de navegar, la nueva home page destaca las colecciones y los valores de Nicole, ofreciendo una experiencia visualmente atractiva y optimizada que invita a los visitantes a explorar y enamorarse de la marca."
     },
     "brownie-ds": {
-      "seoKeywords": "Diseño UX/UI, Branding digital, Sistema de diseño, Brownie DS, Estudio de diseño y desarrollo, Barcelona, UX, UI, Brownie, Diseño de página web, Brownie spain, Brownie ropa",
-      "titleMetaData": "Brownie Design System | Bihotz Studio",
-      "descriptionMetaData": "Explora el proyecto Brownie Design System de Bihotz Studio. Creación de un sistema de diseño coherente y eficiente para la marca Brownie.",
-      "description": "Desarrollamos un Design System completo para Brownie, unificando los elementos de diseño tanto para su APP como para su web. Este sistema garantiza una coherencia visual y funcional en todas las plataformas digitales de la marca, facilitando una experiencia de usuario fluida y atractiva. Incluye guías detalladas de estilo, componentes reutilizables y patrones de diseño que reflejan la identidad y valores de Brownie, asegurando una implementación eficiente y consistente en todos los puntos de contacto digitales."
+      "seoKeywords": "Diseño UX/UI, Branding digital, Sistema de diseño, Brownie DS, Estudio de diseño y desarrollo, Barcelona, UX, UI, Brownie, Diseño de página web, Brownie Spain, Ropa Brownie",
+      "titleMetaData": "Sistema de Diseño Brownie | Bihotz Studio",
+      "descriptionMetaData": "Explora el proyecto del Sistema de Diseño Brownie de Bihotz Studio. Creación de un sistema de diseño coherente y eficiente para la marca Brownie.",
+      "description": "Desarrollamos un sistema de diseño completo para Brownie, unificando los elementos de diseño tanto para su aplicación como para su sitio web. Este sistema garantiza coherencia visual y funcional en todas las plataformas digitales de la marca, facilitando una experiencia de usuario fluida y atractiva. Incluye guías de estilo detalladas, componentes reutilizables y patrones de diseño que reflejan la identidad y los valores de Brownie, asegurando una implementación eficiente y consistente en todos los puntos de contacto digitales.",
+      "atomicDesign": "Diseño atómico",
+      "atomicDesignDescription": "Siguiendo los principios del Diseño Atómico, los componentes son una parte escalable y adaptable del sistema de diseño.",
+      "consistency": "Consistencia en todas las páginas",
+      "consistencyDescription": "Proporcionamos una experiencia uniforme, fomentando la confianza y familiaridad del usuario. Esta consistencia es crucial para mejorar la satisfacción y retención del usuario.",
+      "variables": "Variables personalizables",
+      "variablesDescription": "Los componentes incluyen variables para diferentes casos de uso, como ajustes de diseño, esquemas de color y tipos de contenido. Esta flexibilidad permite adaptarlo fácilmente a necesidades específicas en diferentes páginas como PLP, wishlist, buscador, etc.",
+      "accessibility": "Accesibilidad y tokens de diseño",
+      "accessibilityDescription": "Incorporamos características de accesibilidad y tokens de diseño para color, espaciado y otras variables. Esta conexión garantiza que los componentes sean visualmente consistentes y accesibles para todos los usuarios, promoviendo la inclusión.",
+      "efficiency": "Eficiencia para los equipos de desarrollo",
+      "efficiencyDescription": "Con especificaciones detalladas, que incluyen guías de diseño, estados del componente y documentación de uso, los desarrolladores pueden implementar el componente rápida y correctamente, acelerando el proceso de desarrollo y reduciendo errores.",
+      "acceleration": "Aceleración del proceso de diseño",
+      "accelerationDescription": "Con componentes bien definidos, los diseñadores pueden crear prototipos rápidamente e iterar sobre las interfaces creadas. Esto acelera el proceso de diseño en general, permitiendo tiempos de respuesta más rápidos para nuevas funciones y actualizaciones.",
+      "smoothInteractions": "Interacciones fluidas",
+      "reusableAnimations": "Animaciones reutilizables",
+      "footer": "Diseño unificado, Experiencia mejorada, Eficiencia optimizada",
+      "addToWishlist": "Añadir a la Wishlist",
+      "addToBag": "Añadir a la bolsa",
+      "toggle": "Toggle",
+      "wishlistInformation": "Información de la Wishlist",
+      "customizableItem": "Artículo personalizable",
+      "newNotice": "Nuevo aviso"
     }
   }
 }

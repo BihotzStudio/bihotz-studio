@@ -3,9 +3,7 @@ import projects from "@/mocks/projects.json";
 import { getCldImageUrl } from "next-cloudinary";
 import { getTranslations } from "@/utils/getTranslations";
 import MediaProject from "@/components/MediaProject/MediaProject";
-import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
-
-import styles from "./project.module.css";
+import ProjectLayout from "@/components/layout/ProjectLayout/ProjectLayout";
 
 export async function generateMetadata({ params }) {
   const t = await getTranslations(params.locale, "Projects");
@@ -37,40 +35,11 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Project({ params }) {
-  const t = await getTranslations(params.locale, "Projects");
   const project = projects[params.project];
 
   return (
-    <div className={styles.project}>
-      <div className={styles.projectInfo}>
-        <div className={styles.container}>
-          <h1 className={styles.title}>
-            {project.client} {project.description}
-          </h1>
-          <BorderAnimation className={styles.border} bottom={{ reverse: true }}>
-            <span className={styles.border} />
-          </BorderAnimation>
-          <p className={styles.description}>{t[params.project].description}</p>
-        </div>
-
-        <BorderAnimation
-          className={styles.box}
-          bottom={{ reverse: true }}
-          top={{ reverse: true }}
-          left
-          right
-        >
-          <p className={styles.clientTitle}>{t.client}:</p>
-          <a href={project.clientWebsite} target="_blank" rel="noopener">
-            <p className={styles.client}>{project.client}</p>
-          </a>
-          <p className={styles.projectTitle}>{t.project}:</p>
-          <p className={styles.project}>{project.name}</p>
-          <p className={styles.creativeFieldsTitle}>CREATIVE FIELDS:</p>
-          <p className={styles.creativeField}>{project.creativeFields}</p>
-        </BorderAnimation>
-      </div>
+    <ProjectLayout projectName={params.project} locale={params.locale}>
       <MediaProject project={project} />
-    </div>
+    </ProjectLayout>
   );
 }

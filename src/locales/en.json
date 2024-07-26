@@ -63,10 +63,31 @@
       "description": "We completely redesigned the homepage for Nicole's website, one of the brands of the Pronovias Group, which needed both a functional and visual update. Our goal was to modernize the interface, improving usability and the user experience. With a renewed, elegant, and easy-to-navigate design, the new homepage highlights Nicole's collections and values, offering a visually appealing and optimized experience that invites visitors to explore and fall in love with the brand."
     },
     "brownie-ds": {
-      "seoKeywords": "UX/UI design, Digital branding, Design system, Brownie DS, Design and development studio, Barcelona, UX, UI, Create website, Website design, Brownie, Brownie spain, Brownie dresses",
+      "seoKeywords": "UX/UI Design, Digital Branding, Design System, Brownie DS, Design and Development Studio, Barcelona, UX, UI, Brownie, Website Design, Brownie Spain, Brownie Clothing",
       "titleMetaData": "Brownie Design System | Bihotz Studio",
-      "descriptionMetaData": "Explore the Brownie Design System project by Bihotz Studio. Creating a coherent and efficient design system for the Brownie brand.",
-      "description": "We developed a complete Design System for Brownie, unifying design elements for both their APP and website. This system ensures visual and functional coherence across all the brand's digital platforms, facilitating a smooth and attractive user experience. It includes detailed style guides, reusable components, and design patterns that reflect Brownie's identity and values, ensuring efficient and consistent implementation across all digital touchpoints."
+      "descriptionMetaData": "Explore the Brownie Design System project by Bihotz Studio. Creation of a coherent and efficient design system for the Brownie brand.",
+      "description": "We developed a complete Design System for Brownie, unifying the design elements for both their APP and website. This system ensures visual and functional coherence across all of the brand's digital platforms, facilitating a smooth and attractive user experience. It includes detailed style guides, reusable components, and design patterns that reflect Brownie's identity and values, ensuring efficient and consistent implementation across all digital touchpoints.",
+      "atomicDesign": "Atomic design",
+      "atomicDesignDescription": "Following the principles of Atomic Design, the components are a scalable and adaptable part of the design system.",
+      "consistency": "Consistency across all pages",
+      "consistencyDescription": "We provide a uniform experience, fostering user trust and familiarity. This consistency is crucial for improving user satisfaction and retention.",
+      "variables": "Customizable variables",
+      "variablesDescription": "The components include variables for different use cases, such as design adjustments, color schemes, and content types. This flexibility allows it to be easily adapted to specific needs on different pages like PLP, wishlist, search, etc.",
+      "accessibility": "Accessibility and Design Tokens",
+      "accessibilityDescription": "We incorporate accessibility features and design tokens for color, spacing, and other variables. This connection ensures that the components are visually consistent and accessible to all users, promoting inclusion.",
+      "efficiency": "Efficiency for development teams",
+      "efficiencyDescription": "With detailed specifications, including design guides, component states, and usage documentation, developers can implement the component quickly and correctly, speeding up the development process and reducing errors.",
+      "acceleration": "Acceleration of the design process",
+      "accelerationDescription": "With well-defined components, designers can quickly prototype and iterate on created interfaces. This accelerates the overall design process, allowing for faster response times for new features and updates.",
+      "smoothInteractions": "Smooth Interactions",
+      "reusableAnimations": "Reusable animations",
+      "footer": "Unified design, Enhanced expirience, Optimized efficiency",
+      "addToWishlist": "Add to wishlist",
+      "addToBag": "Add to bag",
+      "toggle": "Toggle",
+      "wishlistInformation": "Wishlist information",
+      "customizableItem": "Customizable item",
+      "newNotice": "New notice"
     }
   }
 }

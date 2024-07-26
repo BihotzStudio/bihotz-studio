@@ -64,10 +64,31 @@
       "description": "Vam realitzar el redisseny complet de la home page per a la web de Nicole, una de les marques del Grup Pronovias, que necessitava una actualització tant funcional com visual. El nostre objectiu va ser modernitzar la interfície, millorant la usabilitat i l'experiència de l'usuari. Amb un disseny renovat, elegant i fàcil de navegar, la nova home page destaca les col·leccions i els valors de Nicole, oferint una experiència visualment atractiva i optimitzada que convida els visitants a explorar i enamorar-se de la marca."
     },
     "brownie-ds": {
-      "seoKeywords": "Disseny UX/UI, Branding digital, Sistema de disseny, Brownie DS, Estudi de disseny i programació, Barcelona, UX, UI, Brownie, Disseny de pàgina web, Brownie spain, Brownie roba",
-      "titleMetaData": "Brownie Design System | Bihotz Studio",
-      "descriptionMetaData": "Explora el projecte Brownie Design System de Bihotz Studio. Creació d'un sistema de disseny coherent i eficient per a la marca Brownie.",
-      "description": "Desenvolupem un Design System complet per a Brownie, unificant els elements de disseny tant per a la seva APP com per a la seva web. Aquest sistema garanteix una coherència visual i funcional en totes les plataformes digitals de la marca, facilitant una experiència d'usuari fluida i atractiva. Inclou guies detallades d'estil, components reutilitzables i patrons de disseny que reflecteixen la identitat i valors de Brownie, assegurant una implementació eficient i consistent en tots els punts de contacte digitals."
+      "seoKeywords": "Disseny UX/UI, Branding digital, Sistema de disseny, Brownie DS, Estudi de disseny i desenvolupament, Barcelona, UX, UI, Brownie, Disseny de pàgina web, Brownie Spain, Roba Brownie",
+      "titleMetaData": "Sistema de Disseny Brownie | Bihotz Studio",
+      "descriptionMetaData": "Explora el projecte del Sistema de Disseny Brownie de Bihotz Studio. Creació d'un sistema de disseny coherent i eficient per a la marca Brownie.",
+      "description": "Hem desenvolupat un sistema de disseny complet per a Brownie, unificant els elements de disseny tant per a la seva aplicació com per al seu lloc web. Aquest sistema garanteix coherència visual i funcional en totes les plataformes digitals de la marca, facilitant una experiència d'usuari fluida i atractiva. Inclou guies d'estil detallades, components reutilitzables i patrons de disseny que reflecteixen la identitat i els valors de Brownie, assegurant una implementació eficient i consistent en tots els punts de contacte digitals.",
+      "atomicDesign": "Disseny atòmic",
+      "atomicDesignDescription": "Seguint els principis del Disseny Atòmic, els components són una part escalable i adaptable del sistema de disseny.",
+      "consistency": "Consistència en totes les pàgines",
+      "consistencyDescription": "Proporcionem una experiència uniforme, fomentant la confiança i familiaritat de l'usuari. Aquesta consistència és crucial per millorar la satisfacció i retenció de l'usuari.",
+      "variables": "Variables personalitzables",
+      "variablesDescription": "Els components inclouen variables per a diferents casos d'ús, com ajustaments de disseny, esquemes de color i tipus de contingut. Aquesta flexibilitat permet adaptar-lo fàcilment a necessitats específiques en diferents pàgines com PLP, wishlist, cercador, etc.",
+      "accessibility": "Accessibilitat i tokens de disseny",
+      "accessibilityDescription": "Incorporem característiques d'accessibilitat i tokens de disseny per a color, espaiat i altres variables. Aquesta connexió garanteix que els components siguin visualment consistents i accessibles per a tots els usuaris, promovent la inclusió.",
+      "efficiency": "Eficiència per als equips de desenvolupament",
+      "efficiencyDescription": "Amb especificacions detallades, que inclouen guies de disseny, estats del component i documentació d'ús, els desenvolupadors poden implementar el component ràpidament i correctament, accelerant el procés de desenvolupament i reduint errors.",
+      "acceleration": "Acceleració del procés de disseny",
+      "accelerationDescription": "Amb components ben definits, els dissenyadors poden crear prototips ràpidament i iterar sobre les interfícies creades. Això accelera el procés de disseny en general, permetent temps de resposta més ràpids per a noves funcions i actualitzacions.",
+      "smoothInteractions": "Interaccions fluides",
+      "reusableAnimations": "Animacions reutilitzables",
+      "footer": "Disseny unificat, Experiència millorada, Eficiència optimitzada",
+      "addToWishlist": "Afegir a la Wishlist",
+      "addToBag": "Afegir a la bossa",
+      "toggle": "Toggle",
+      "wishlistInformation": "Informació de la wishlist",
+      "customizableItem": "Article personalitzable",
+      "newNotice": "Nou avís"
     }
   }
 }

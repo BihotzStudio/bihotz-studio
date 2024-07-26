@@ -1,0 +1,141 @@
+.imageContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  padding: 64px 8%;
+}
+
+.imageContainer,
+.mediaContainer,
+.videoContainer {
+  position: relative;
+  width: 100%;
+}
+
+.textCard {
+  z-index: 1;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+
+.titleTextCardContainer {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.textCardSquare {
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+  margin-top: 2px;
+}
+
+.titleTextCard {
+  text-transform: uppercase;
+}
+
+.cardDescription,
+.titleTextCard,
+.descriptionTextCard {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.backgroundImage {
+  z-index: 0;
+  width: 100%;
+  height: auto;
+}
+
+.border {
+  width: 81px;
+  height: 1px;
+  display: flex;
+  margin-top: 16px;
+}
+
+.cardsHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+
+.cardsTitle {
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.cardsSection {
+  padding: 64px 8%;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 64px;
+}
+
+.card {
+  height: 150px;
+  border: 1px solid black;
+  position: relative;
+}
+
+.cardDescription {
+  position: absolute;
+  bottom: 32px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: fit-content;
+}
+
+.backgroundColor {
+  background-color: #f7f5f4;
+}
+
+.footer {
+  background-color: #f7f5f4;
+  padding: 64px 8%;
+}
+
+.footerText {
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .footer {
+    padding: 128px 8%;
+  }
+
+  .imageContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 64px;
+    padding: 128px 8%;
+  }
+
+  .cardsSection {
+    padding: 128px 8%;
+  }
+
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footerText {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 950px) {
+  .footerText,
+  .cardsTitle {
+    font-size: 32px;
+  }
+}
