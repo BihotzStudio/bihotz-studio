@@ -74,6 +74,15 @@
 
 .imageSmallScreen {
   position: relative;
+  max-height: calc(100vw / 0.75);
+}
+
+.footerBorder {
+  grid-row: 3;
+}
+
+.hideMobileBoder {
+  display: none;
 }
 
 @keyframes fadeIn {
@@ -88,6 +97,14 @@
 @media (min-width: 1024px) {
   .hideBoder {
     display: none;
+  }
+
+  .hideMobileBoder {
+    display: block;
+  }
+
+  .footerBorder {
+    grid-row: 2;
   }
 
   .imageSmallScreen {

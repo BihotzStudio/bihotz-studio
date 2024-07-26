@@ -52,7 +52,11 @@ export default async function Nosotros({ params }) {
           <div className={styles.info}>
             <h1 className={styles.title}>{t.title}</h1>
             <p className={styles.description}>{t.description}</p>
-            <div className={styles.imageSmallScreen}>
+            <BorderAnimation
+              top={{ duration: "2s" }}
+              bottom={{ duration: "2s", reverse: true }}
+              className={styles.imageSmallScreen}
+            >
               <CloudinaryImage
                 priority
                 className={styles.image}
@@ -64,7 +68,7 @@ export default async function Nosotros({ params }) {
                   height: 900,
                 }}
               />
-            </div>
+            </BorderAnimation>
             <p className={styles.description}>{t.secondaryDescription}</p>
           </div>
         </BorderAnimation>
@@ -74,7 +78,9 @@ export default async function Nosotros({ params }) {
         >
           <Footer className={styles.contact} locale={params.locale} />
         </BorderAnimation>
-        <BorderAnimation left={{ duration: "1s" }}>
+        <BorderAnimation
+          left={{ duration: "1s", className: styles.hideMobileBoder }}
+        >
           <div className={styles.secondaryImage}>
             <CloudinaryImage
               sizes="(max-width: 640px) 100vw, 40vw"
