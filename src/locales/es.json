@@ -8,6 +8,16 @@
     "altSecondaryImage": "",
     "metaDescription": "Estudio especializado en diseño y desarrollo web y app. Colaboramos con grandes empresas, impulsando y consolidando sus negocios digitales con innovación."
   },
+  "About": {
+    "seoTitle": "Sobre nosotros | Bihotz Studio",
+    "seoKeywords": "Diseño UX/UI, Desarrollo de webs y de apps, Branding digital, Sistema de diseño, Estudio de diseño y desarrollo, Barcelona, UX, UI, crear página web, diseño de página web, programación",
+    "altImage": "Imagen en blanco y negro donde se pueden ver tres trabajadores de Bihotz Studio sentados en las mesa de su oficina",
+    "title": "Sobre nosotros.",
+    "description": "Nuestra historia comenzó en 2021 cuando Laura decidió emprender su propia aventura fundando el estudio. Con más de una década de experiencia trabajando con marcas de renombre como Massimo Dutti,  Mango o Bershka, los primeros años se centraron en la visión de crear experiencias únicas a través de diseños enfocados en la combinación de usabilidad y estética.",
+    "secondaryDescription": "En 2024, con una sólida trayectoria en proyectos para Zara y Mango, Roger se unió al proyecto para ser la otra mitad liderando la parte técnica Bihotz. Está nueva etapa nos permite ofrecer servicios mucho más completos a nuestros clientes, aportando así soluciones tanto de desarrollo como de diseño.",
+    "altSecondaryImage": "Imagen en blanco y negro donde se ve la puerta de la oficina de Bihotz Studio, donde hay un vinilo pegado",
+    "metaDescription": "Descubre la historia de Bihotz Studio y sus fundadores Laura Cantabrana y Roger Gomà"
+  },
   "Services": {
     "titleMetaData": "Servicios | Bihotz Studio",
     "metaDescription": "Descubre los servicios creativos de Bihotz Studio. Ofrecemos diseño gráfico, desarrollo web, branding y más para impulsar tu marca y proyectos. ¡Contáctanos hoy!",
@@ -28,6 +38,7 @@
     "services": "Servicios",
     "projects": "Proyectos",
     "contact": "Contacto",
+    "about": "Nosotros",
     "followUs": "Siguenos en"
   },
   "Projects": {

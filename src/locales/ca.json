@@ -8,6 +8,16 @@
     "altSecondaryImage": "",
     "metaDescription": "Estudi especialitzat en disseny i desenvolupament web i app. Col·laborem amb grans empreses, impulsant i consolidant els seus negocis digitals amb innovació."
   },
+  "About": {
+    "seoTitle": "Sobre nosaltres | Bihotz Studio",
+    "seoKeywords": "Disseny UX/UI, Desenvolupament de webs i d'aplicacions, Branding digital, Sistema de disseny, Estudi de disseny i desenvolupament, Barcelona, UX, UI, crear pàgina web, disseny de pàgina web, programació",
+    "altImage": "Imatge en blanc i negre on es poden veure tres treballadors de Bihotz Studio asseguts a la taula de la seva oficina",
+    "title": "Sobre nosaltres.",
+    "description": "La nostra història va començar el 2021 quan la Laura va decidir emprendre la seva pròpia aventura fundant l'estudi. Amb més d'una dècada d'experiència treballant amb marques de renom com Massimo Dutti, Mango o Bershka, els primers anys es van centrar en la visió de crear experiències úniques a través de dissenys enfocats en la combinació de usabilitat i estètica.",
+    "secondaryDescription": "El 2024, amb una sòlida trajectòria en projectes per a Zara i Mango, en Roger es va unir al projecte per ser l'altra meitat liderant la part tècnica de Bihotz. Aquesta nova etapa ens permet oferir serveis molt més complets als nostres clients, aportant solucions tant de desenvolupament com de disseny.",
+    "altSecondaryImage": "Imatge en blanc i negre on es veu la porta de l'oficina de Bihotz Studio, on hi ha un vinil enganxat",
+    "metaDescription": "Descobreix l'història de Bihotz Studio i els seus fundadors Laura Cantabrana i Roger Gomà"
+  },
   "Services": {
     "titleMetaData": "Serveis | Bihotz Studio",
     "metaDescription": "Descobreix els serveis creatius de Bihotz Studio. Oferim disseny gràfic, desenvolupament web, branding i més per impulsar la teva marca i projectes. Contacta'ns avui!",
@@ -28,6 +38,7 @@
     "services": "Serveis",
     "projects": "Projectes",
     "contact": "Contacte",
+    "about": "Nosaltres",
     "followUs": "Segueix-nos a"
   },
 

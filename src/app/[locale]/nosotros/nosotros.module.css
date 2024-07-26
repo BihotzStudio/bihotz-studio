@@ -7,7 +7,6 @@
   position: relative;
   z-index: 1;
   background-color: #fff;
-  padding: 48px 40px;
 }
 
 .main {
@@ -31,16 +30,13 @@
 }
 
 .title {
-  margin-bottom: 56px;
+  padding: 40px 40px 0;
 }
 
 .description {
-  margin-left: 68px;
+  margin-left: 0;
   text-align: justify;
-}
-
-.secondaryImage {
-  display: none;
+  padding: 40px;
 }
 
 .coverImage {
@@ -56,6 +52,20 @@
   display: flex;
 }
 
+.secondaryImage .image,
+.imageSmallScreen .image {
+  width: 100%;
+  height: auto;
+}
+
+.secondaryImage {
+  position: relative !important;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+}
+
 .image,
 .imageSmallScreen,
 .secondaryImage {
@@ -63,7 +73,7 @@
 }
 
 .imageSmallScreen {
-  height: 200px;
+  position: relative;
 }
 
 @keyframes fadeIn {
@@ -147,10 +157,10 @@
 
   .description {
     align-self: flex-end;
-    max-width: 426px;
-    margin-left: 0;
+    max-width: 542px;
     text-align: justify;
     font-size: 17px;
+    padding: 0;
   }
 
   .contact,
@@ -158,17 +168,10 @@
     background-color: transparent;
   }
 
-  .secondaryImage {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    justify-content: flex-end;
-    height: 100%;
-  }
-
   .title {
     margin-bottom: 0;
     font-size: 17px;
+    padding: 0;
   }
 
   .logo {
