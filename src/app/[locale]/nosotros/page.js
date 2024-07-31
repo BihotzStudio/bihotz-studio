@@ -1,3 +1,4 @@
+import { getCldImageUrl } from "next-cloudinary";
 import Logo from "@/components/icons/logo";
 import Link from "next/link";
 
@@ -13,6 +14,22 @@ export async function generateMetadata({ params }) {
   return {
     title: t.seoTitle,
     description: t.metaDescription,
+    keywords: t.seoKeywords,
+    alternates: {
+      canonical: `${params.locale}/nosotros/`,
+      languages: {
+        en: `/en/nosotros`,
+        es: `/es/nosotros`,
+        ca: `/ca/nosotros`,
+      },
+    },
+    openGraph: {
+      images: getCldImageUrl({
+        src: "nosotros",
+        width: 675,
+        height: 900,
+      }),
+    },
   };
 }
 
