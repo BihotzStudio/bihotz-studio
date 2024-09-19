@@ -1,0 +1,149 @@
+.cardText,
+.footerText {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.cardTitle {
+  font-weight: 300;
+  font-size: 28px;
+  padding-bottom: 16px;
+}
+
+.card,
+.reverseCard {
+  width: 100%;
+  background-color: #fff;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.fullWidthCard {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.fullWidthCard .border {
+  margin-left: 8%;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 32px;
+  align-items: flex-start;
+}
+
+.fullWidthCard .cardContainer,
+.reverseCard .cardContainer {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #f7f5f4;
+  padding: 64px 8%;
+  margin-top: 120px;
+}
+
+.footerText {
+  font-size: 18px;
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 120px 8%;
+}
+
+.sectionBackground {
+  background-color: #c2c7ca;
+}
+
+.section .card,
+.section .reverseCard {
+  background-color: #f7f6f4;
+}
+
+.sectionBackground .card,
+.sectionBackground .reverseCard {
+  background-color: white;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style-type: none;
+  margin-top: 24px;
+}
+
+.listItem {
+  display: flex;
+  gap: 8px;
+}
+
+.textCardSquare {
+  border: 1px solid black;
+  height: 15px;
+  width: 15px;
+  margin-top: 2px;
+}
+
+.reverseCard {
+  align-self: flex-end;
+}
+
+@media (min-width: 640px) {
+  .footer {
+    padding: 128px 8%;
+  }
+
+  .footerText {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 950px) {
+  .footerText,
+  .cardTitle {
+    font-size: 32px;
+  }
+
+  .card,
+  .reverseCard {
+    width: 90%;
+    padding: 40px;
+  }
+
+  .fullWidthCard {
+    padding: 0;
+  }
+
+  .fullWidthCard .cardContainer,
+  .cardContainer {
+    flex-direction: row;
+  }
+
+  .reverseCard .cardContainer {
+    flex-direction: row-reverse;
+  }
+
+  .cardImage {
+    width: 60%;
+  }
+
+  .reverseCard .cardImage {
+    width: 50%;
+  }
+}
