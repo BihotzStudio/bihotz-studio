@@ -7,7 +7,7 @@ export const Footer = async ({ className, locale }) => {
   return (
     <footer className={className}>
       <p>info@bihotz-studio.com</p>
-      <p>+34 697 525 425</p>
+      <p>+34 623 961 097</p>
       <a
         href="https://www.instagram.com/bihotz.studio/"
         target="_blank"
