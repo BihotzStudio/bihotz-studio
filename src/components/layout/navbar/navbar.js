@@ -12,7 +12,7 @@ const links = [
   { name: "services", href: "/servicios" },
   { name: "projects", href: "/proyectos" },
   { name: "about", href: "/nosotros" },
-  { name: "contact", mailto: "mailto:info@bihotz.studio.com" },
+  { name: "contact", mailto: "mailto:info@bihotz-studio.com" },
 ];
 
 export default function Navbar({ locale, t }) {
