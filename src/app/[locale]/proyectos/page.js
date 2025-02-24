@@ -27,9 +27,12 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function Proyecto({ params }) {
+export default async function Proyecto({ params }) {
+  const t = await getTranslations(params.locale, "Projects");
+
   return (
     <div className={styles.projects}>
+      <h1 className={styles.h1}>{t.pageTitle}</h1>
       {Object.entries(projects).map(([name, project], index) => (
         <BorderAnimation
           key={name}
@@ -72,7 +75,7 @@ export default function Proyecto({ params }) {
               </div>
               <div className={styles.info}>
                 <div className={styles.infoTitle}>
-                  <p className={styles.client}>{project.client}</p>
+                  <h3 className={styles.client}>{project.client}</h3>
                   <p className={styles.type}>{project.creativeFields}</p>
                 </div>
                 <p className={styles.description}>{project.description}</p>

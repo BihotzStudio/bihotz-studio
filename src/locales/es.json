@@ -19,6 +19,7 @@
     "metaDescription": "Descubre la historia de Bihotz Studio y sus fundadores Laura Cantabrana y Roger Gomà"
   },
   "Services": {
+    "pageTitle": "Servicios",
     "titleMetaData": "Servicios | Bihotz Studio",
     "metaDescription": "Descubre los servicios creativos de Bihotz Studio. Ofrecemos diseño gráfico, desarrollo web, branding y más para impulsar tu marca y proyectos. ¡Contáctanos hoy!",
     "designTitle": "Diseño UX/UI",
@@ -42,6 +43,7 @@
     "followUs": "Siguenos en"
   },
   "Projects": {
+    "pageTitle": "Proyectos",
     "titleMetaData": "Proyectos | Bihotz Studio",
     "descriptionMetaData": "Explora los proyectos destacados de Bihotz Studio. Conoce nuestros casos de éxito en diseño gráfico, desarrollo web, branding y más. Inspírate con nuestro trabajo creativo.",
     "client": "CLIENTE",

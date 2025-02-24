@@ -28,6 +28,7 @@ export default async function Servicios({ params }) {
 
   return (
     <div className={styles.container}>
+      <h1 className={styles.h1}>{t.pageTitle}</h1>
       <div className={styles.main}>
         <BorderAnimation
           className={styles.borderAnimation}
@@ -46,8 +47,8 @@ export default async function Servicios({ params }) {
           <div className={styles.containerInfo}>
             <p className={styles.number}>01.</p>
             <br />
-            <p>{t.designTitle}</p>
-            <p className={styles.description}>{t.designDescription}</p>
+            <h2>{t.designTitle}</h2>
+            <h3 className={styles.description}>{t.designDescription}</h3>
           </div>
         </BorderAnimation>
         <BorderAnimation
@@ -66,8 +67,8 @@ export default async function Servicios({ params }) {
           <div className={styles.containerInfo}>
             <p className={styles.number}>02.</p>
             <br />
-            <p>{t.developmentTitle}</p>
-            <p className={styles.description}>{t.developmentDescription}</p>
+            <h2>{t.developmentTitle}</h2>
+            <h3 className={styles.description}>{t.developmentDescription}</h3>
           </div>
         </BorderAnimation>
         <BorderAnimation
@@ -87,8 +88,8 @@ export default async function Servicios({ params }) {
           <div className={styles.containerInfo}>
             <p className={styles.number}>03.</p>
             <br />
-            <p>{t.brandingTitle}</p>
-            <p className={styles.description}>{t.brandingDescription}</p>
+            <h2>{t.brandingTitle}</h2>
+            <h3 className={styles.description}>{t.brandingDescription}</h3>
           </div>
         </BorderAnimation>
         <BorderAnimation
@@ -107,8 +108,8 @@ export default async function Servicios({ params }) {
           <div className={styles.containerInfo}>
             <p className={styles.number}>04.</p>
             <br />
-            <p>{t.implantTitle}</p>
-            <p className={styles.description}>{t.implantDescription}</p>
+            <h2>{t.implantTitle}</h2>
+            <h3 className={styles.description}>{t.implantDescription}</h3>
           </div>
         </BorderAnimation>
       </div>
