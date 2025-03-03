@@ -17,6 +17,10 @@ const foundersGrotesk = localFont({
   ],
 });
 
+export async function generateStaticParams() {
+  return [{ locale: "es" }, { locale: "en" }, { locale: "ca" }];
+}
+
 export async function generateMetadata({ params }) {
   const t = await getTranslations(params.locale, "Home");
 

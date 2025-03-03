@@ -36,6 +36,16 @@ export async function generateMetadata({ params }) {
   };
 }
 
+export async function generateStaticParams() {
+  const locales = ["es", "en", "fr"]; // Lista de idiomas soportados
+
+  const params = locales.flatMap((locale) =>
+    Object.entries(projects).map((project) => ({ locale, project: project[0] }))
+  );
+
+  return params;
+}
+
 export default async function Project({ params }) {
   const t = await getTranslations(params.locale, "Projects");
   const project = projects[params.project];
