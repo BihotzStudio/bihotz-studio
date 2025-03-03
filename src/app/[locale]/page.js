@@ -8,7 +8,8 @@ import { getTranslations } from "@/utils/getTranslations";
 import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
 
 export async function generateMetadata({ params }) {
-  const t = await getTranslations(params.locale, "Home");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Home");
 
   return {
     description: t.metaDescription,
@@ -16,7 +17,8 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Home({ params }) {
-  const t = await getTranslations(params.locale, "Home");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Home");
 
   return (
     <div className={styles.container}>
@@ -70,7 +72,7 @@ export default async function Home({ params }) {
           top={{ duration: "2s", className: styles.hideBoder }}
           className={styles.footerBorder}
         >
-          <Footer className={styles.contact} locale={params.locale} />
+          <Footer className={styles.contact} locale={locale} />
         </BorderAnimation>
         <BorderAnimation left={{ duration: "1s" }}>
           <div className={styles.secondaryImage}>

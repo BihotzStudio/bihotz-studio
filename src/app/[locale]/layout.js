@@ -22,14 +22,15 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }) {
-  const t = await getTranslations(params.locale, "Home");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Home");
 
   return {
     title: t.seoTitle,
     keywords: t.seoKeywords,
     metadataBase: new URL("https://www.bihotz-studio.com"),
     alternates: {
-      canonical: `${params.locale}`,
+      canonical: locale,
       languages: {
         en: "/en",
         es: "/es",
@@ -48,12 +49,13 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function RootLayout({ children, params }) {
-  const t = await getTranslations(params.locale, "Header");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Header");
 
   return (
-    <html lang={params.locale}>
+    <html lang={locale}>
       <body className={foundersGrotesk.className}>
-        <Navbar locale={params.locale} t={t} />
+        <Navbar locale={locale} t={t} />
         <main>{children}</main>
         <Analytics />
         <SpeedInsights />

@@ -8,36 +8,37 @@ import { BorderAnimation } from "@/components/BorderAnimation/BorderAnimation";
 import styles from "./project.module.css";
 
 export async function generateMetadata({ params }) {
-  const t = await getTranslations(params.locale, "Projects");
-  const project = projects[params.project];
+  const { locale, project } = await params;
+  const t = await getTranslations(locale, "Projects");
+  const projectData = projects[project];
 
   return {
-    title: t[params.project].titleMetaData,
-    description: t[params.project].descriptionMetaData,
-    keywords: t[params.project].seoKeywords,
+    title: t[project].titleMetaData,
+    description: t[project].descriptionMetaData,
+    keywords: t[project].seoKeywords,
     alternates: {
-      canonical: `${params.locale}/proyectos/${params.project}`,
+      canonical: `${locale}/proyectos/${project}`,
       languages: {
-        en: `/en/proyectos/${params.project}`,
-        es: `/es/proyectos/${params.project}`,
-        ca: `/ca/proyectos/${params.project}`,
+        en: `/en/proyectos/${project}`,
+        es: `/es/proyectos/${project}`,
+        ca: `/ca/proyectos/${project}`,
       },
     },
     openGraph: {
       images: getCldImageUrl({
         src:
-          project.mediaCover.desktop[0].type === "video"
-            ? project.mediaCover.desktop[0].coverId
-            : project.mediaCover.desktop[0].id,
-        width: project.mediaCover.desktop[0].width,
-        height: project.mediaCover.desktop[0].height,
+          projectData.mediaCover.desktop[0].type === "video"
+            ? projectData.mediaCover.desktop[0].coverId
+            : projectData.mediaCover.desktop[0].id,
+        width: projectData.mediaCover.desktop[0].width,
+        height: projectData.mediaCover.desktop[0].height,
       }),
     },
   };
 }
 
 export async function generateStaticParams() {
-  const locales = ["es", "en", "fr"]; // Lista de idiomas soportados
+  const locales = ["es", "en", "fr"];
 
   const params = locales.flatMap((locale) =>
     Object.entries(projects).map((project) => ({ locale, project: project[0] }))
@@ -47,20 +48,21 @@ export async function generateStaticParams() {
 }
 
 export default async function Project({ params }) {
-  const t = await getTranslations(params.locale, "Projects");
-  const project = projects[params.project];
+  const { locale, project } = await params;
+  const t = await getTranslations(locale, "Projects");
+  const projectData = projects[project];
 
   return (
     <div className={styles.project}>
       <div className={styles.projectInfo}>
         <div className={styles.container}>
           <h1 className={styles.title}>
-            {project.client} {project.description}
+            {projectData.client} {projectData.description}
           </h1>
           <BorderAnimation className={styles.border} bottom={{ reverse: true }}>
             <span className={styles.border} />
           </BorderAnimation>
-          <p className={styles.description}>{t[params.project].description}</p>
+          <p className={styles.description}>{t[project].description}</p>
         </div>
 
         <BorderAnimation
@@ -71,16 +73,16 @@ export default async function Project({ params }) {
           right
         >
           <p className={styles.clientTitle}>{t.client}:</p>
-          <a href={project.clientWebsite} target="_blank" rel="noopener">
-            <p className={styles.client}>{project.client}</p>
+          <a href={projectData.clientWebsite} target="_blank" rel="noopener">
+            <p className={styles.client}>{projectData.client}</p>
           </a>
           <p className={styles.projectTitle}>{t.project}:</p>
-          <p className={styles.project}>{project.name}</p>
+          <p className={styles.project}>{projectData.name}</p>
           <p className={styles.creativeFieldsTitle}>CREATIVE FIELDS:</p>
-          <p className={styles.creativeField}>{project.creativeFields}</p>
+          <p className={styles.creativeField}>{projectData.creativeFields}</p>
         </BorderAnimation>
       </div>
-      <MediaProject project={project} />
+      <MediaProject project={projectData} />
     </div>
   );
 }

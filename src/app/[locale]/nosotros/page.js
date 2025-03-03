@@ -9,14 +9,15 @@ import { getTranslations } from "@/utils/getTranslations";
 import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
 
 export async function generateMetadata({ params }) {
-  const t = await getTranslations(params.locale, "About");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "About");
 
   return {
     title: t.seoTitle,
     description: t.metaDescription,
     keywords: t.seoKeywords,
     alternates: {
-      canonical: `${params.locale}/nosotros/`,
+      canonical: `${locale}/nosotros/`,
       languages: {
         en: `/en/nosotros`,
         es: `/es/nosotros`,
@@ -34,7 +35,8 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Nosotros({ params }) {
-  const t = await getTranslations(params.locale, "About");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "About");
 
   return (
     <div className={styles.container}>
@@ -93,7 +95,7 @@ export default async function Nosotros({ params }) {
           top={{ duration: "2s", className: styles.hideBoder }}
           className={styles.footerBorder}
         >
-          <Footer className={styles.contact} locale={params.locale} />
+          <Footer className={styles.contact} locale={locale} />
         </BorderAnimation>
         <BorderAnimation
           left={{ duration: "1s", className: styles.hideMobileBoder }}

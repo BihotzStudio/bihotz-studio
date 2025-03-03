@@ -7,13 +7,14 @@ import { getTranslations } from "@/utils/getTranslations";
 import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
 
 export async function generateMetadata({ params }) {
-  const t = await getTranslations(params.locale, "Services");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Services");
 
   return {
     title: t.titleMetaData,
     description: t.metaDescription,
     alternates: {
-      canonical: `${params.locale}/servicios`,
+      canonical: `${locale}/servicios`,
       languages: {
         en: "/en/servicios",
         es: "/es/servicios",
@@ -24,7 +25,8 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function Servicios({ params }) {
-  const t = await getTranslations(params.locale, "Services");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Services");
 
   return (
     <div className={styles.container}>
@@ -132,7 +134,7 @@ export default async function Servicios({ params }) {
         top={{ reverse: true, delay: "2s" }}
         right={{ className: styles.borderRightFooter, delay: "2s" }}
       >
-        <Footer className={styles.footer} locale={params.locale} />
+        <Footer className={styles.footer} locale={locale} />
       </BorderAnimation>
     </div>
   );
