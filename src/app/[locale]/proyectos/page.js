@@ -35,7 +35,6 @@ export default async function Proyecto({ params }) {
 
   return (
     <div className={styles.projects}>
-      <h1 className={styles.h1}>{t.pageTitle}</h1>
       {Object.entries(projects).map(([name, project], index) => (
         <BorderAnimation
           key={name}
