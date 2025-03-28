@@ -137,14 +137,29 @@ export default async function BrownieDs({ params }) {
         </div>
         <div className={styles.cardContainer}>
           <div className={styles.card}>
+            <Video
+              url="https://res.cloudinary.com/deayvavyl/video/upload/v1743170116/Wishlist_n6zngm.mp4"
+              muted
+              playsInline
+            />
             <p className={styles.cardDescription}>
               {t[PROJECT_NAME].addToWishlist}
             </p>
           </div>
           <div className={styles.card}>
+            <Video
+              url="https://res.cloudinary.com/deayvavyl/video/upload/v1743170522/Cesta_bhyijn.mp4"
+              muted
+              playsInline
+            />
             <p className={styles.cardDescription}>{t[PROJECT_NAME].addToBag}</p>
           </div>
           <div className={styles.card}>
+            <Video
+              url="https://res.cloudinary.com/deayvavyl/video/upload/v1743170518/Toggle_nqxf1z.mp4"
+              muted
+              playsInline
+            />
             <p className={styles.cardDescription}>{t[PROJECT_NAME].toggle}</p>
           </div>
         </div>
@@ -190,16 +205,31 @@ export default async function BrownieDs({ params }) {
         </div>
         <div className={styles.cardContainer}>
           <div className={styles.card}>
+            <Video
+              url="https://res.cloudinary.com/deayvavyl/video/upload/v1743170646/Corazon_01_vp30cv.mp4"
+              muted
+              playsInline
+            />
             <p className={styles.cardDescription}>
               {t[PROJECT_NAME].wishlistInformation}
             </p>
           </div>
           <div className={styles.card}>
+            <Video
+              url="https://res.cloudinary.com/deayvavyl/video/upload/v1743170647/Personalizable_rfbmib.mp4"
+              muted
+              playsInline
+            />
             <p className={styles.cardDescription}>
               {t[PROJECT_NAME].customizableItem}
             </p>
           </div>
           <div className={styles.card}>
+            <Video
+              url="https://res.cloudinary.com/deayvavyl/video/upload/v1743170647/New_e1gmqd.mp4"
+              muted
+              playsInline
+            />
             <p className={styles.cardDescription}>
               {t[PROJECT_NAME].newNotice}
             </p>
