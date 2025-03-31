@@ -48,6 +48,11 @@
     "descriptionMetaData": "Explora los proyectos destacados de Bihotz Studio. Conoce nuestros casos de éxito en diseño gráfico, desarrollo web, branding y más. Inspírate con nuestro trabajo creativo.",
     "client": "CLIENTE",
     "project": "PROYECTO",
+    "pronovias-the-edit": {
+      "titleMetaData": "Pronovias The Edit | Bihotz Studio",
+      "descriptionMetaData": "Rediseñamos las editorial pages de Pronovias con una organización clara y elegante, manteniendo su esencia moderna y ofreciendo una navegación intuitiva que invita a descubrir más.",
+      "description": "Rediseñamos para Pronovias las editorial pages de la web, manteniendo la esencia de la marca en su elegancia moderna. Como objetivo la organización de los contenidos de forma sencilla y clara, a la vez que respetando la estética de la marca. Además, con el diseño asegurando al usuario una exploración intuitiva que le invite a seguir explorando."
+    },
     "brownie-workshop": {
       "seoKeywords": "Bihotz Studio, Bihotz, Diseño UX/UI, Branding digital, workshop, Estudio de diseño y desarrollo, Barcelona, UX, UI, Brownie, Diseño de página web, Brownie spain, Brownie ropa",
       "titleMetaData": "Brownie Workshop | Bihotz Studio",
@@ -102,6 +107,26 @@
           ]
         }
       }
+    },
+    "brownie-pdp": {
+      "titleMetaData": "Brownie PDP | Bihotz Studio",
+      "descriptionMetaData": "Descubre el rediseño de la Product Detail Page de Brownie: una experiencia de compra más intuitiva, visual y alineada con la estética de la marca. Usabilidad y diseño al servicio del producto.",
+      "description": "Rediseñamos la Product Detail Page de Brownie con el objetivo de mejorar la usabilidad y facilitar el proceso de compra. Buscamos hacer que las funcionalidades y características sean intuitivas y visibles, siguiendo la estética de la marca. Además, nos enfocamos en resaltar el producto y sus atributos de manera atractiva, clara y sencilla."
+    },
+    "brownie-wishlist": {
+      "titleMetaData": "Brownie Wishlist | Bihotz Studio",
+      "descriptionMetaData": "Rediseñamos la wishlist de Brownie para ofrecer una experiencia intuitiva, atractiva y organizada. Crea, comparte y gestiona listas con facilidad, manteniendo el estilo único de la marca.",
+      "description": "Rediseñamos la wishlist de Brownie, una marca de moda dirigida a mujeres de espíritu joven. Nuestro objetivo fue crear una interfaz intuitiva, clara y atractiva para mejorar la experiencia de las usuarias, manteniendo la estética visual característica de la marca. Trabajamos en la integración coherente de sus diferentes funcionalidades, permitiendo compartir la wishlist, crear múltiples listas y añadir artículos fácilmente. De este modo, las usuarias pueden encontrar sus productos favoritos de forma rápida, sencilla y organizada."
+    },
+    "bimani-home": {
+      "titleMetaData": "Bimani Home Page Redesign | Bihotz Studio",
+      "descriptionMetaData": "Rediseñamos la home de BIMANI para reflejar su nueva identidad visual: una experiencia atractiva que transmite evolución, madurez y esencia de marca desde el primer vistazo.",
+      "description": "Rediseñamos la home page de BIMANI aplicando su nueva identidad visual. BIMANI se encuentra en un momento de transición, un cambio que reflaja su aprendizaje, madurez y evolución. Rediseñamos su Home para el lanzamiento del rebranding ofreciendo una experiencia visualmente atractiva que invite a los visitantes a explorar y enamorarse de la marca."
+    },
+    "bimani-christmas": {
+      "titleMetaData": "Bimani Christmas | Bihotz Studio",
+      "descriptionMetaData": "Creamos un microsite inmersivo para la campaña de Navidad 2024 de BIMANI: descubre el film, fotos, guía de regalos y looks festivos en una experiencia intuitiva, dinámica y con mucho estilo.",
+      "description": "Para la campaña de Navidad 2024 de BIMANI, diseñamos un microsite inmersivo basado en el concepto Make a Wish. En él, las usuarias podían descubrir el film y las fotos de campaña, cada una contando la historia y los deseos de distintos personajes. Además, incluía una Guía de Regalos, donde los productos se filtraban según los perfiles de la campaña, un editorial de looks de fiesta y una página con todas las ventajas de comprar en BIMANI. El diseño priorizaba una navegación fluida, intuitiva y envolvente, manteniendo coherencia visual sin perder dinamismo ni personalidad."
     },
     "suly": {
       "titleMetaData": "Suly | Bihotz Studio",

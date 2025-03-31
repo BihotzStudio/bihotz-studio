@@ -19,7 +19,6 @@ const MediaProject = ({ project }) => {
         <Video
           key={media.url}
           url={media.url}
-          style={{ width: "100%", height: "auto" }}
           className={styles.image}
           muted
           playsInline
