@@ -39,8 +39,6 @@
   align-items: flex-start;
 }
 
-
-
 .fullWidthCard .cardContainer,
 .reverseCard .cardContainer {
   flex-direction: column-reverse;
@@ -123,7 +121,9 @@
     font-size: 24px;
   }
 
- 
+  .cardText {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 950px) {

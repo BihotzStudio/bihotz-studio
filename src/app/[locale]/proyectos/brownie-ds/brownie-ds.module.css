@@ -132,6 +132,12 @@
   .footerText {
     font-size: 24px;
   }
+
+  .cardDescription,
+  .titleTextCard,
+  .descriptionTextCard {
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 950px) {
