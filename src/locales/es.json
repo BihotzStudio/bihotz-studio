@@ -51,7 +51,55 @@
       "titleMetaData": "Brownie Workshop | Bihotz Studio",
       "descriptionMetaData": "Descubre el proyecto Brownie Workshop de Bihotz Studio. Una solución creativa y personalizada en diseño gráfico y branding para potenciar la imagen de Brownie Workshop.",
       "description": "Colaboramos con el equipo de Brownie en un workshop dinámico que reunió a diversos perfiles de la empresa, desde el equipo directivo hasta el personal de tienda. En esta sesión de ideación, exploramos y desarrollamos conceptos innovadores para la nueva APP de la marca, asegurando que las ideas reflejen las necesidades y perspectivas de todos los niveles de la organización. El resultado fue una base sólida para una aplicación que promete mejorar la experiencia de los clientes y fortalecer la identidad digital de Brownie.",
-      "footer": ""
+      "footer": "El trabajo en equipo produce los mejores resultados.",
+      "page": {
+        "title": "Workshop dinámico con Brownie",
+        "intro": "Exploramos conceptos innovadores para la nueva APP de la marca.",
+        "section1": {
+          "title": "Warm up",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "description": "El workshop comenzó con una sesión de calentamiento diseñada para romper el hielo y fomentar un ambiente colaborativo.",
+          "activitiesTitle": "Participamos en las siguientes actividades:",
+          "activities": [
+            "Presentaciones",
+            "Actividades para romper el hielo",
+            "Cuestionario breve",
+            "Objetivos del workshop"
+          ]
+        },
+        "section2": {
+          "title": "User Persona",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "description": "La creación de User Personas fue un proceso meticuloso e iterativo destinado a desarrollar perfiles detallados que representan diferentes segmentos de la audiencia objetivo. Este enfoque aseguró que en el posterior diseño de la APP tuviéramos en cuenta eficazmente diversas necesidades de los usuarios y que nuestros esfuerzos estuvieran fundamentados en un profundo entendimiento de la audiencia objetivo.",
+          "activities": [
+            "Brainstorming",
+            "Persona Creation",
+            "Discusión y Refinamiento"
+          ]
+        },
+        "section3": {
+          "title": "User Journey",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "description1": "Con los perfiles de clientes de nuestro ejercicio anterior en mente, trazamos el recorrido que cada perfil seguiría al enfrentarse a una tarea específica.",
+          "description2": "Este proceso implicó imaginar y detallar los pasos e interacciones que estos clientes probablemente experimentarían, desde su primer contacto con la tarea hasta su finalización."
+        },
+        "section4": {
+          "title": "Swot Analysis",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "description": "Llevamos a cabo un análisis detallado SWOT para evaluar los factores internos y externos que afectan el desarrollo y lanzamiento de la aplicación. Esta evaluación nos ayudó a comprender mejor nuestra posición estratégica, permitiéndonos aprovechar nuestras fortalezas, abordar nuestras debilidades, aprovechar oportunidades y gestionar amenazas de manera efectiva en nuestras fases de planificación e implementación."
+        },
+        "section5": {
+          "title": "Conceptualización del MVP",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "description": "Mediante una serie de ejercicios estructurados y sesiones de brainstorming, determinamos qué características consideramos esenciales para hacer que la aplicación de Brownie sea excepcional. Estas características fueron evaluadas cuidadosamente y se colocaron en un diagrama para priorizarlas según su relación costo/beneficio. Este enfoque nos permite centrarnos en implementar las características de alto impacto primero, optimizando la asignación de recursos y maximizando el valor de la aplicación para los usuarios.",
+          "activities": [
+            "Identificar funcionalidades esenciales para la excelencia de la aplicación Brownie.",
+            "Evaluar las funcionalidades según su costo-efectividad.",
+            "Priorización de funcionalidades para implementación estratégica.",
+            "Con el objetivo de maximizar el valor para el usuario."
+          ]
+        }
+      }
     },
     "suly": {
       "titleMetaData": "Suly | Bihotz Studio",

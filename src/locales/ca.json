@@ -48,11 +48,59 @@
     "client": "CLIENT",
     "project": "PROJECTE",
     "brownie-workshop": {
-      "seoKeywords": "Disseny UX/UI, Branding digital, workshop, Estudi de disseny i programació, Barcelona, UX, UI, Brownie, Disseny de pàgina web, Brownie spain, Brownie roba",
+      "seoKeywords": "Bihotz Studio, Bihotz, Disseny UX/UI, Branding digital, workshop, Estudi de disseny i desenvolupament, Barcelona, UX, UI, Brownie, Disseny de pàgina web, Brownie spain, Brownie roba",
       "titleMetaData": "Brownie Workshop | Bihotz Studio",
       "descriptionMetaData": "Descobreix el projecte Brownie Workshop de Bihotz Studio. Una solució creativa i personalitzada en disseny gràfic i branding per potenciar la imatge de Brownie Workshop.",
-      "description": "Col·laborem amb l'equip de Brownie en un workshop dinàmic que va reunir a diversos perfils de l'empresa, des de l'equip directiu fins al personal de botiga. En aquesta sessió d'ideació, vam explorar i desenvolupar conceptes innovadors per a la nova APP de la marca, assegurant que les idees reflectissin les necessitats i perspectives de tots els nivells de l'organització. El resultat va ser una base sòlida per a una aplicació que promet millorar l'experiència dels clients i enfortir la identitat digital de Brownie.",
-      "footer": ""
+      "description": "Col·laborem amb l’equip de Brownie en un workshop dinàmic que va reunir diversos perfils de l’empresa, des de l’equip directiu fins al personal de botiga. En aquesta sessió d’ideació, vam explorar i desenvolupar conceptes innovadors per a la nova APP de la marca, assegurant que les idees reflectissin les necessitats i perspectives de tots els nivells de l’organització. El resultat va ser una base sòlida per a una aplicació que promet millorar l’experiència dels clients i enfortir la identitat digital de Brownie.",
+      "footer": "La feina en equip dóna els millors resultats.",
+      "page": {
+        "title": "Workshop dinàmic amb Brownie",
+        "intro": "Vam explorar conceptes innovadors per a la nova APP de la marca.",
+        "section1": {
+          "title": "Warm up",
+          "altImage": "Disseny del projecte del sistema de disseny de Brownie",
+          "description": "El workshop va començar amb una sessió d'escalfament dissenyada per trencar el gel i fomentar un ambient col·laboratiu.",
+          "activitiesTitle": "Vam participar en les activitats següents:",
+          "activities": [
+            "Presentacions",
+            "Activitats per trencar el gel",
+            "Qüestionari breu",
+            "Objectius del workshop"
+          ]
+        },
+        "section2": {
+          "title": "User Persona",
+          "altImage": "Disseny del projecte del sistema de disseny de Brownie",
+          "description": "La creació de User Personas va ser un procés meticulós i iteratiu destinat a desenvolupar perfils detallats que representin diferents segments del públic objectiu. Aquest enfocament va assegurar que en el disseny posterior de l’APP tinguéssim en compte eficaçment diverses necessitats dels usuaris i que els nostres esforços estiguessin fonamentats en una comprensió profunda del públic objectiu.",
+          "activities": [
+            "Brainstorming",
+            "Persona Creation",
+            "Discussió i Refinament"
+          ]
+        },
+        "section3": {
+          "title": "User Journey",
+          "altImage": "Disseny del projecte del sistema de disseny de Brownie",
+          "description1": "Amb els perfils de clients del nostre exercici anterior en ment, vam traçar el recorregut que cada perfil seguiria enfrontant-se a una tasca específica.",
+          "description2": "Aquest procés va implicar imaginar i detallar els passos i interaccions que aquests clients probablement experimentarien, des del seu primer contacte amb la tasca fins a la seva finalització."
+        },
+        "section4": {
+          "title": "Swot Analysis",
+          "altImage": "Disseny del projecte del sistema de disseny de Brownie",
+          "description": "Vam dur a terme una anàlisi detallada SWOT per avaluar els factors interns i externs que afecten el desenvolupament i el llançament de l’aplicació. Aquesta avaluació ens va ajudar a comprendre millor la nostra posició estratègica, permetent-nos aprofitar les nostres fortaleses, abordar les nostres debilitats, aprofitar oportunitats i gestionar amenaces de manera efectiva en les nostres fases de planificació i implementació."
+        },
+        "section5": {
+          "title": "Conceptualització del MVP",
+          "altImage": "Disseny del projecte del sistema de disseny de Brownie",
+          "description": "Mitjançant una sèrie d’exercicis estructurats i sessions de brainstorming, vam determinar quines característiques consideràvem essencials per fer que l’aplicació de Brownie fos excepcional. Aquestes característiques van ser avaluades acuradament i es van col·locar en un diagrama per prioritzar-les segons la seva relació cost/benefici. Aquest enfocament ens permet centrar-nos en implementar primer les funcionalitats d’alt impacte, optimitzant l’assignació de recursos i maximitzant el valor de l’aplicació per als usuaris.",
+          "activities": [
+            "Identificar funcionalitats essencials per a l’excel·lència de l’aplicació Brownie.",
+            "Avaluar les funcionalitats segons la seva rendibilitat.",
+            "Priorització de funcionalitats per a una implementació estratègica.",
+            "Amb l’objectiu de maximitzar el valor per a l’usuari."
+          ]
+        }
+      }
     },
     "suly": {
       "titleMetaData": "Suly | Bihotz Studio",

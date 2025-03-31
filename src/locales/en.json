@@ -47,11 +47,59 @@
     "client": "CLIENT",
     "project": "PROJECT",
     "brownie-workshop": {
-      "seoKeywords": "UX/UI design, Digital branding, workshop,  Design and development studio, Barcelona, UX, UI, Create website, Website design, Brownie, Brownie spain, Brownie dresses",
+      "seoKeywords": "Bihotz Studio, Bihotz, UX/UI Design, Digital Branding, workshop, Design and Development Studio, Barcelona, UX, UI, Brownie, Website Design, Brownie spain, Brownie clothing",
       "titleMetaData": "Brownie Workshop | Bihotz Studio",
-      "descriptionMetaData": "Discover the Brownie Workshop project by Bihotz Studio. A creative and personalized solution in graphic design and branding to enhance the image of Brownie Workshop.",
-      "description": "We collaborated with the Brownie team in a dynamic workshop that brought together various profiles from the company, from the executive team to store staff. In this ideation session, we explored and developed innovative concepts for the brand's new APP, ensuring that the ideas reflected the needs and perspectives of all levels of the organization. The result was a solid foundation for an app that promises to improve the customer experience and strengthen Brownie's digital identity.",
-      "footer": "Teamwork yields the best result."
+      "descriptionMetaData": "Discover the Brownie Workshop project by Bihotz Studio. A creative and tailored solution in graphic design and branding to enhance Brownie Workshop's image.",
+      "description": "We collaborated with the Brownie team in a dynamic workshop that brought together various profiles within the company, from the management team to store staff. In this ideation session, we explored and developed innovative concepts for the brand's new APP, ensuring the ideas reflected the needs and perspectives of all organizational levels. The result was a solid foundation for an application that promises to enhance customer experience and strengthen Brownie's digital identity.",
+      "footer": "Teamwork yields the best results.",
+      "page": {
+        "title": "Dynamic workshop with Brownie",
+        "intro": "We explored innovative concepts for the brand's new APP.",
+        "section1": {
+          "title": "Warm up",
+          "altImage": "Design of the Brownie design system project",
+          "description": "The workshop began with a warm-up session designed to break the ice and foster a collaborative environment.",
+          "activitiesTitle": "We participated in the following activities:",
+          "activities": [
+            "Introductions",
+            "Icebreaker activities",
+            "Short questionnaire",
+            "Workshop goals"
+          ]
+        },
+        "section2": {
+          "title": "User Persona",
+          "altImage": "Design of the Brownie design system project",
+          "description": "The creation of User Personas was a meticulous and iterative process aimed at developing detailed profiles representing different segments of the target audience. This approach ensured that in the subsequent APP design we effectively considered various user needs and grounded our efforts in a deep understanding of the target audience.",
+          "activities": [
+            "Brainstorming",
+            "Persona Creation",
+            "Discussion and Refinement"
+          ]
+        },
+        "section3": {
+          "title": "User Journey",
+          "altImage": "Design of the Brownie design system project",
+          "description1": "With the customer profiles from our previous exercise in mind, we mapped the journey each profile would follow when facing a specific task.",
+          "description2": "This process involved imagining and detailing the steps and interactions these customers would likely experience, from their first contact with the task to its completion."
+        },
+        "section4": {
+          "title": "Swot Analysis",
+          "altImage": "Design of the Brownie design system project",
+          "description": "We conducted a detailed SWOT analysis to assess the internal and external factors affecting the development and launch of the application. This evaluation helped us better understand our strategic position, allowing us to leverage our strengths, address our weaknesses, capitalize on opportunities, and effectively manage threats during our planning and implementation phases."
+        },
+        "section5": {
+          "title": "MVP Conceptualization",
+          "altImage": "Design of the Brownie design system project",
+          "description": "Through a series of structured exercises and brainstorming sessions, we determined which features we considered essential to make the Brownie app outstanding. These features were carefully evaluated and placed in a diagram to prioritize them based on their cost/benefit ratio. This approach enables us to focus on implementing high-impact features first, optimizing resource allocation and maximizing the app’s value for users.",
+          "activities": [
+            "Identify essential features for the excellence of the Brownie app.",
+            "Evaluate features based on cost-effectiveness.",
+            "Feature prioritization for strategic implementation.",
+            "With the goal of maximizing user value."
+          ]
+        }
+      }
     },
     "suly": {
       "titleMetaData": "Suly | Bihotz Studio",
