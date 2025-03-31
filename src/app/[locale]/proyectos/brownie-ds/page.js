@@ -15,7 +15,8 @@ import { CloudinaryImage } from "@/components/CloudinaryImage/CloudinaryImage";
 const PROJECT_NAME = "brownie-ds";
 
 export async function generateMetadata({ params }) {
-  const t = await getTranslations(params.locale, "Projects");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Projects");
   const project = projects[PROJECT_NAME];
 
   return {
@@ -23,7 +24,7 @@ export async function generateMetadata({ params }) {
     description: t[PROJECT_NAME].descriptionMetaData,
     keywords: t[PROJECT_NAME].seoKeywords,
     alternates: {
-      canonical: `${params.locale}/proyectos/${PROJECT_NAME}`,
+      canonical: `${locale}/proyectos/${PROJECT_NAME}`,
       languages: {
         en: `/en/proyectos/${PROJECT_NAME}`,
         es: `/es/proyectos/${PROJECT_NAME}`,
@@ -44,13 +45,14 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function BrownieDs({ params }) {
-  const t = await getTranslations(params.locale, "Projects");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Projects");
 
   return (
-    <ProjectLayout projectName={PROJECT_NAME} locale={params.locale}>
+    <ProjectLayout projectName={PROJECT_NAME} locale={locale}>
       <section className={styles.imageContainer}>
         <Image
-          alt="Imagen de fondo"
+          alt=""
           src="/images/projects/brownie-ds/2.jpg"
           fill
           priority

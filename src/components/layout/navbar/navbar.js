@@ -12,7 +12,7 @@ const links = [
   { name: "services", href: "/servicios" },
   { name: "projects", href: "/proyectos" },
   { name: "about", href: "/nosotros" },
-  { name: "contact", mailto: "mailto:info@bihotz.studio.com" },
+  { name: "contact", mailto: "mailto:info@bihotz-studio.com" },
 ];
 
 export default function Navbar({ locale, t }) {
@@ -86,7 +86,7 @@ export default function Navbar({ locale, t }) {
           </ul>
           <div className={styles.menuFooter}>
             <p>info@bihotz-studio.com</p>
-            <p>+34 697 525 425</p>
+            <p>+34 623 961 097</p>
             <a
               href="https://www.instagram.com/bihotz.studio/"
               target="_blank"

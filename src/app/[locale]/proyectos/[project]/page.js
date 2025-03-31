@@ -6,40 +6,52 @@ import MediaProject from "@/components/MediaProject/MediaProject";
 import ProjectLayout from "@/components/layout/ProjectLayout/ProjectLayout";
 
 export async function generateMetadata({ params }) {
-  const t = await getTranslations(params.locale, "Projects");
-  const project = projects[params.project];
+  const { locale, project } = await params;
+  const t = await getTranslations(locale, "Projects");
+  const projectData = projects[project];
 
   return {
-    title: t[params.project].titleMetaData,
-    description: t[params.project].descriptionMetaData,
-    keywords: t[params.project].seoKeywords,
+    title: t[project].titleMetaData,
+    description: t[project].descriptionMetaData,
+    keywords: t[project].seoKeywords,
     alternates: {
-      canonical: `${params.locale}/proyectos/${params.project}`,
+      canonical: `${locale}/proyectos/${project}`,
       languages: {
-        en: `/en/proyectos/${params.project}`,
-        es: `/es/proyectos/${params.project}`,
-        ca: `/ca/proyectos/${params.project}`,
+        en: `/en/proyectos/${project}`,
+        es: `/es/proyectos/${project}`,
+        ca: `/ca/proyectos/${project}`,
       },
     },
     openGraph: {
       images: getCldImageUrl({
         src:
-          project.mediaCover.desktop[0].type === "video"
-            ? project.mediaCover.desktop[0].coverId
-            : project.mediaCover.desktop[0].id,
-        width: project.mediaCover.desktop[0].width,
-        height: project.mediaCover.desktop[0].height,
+          projectData.mediaCover.desktop[0].type === "video"
+            ? projectData.mediaCover.desktop[0].coverId
+            : projectData.mediaCover.desktop[0].id,
+        width: projectData.mediaCover.desktop[0].width,
+        height: projectData.mediaCover.desktop[0].height,
       }),
     },
   };
 }
 
+export async function generateStaticParams() {
+  const locales = ["es", "en", "fr"];
+
+  const params = locales.flatMap((locale) =>
+    Object.entries(projects).map((project) => ({ locale, project: project[0] }))
+  );
+
+  return params;
+}
+
 export default async function Project({ params }) {
-  const project = projects[params.project];
+  const { locale, project } = await params;
+  const projectData = projects[project];
 
   return (
-    <ProjectLayout projectName={params.project} locale={params.locale}>
-      <MediaProject project={project} />
+    <ProjectLayout projectName={project} locale={locale}>
+      <MediaProject project={projectData} />
     </ProjectLayout>
   );
 }

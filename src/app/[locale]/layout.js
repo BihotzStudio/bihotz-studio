@@ -10,67 +10,27 @@ const foundersGrotesk = localFont({
   variable: "--font-founders-grotesk",
   src: [
     {
-      path: "../../../public/fonts/FoundersGrotesk-Bold.woff",
-      weight: "700",
-      style: "normal",
-    },
-    {
-      path: "../../../public/fonts/FoundersGrotesk-BoldItalic.woff",
-      weight: "700",
-      style: "italic",
-    },
-    {
       path: "../../../public/fonts/FoundersGrotesk-Light.woff",
       weight: "300",
       style: "normal",
     },
-    {
-      path: "../../../public/fonts/FoundersGrotesk-LightItalic.woff",
-      weight: "300",
-      style: "italic",
-    },
-    {
-      path: "../../../public/fonts/FoundersGrotesk-Medium.woff",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../../../public/fonts/FoundersGrotesk-MediumItalic.woff",
-      weight: "500",
-      style: "italic",
-    },
-    {
-      path: "../../../public/fonts/FoundersGrotesk-Regular.woff",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../../../public/fonts/FoundersGrotesk-RegularItalic.woff",
-      weight: "400",
-      style: "italic",
-    },
-    {
-      path: "../../../public/fonts/FoundersGrotesk-Semibold.woff",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../../../public/fonts/FoundersGrotesk-SemiboldItalic.woff",
-      weight: "600",
-      style: "italic",
-    },
   ],
 });
 
+export async function generateStaticParams() {
+  return [{ locale: "es" }, { locale: "en" }, { locale: "ca" }];
+}
+
 export async function generateMetadata({ params }) {
-  const t = await getTranslations(params.locale, "Home");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Home");
 
   return {
     title: t.seoTitle,
     keywords: t.seoKeywords,
     metadataBase: new URL("https://www.bihotz-studio.com"),
     alternates: {
-      canonical: `${params.locale}`,
+      canonical: locale,
       languages: {
         en: "/en",
         es: "/es",
@@ -89,12 +49,13 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function RootLayout({ children, params }) {
-  const t = await getTranslations(params.locale, "Header");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Header");
 
   return (
-    <html lang={params.locale}>
+    <html lang={locale}>
       <body className={foundersGrotesk.className}>
-        <Navbar locale={params.locale} t={t} />
+        <Navbar locale={locale} t={t} />
         <main>{children}</main>
         <Analytics />
         <SpeedInsights />

@@ -10,8 +10,8 @@ const botUserAgents = [
   "msnbot",
 ];
 
-export function isBot() {
-  const headersList = headers();
+export async function isBot() {
+  const headersList = await headers();
   const isBot = botUserAgents.some((bot) =>
     headersList.get("user-agent").includes(bot)
   );

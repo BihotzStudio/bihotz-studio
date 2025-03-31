@@ -22,7 +22,7 @@ const getServicesEntries = () => {
   return Object.entries(languages).map(([lang]) => ({
     url: `${process.env.NEXT_PUBLIC_BASE_URL}/${lang}/servicios`,
     lastModified: new Date(),
-    priority: 0.8,
+    priority: 0.9,
   }));
 };
 
@@ -30,7 +30,7 @@ const getProjectsEntries = () => {
   return Object.entries(languages).map(([lang]) => ({
     url: `${process.env.NEXT_PUBLIC_BASE_URL}/${lang}/proyectos`,
     lastModified: new Date(),
-    priority: 0.8,
+    priority: 0.9,
   }));
 };
 

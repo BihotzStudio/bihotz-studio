@@ -11,13 +11,14 @@ import { isBot } from "@/utils/isBot";
 import { getTranslations } from "@/utils/getTranslations";
 
 export async function generateMetadata({ params }) {
-  const t = await getTranslations(params.locale, "Projects");
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Projects");
 
   return {
     title: t.titleMetaData,
     description: t.descriptionMetaData,
     alternates: {
-      canonical: `${params.locale}/proyectos`,
+      canonical: `${locale}/proyectos`,
       languages: {
         en: "/en/proyectos",
         es: "/es/proyectos",
@@ -27,7 +28,11 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function Proyecto({ params }) {
+export default async function Proyecto({ params }) {
+  const { locale } = await params;
+  const t = await getTranslations(locale, "Projects");
+  const isRobot = await isBot();
+
   return (
     <div className={styles.projects}>
       {Object.entries(projects).map(([name, project], index) => (
@@ -43,7 +48,7 @@ export default function Proyecto({ params }) {
             reverse: index % 3 === 0,
           }}
         >
-          <Link href={`/${params.locale}/proyectos/${name}`}>
+          <Link href={`/${locale}/proyectos/${name}`}>
             <div className={styles.card}>
               <div className={styles.imageContainer}>
                 {project.mediaCover.desktop[0].type === "video" ? (
@@ -59,7 +64,7 @@ export default function Proyecto({ params }) {
                       width: project.mediaCover.desktop[0].width,
                       height: project.mediaCover.desktop[0].height,
                     })}
-                    isBot={isBot()}
+                    isBot={isRobot}
                   />
                 ) : (
                   <CloudinaryImage
@@ -72,7 +77,7 @@ export default function Proyecto({ params }) {
               </div>
               <div className={styles.info}>
                 <div className={styles.infoTitle}>
-                  <p className={styles.client}>{project.client}</p>
+                  <h3 className={styles.client}>{project.client}</h3>
                   <p className={styles.type}>{project.creativeFields}</p>
                 </div>
                 <p className={styles.description}>{project.description}</p>
