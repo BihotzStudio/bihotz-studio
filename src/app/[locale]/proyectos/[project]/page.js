@@ -36,10 +36,19 @@ export async function generateMetadata({ params }) {
 }
 
 export async function generateStaticParams() {
-  const locales = ["es", "en", "fr"];
+  const locales = ["es", "en", "ca"];
+
+  const {
+    "brownie-ds": _,
+    "brownie-workshop": __,
+    ...staticProjects
+  } = projects;
 
   const params = locales.flatMap((locale) =>
-    Object.entries(projects).map((project) => ({ locale, project: project[0] }))
+    Object.entries(staticProjects).map((project) => ({
+      locale,
+      project: project[0],
+    }))
   );
 
   return params;
