@@ -48,11 +48,6 @@
     "descriptionMetaData": "Explora los proyectos destacados de Bihotz Studio. Conoce nuestros casos de éxito en diseño gráfico, desarrollo web, branding y más. Inspírate con nuestro trabajo creativo.",
     "client": "CLIENTE",
     "project": "PROYECTO",
-    "pronovias-the-edit": {
-      "titleMetaData": "Pronovias The Edit | Bihotz Studio",
-      "descriptionMetaData": "Rediseñamos las editorial pages de Pronovias con una organización clara y elegante, manteniendo su esencia moderna y ofreciendo una navegación intuitiva que invita a descubrir más.",
-      "description": "Rediseñamos para Pronovias las editorial pages de la web, manteniendo la esencia de la marca en su elegancia moderna. Como objetivo la organización de los contenidos de forma sencilla y clara, a la vez que respetando la estética de la marca. Además, con el diseño asegurando al usuario una exploración intuitiva que le invite a seguir explorando."
-    },
     "brownie-workshop": {
       "seoKeywords": "Bihotz Studio, Bihotz, Diseño UX/UI, Branding digital, workshop, Estudio de diseño y desarrollo, Barcelona, UX, UI, Brownie, Diseño de página web, Brownie spain, Brownie ropa",
       "titleMetaData": "Brownie Workshop | Bihotz Studio",
@@ -107,6 +102,11 @@
           ]
         }
       }
+    },
+    "pronovias-the-edit": {
+      "titleMetaData": "Pronovias The Edit | Bihotz Studio",
+      "descriptionMetaData": "Rediseñamos las editorial pages de Pronovias con una organización clara y elegante, manteniendo su esencia moderna y ofreciendo una navegación intuitiva que invita a descubrir más.",
+      "description": "Rediseñamos para Pronovias las editorial pages de la web, manteniendo la esencia de la marca en su elegancia moderna. Como objetivo la organización de los contenidos de forma sencilla y clara, a la vez que respetando la estética de la marca. Además, con el diseño asegurando al usuario una exploración intuitiva que le invite a seguir explorando."
     },
     "brownie-pdp": {
       "titleMetaData": "Brownie PDP | Bihotz Studio",
