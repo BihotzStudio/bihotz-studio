@@ -32,6 +32,7 @@
   height: 15px;
   width: 15px;
   margin-top: 2px;
+  aspect-ratio: 1;
 }
 
 .titleTextCard {
@@ -41,7 +42,7 @@
 .cardDescription,
 .titleTextCard,
 .descriptionTextCard {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 }
 

@@ -61,7 +61,7 @@ export default async function BrownieWorkshop({ params }) {
               media={{
                 height: "1800",
                 width: "2880",
-                alt: t[PROJECT_NAME].page.section1.altImage,
+                altImage: t[PROJECT_NAME].page.section1.altImage,
                 id: "Workshop_01_01",
               }}
               className={styles.cardImage}
@@ -99,7 +99,7 @@ export default async function BrownieWorkshop({ params }) {
               media={{
                 height: "1800",
                 width: "2880",
-                alt: t[PROJECT_NAME].page.section2.altImage,
+                altImage: t[PROJECT_NAME].page.section2.altImage,
                 id: "Workshop_01_02",
               }}
               className={styles.cardImage}
@@ -137,7 +137,7 @@ export default async function BrownieWorkshop({ params }) {
               media={{
                 height: "1800",
                 width: "2880",
-                alt: t[PROJECT_NAME].page.section3.altText,
+                altImage: t[PROJECT_NAME].page.section3.altImage,
                 id: "Workshop_02_01",
               }}
               className={styles.cardImage}
@@ -165,7 +165,7 @@ export default async function BrownieWorkshop({ params }) {
               media={{
                 height: "1800",
                 width: "2880",
-                alt: t[PROJECT_NAME].page.section4.altImage,
+                altImage: t[PROJECT_NAME].page.section4.altImage,
                 id: "Workshop_03",
               }}
               className={styles.cardImage}
@@ -195,7 +195,7 @@ export default async function BrownieWorkshop({ params }) {
             media={{
               height: "1800",
               width: "2880",
-              alt: t[PROJECT_NAME].page.section5.altImage,
+              altImage: t[PROJECT_NAME].page.section5.altImage,
               id: "Workshop_04",
             }}
             className={styles.cardImage}
