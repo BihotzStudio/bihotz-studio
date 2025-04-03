@@ -1,100 +1,4 @@
 {
-  "pronovias-the-edit": {
-    "client": "Pronovias",
-    "clientWebsite": "https://www.pronovias.com/",
-    "name": "Editorial Pages Redesign",
-    "creativeFields": "UX/UI Design",
-    "description": "Pronovias The Edit ",
-    "mediaCover": {
-      "desktop": [
-        {
-          "type": "video",
-          "width": "2880",
-          "height": "2692",
-          "altImage": "Diseño del proyecto del editoral the edit de pronovias",
-          "id": "01_sn433i",
-          "coverId": "01_okry4c",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743432705/01_sn433i.mp4"
-        }
-      ]
-    },
-    "mediaDetails": {
-      "desktop": [
-        {
-          "type": "video",
-          "width": "2880",
-          "height": "2692",
-          "altImage": "Diseño del proyecto del editoral the edit de pronovias",
-          "id": "01_sn433i",
-          "coverId": "01_okry4c",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743432705/01_sn433i.mp4"
-        },
-        {
-          "type": "image",
-          "width": "2880",
-          "height": "2612",
-          "altImage": "Diseño del proyecto del editoral the edit de pronovias",
-          "id": "02_xxhk7z"
-        },
-        {
-          "type": "image",
-          "width": "2880",
-          "height": "2408",
-          "altImage": "Diseño del proyecto del editoral the edit de pronovias",
-          "id": "03_pcjmaj"
-        }
-      ]
-    }
-  },
-  "bimani-home": {
-    "client": "Bimani",
-    "clientWebsite": "https://bimani.com/",
-    "name": "Home Page Redesign",
-    "creativeFields": "UX/UI Design",
-    "description": "Home Page Redesign",
-    "mediaCover": {
-      "desktop": [
-        {
-          "type": "video",
-          "width": "2880",
-          "height": "2316",
-          "altImage": "Diseño del proyecto de la home page Bimani - Imagen 1",
-          "id": "01_tqrurb",
-          "coverId": "01_jqjikz",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743431985/01_tqrurb.mp4"
-        }
-      ]
-    },
-    "mediaDetails": {
-      "desktop": [
-        {
-          "type": "video",
-          "width": "2880",
-          "height": "2316",
-          "altImage": "Diseño del proyecto de la home page Bimani - Imagen 1",
-          "id": "01_tqrurb",
-          "coverId": "01_jqjikz",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743431985/01_tqrurb.mp4"
-        },
-        {
-          "type": "video",
-          "width": "2880",
-          "height": "2852",
-          "altImage": "Diseño del proyecto de la home page Bimani - Imagen 2",
-          "id": "02_kl7ywq",
-          "coverId": "02_syzlhn",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743431990/02_kl7ywq.mp4"
-        },
-        {
-          "type": "image",
-          "width": "2880",
-          "height": "2240",
-          "altImage": "Diseño del proyecto de la home page Bimani - Imagen 3",
-          "id": "03_h78er0"
-        }
-      ]
-    }
-  },
   "bimani-christmas": {
     "client": "Bimani",
     "clientWebsite": "https://bimani.com/",
@@ -108,9 +12,9 @@
           "width": "2880",
           "height": "2590",
           "altImage": "Diseño del proyecto de la campaña de navidad de Bimani - Imagen 1",
-          "id": "01_ct653g",
-          "coverId": "01_dtg7fv",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743514467/01_ct653g.mp4"
+          "id": "Portada_Christmas_rzsiez",
+          "coverId": "Portada_cover_szlmqj",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743692274/Portada_Christmas_rzsiez.mp4"
         }
       ]
     },
@@ -211,6 +115,101 @@
       ]
     }
   },
+  "pronovias-the-edit": {
+    "client": "Pronovias",
+    "clientWebsite": "https://www.pronovias.com/",
+    "name": "Editorial Pages Redesign",
+    "creativeFields": "UX/UI Design",
+    "description": "Pronovias The Edit ",
+    "mediaCover": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2692",
+          "altImage": "Diseño del proyecto del editoral the edit de pronovias",
+          "id": "Portada_The_Edit_dissxj"
+        }
+      ]
+    },
+    "mediaDetails": {
+      "desktop": [
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "2692",
+          "altImage": "Diseño del proyecto del editoral the edit de pronovias",
+          "id": "01_sn433i",
+          "coverId": "01_okry4c",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743432705/01_sn433i.mp4"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2612",
+          "altImage": "Diseño del proyecto del editoral the edit de pronovias",
+          "id": "02_xxhk7z"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2408",
+          "altImage": "Diseño del proyecto del editoral the edit de pronovias",
+          "id": "03_pcjmaj"
+        }
+      ]
+    }
+  },
+  "bimani-home": {
+    "client": "Bimani",
+    "clientWebsite": "https://bimani.com/",
+    "name": "Home Page Redesign",
+    "creativeFields": "UX/UI Design",
+    "description": "Home Page Redesign",
+    "mediaCover": {
+      "desktop": [
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "2316",
+          "altImage": "Diseño del proyecto de la home page Bimani - Imagen 1",
+          "id": "Portada_Homepage_i01s28",
+          "coverId": "Portada_Homepage_i01s28",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743692378/Portada_Homepage_i01s28.mp4"
+        }
+      ]
+    },
+    "mediaDetails": {
+      "desktop": [
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "2316",
+          "altImage": "Diseño del proyecto de la home page Bimani - Imagen 1",
+          "id": "01_tqrurb",
+          "coverId": "01_jqjikz",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743431985/01_tqrurb.mp4"
+        },
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "2852",
+          "altImage": "Diseño del proyecto de la home page Bimani - Imagen 2",
+          "id": "02_kl7ywq",
+          "coverId": "02_syzlhn",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1743431990/02_kl7ywq.mp4"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2240",
+          "altImage": "Diseño del proyecto de la home page Bimani - Imagen 3",
+          "id": "03_h78er0"
+        }
+      ]
+    }
+  },
+  
   "brownie-pdp": {
     "client": "Brownie",
     "clientWebsite": "https://www.browniespain.com/",
@@ -224,7 +223,7 @@
           "width": "2880",
           "height": "1946",
           "altImage": "Diseño del proyecto de la ficha de producto de Brownie - Imagen 1",
-          "id": "01_01_l6btbh"
+          "id": "Portada_PLP_uhq8gu"
         }
       ]
     },
@@ -267,7 +266,7 @@
           "width": "2880",
           "height": "3468",
           "altImage": "Diseño del proyecto de la wishlist de Brownie - Imagen 1",
-          "id": "01_p2zw72"
+          "id": "Portada_Whislist_fks9mz"
         }
       ]
     },
