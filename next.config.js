@@ -1,4 +1,5 @@
 const nextConfig = {
+  productionBrowserSourceMaps: true,
   reactStrictMode: false,
   images: {
     loader: "cloudinary",

@@ -65,7 +65,7 @@ export function Video({
         videoRef.current?.pause();
       }
     }
-  }, [entry?.isIntersecting]);
+  }, [entry?.isIntersecting, isBot, isPausedByUser]);
 
   return (
     <div className={styles.video}>

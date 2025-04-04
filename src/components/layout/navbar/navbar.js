@@ -79,6 +79,7 @@ export default function Navbar({ locale, t }) {
             ))}
             {indicatorPosition && (
               <div
+                aria-hidden
                 className={styles.indicator}
                 style={{ left: indicatorPosition + "px" }}
               />

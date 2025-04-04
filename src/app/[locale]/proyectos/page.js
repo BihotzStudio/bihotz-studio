@@ -30,7 +30,6 @@ export async function generateMetadata({ params }) {
 
 export default async function Proyecto({ params }) {
   const { locale } = await params;
-  const t = await getTranslations(locale, "Projects");
   const isRobot = await isBot();
 
   return (
