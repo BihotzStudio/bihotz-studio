@@ -160,6 +160,131 @@
       ]
     }
   },
+  "brownie-ds": {
+    "client": "Brownie",
+    "clientWebsite": "https://www.browniespain.com/",
+    "name": "Design System",
+    "creativeFields": "UX/UI Design",
+    "description": "Design System",
+    "mediaCover": {
+      "desktop": [
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "1618",
+          "altImage": "Captura de pantalla de una interfaz de usuario con diversos componentes de diseño, incluyendo botones, filtros, tarjetas y campos de búsqueda.",
+          "id": "portada_ofivyw",
+          "coverId": "portada_dl6qqh",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771982/portada_ofivyw.mp4"
+        }
+      ]
+    },
+    "mediaDetails": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "1794",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "2_kayjjd"
+        },
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "1604",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "3_cduhdt",
+          "coverId": "",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771974/3_cduhdt.mp4"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "1800",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "4_xmf40v",
+          "url": "https://res.cloudinary.com/deayvavyl/image/upload/v1719771975/4_xmf40v.jpg"
+        },
+        {
+          "type": "video",
+          "width": "3456",
+          "height": "2160",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "5_nwyogl",
+          "coverId": "",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771975/5_nwyogl.mp4"
+        },
+        {
+          "type": "video",
+          "width": "2880",
+          "height": "1708",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "coverId": "",
+          "id": "6_bzkgl7",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/6_bzkgl7.mp4"
+        },
+        {
+          "type": "video",
+          "width": "2904",
+          "height": "884",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "7_d1vumk",
+          "coverId": "",
+          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/7_d1vumk.mp4"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "516",
+          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
+          "id": "8_rsk6xz"
+        }
+      ]
+    }
+  },
+  "brownie-pdp": {
+    "client": "Brownie",
+    "clientWebsite": "https://www.browniespain.com/",
+    "name": "Brownie PDP",
+    "creativeFields": "UX/UI Design",
+    "description": "Product detail page",
+    "mediaCover": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "1946",
+          "altImage": "Diseño del proyecto de la ficha de producto de Brownie - Imagen 1",
+          "id": "Portada_PLP_uhq8gu"
+        }
+      ]
+    },
+    "mediaDetails": {
+      "desktop": [
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "1946",
+          "altImage": "Diseño del proyecto de la ficha de producto de Brownie - Imagen 1",
+          "id": "01_01_l6btbh"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "2354",
+          "altImage": "Diseño del proyecto de la ficha de producto de Brownie - Imagen 2",
+          "id": "02_01_yvzlsd"
+        },
+        {
+          "type": "image",
+          "width": "2880",
+          "height": "1346",
+          "altImage": "Diseño del proyecto de la ficha de producto de Brownie - Imagen 3",
+          "id": "03_01_dn1bzy"
+        }
+      ]
+    }
+  },
   "bimani-home": {
     "client": "Bimani",
     "clientWebsite": "https://bimani.com/",
@@ -205,50 +330,6 @@
           "height": "2240",
           "altImage": "Diseño del proyecto de la home page Bimani - Imagen 3",
           "id": "03_h78er0"
-        }
-      ]
-    }
-  },
-  
-  "brownie-pdp": {
-    "client": "Brownie",
-    "clientWebsite": "https://www.browniespain.com/",
-    "name": "Brownie PDP",
-    "creativeFields": "UX/UI Design",
-    "description": "Product detail page",
-    "mediaCover": {
-      "desktop": [
-        {
-          "type": "image",
-          "width": "2880",
-          "height": "1946",
-          "altImage": "Diseño del proyecto de la ficha de producto de Brownie - Imagen 1",
-          "id": "Portada_PLP_uhq8gu"
-        }
-      ]
-    },
-    "mediaDetails": {
-      "desktop": [
-        {
-          "type": "image",
-          "width": "2880",
-          "height": "1946",
-          "altImage": "Diseño del proyecto de la ficha de producto de Brownie - Imagen 1",
-          "id": "01_01_l6btbh"
-        },
-        {
-          "type": "image",
-          "width": "2880",
-          "height": "2354",
-          "altImage": "Diseño del proyecto de la ficha de producto de Brownie - Imagen 2",
-          "id": "02_01_yvzlsd"
-        },
-        {
-          "type": "image",
-          "width": "2880",
-          "height": "1346",
-          "altImage": "Diseño del proyecto de la ficha de producto de Brownie - Imagen 3",
-          "id": "03_01_dn1bzy"
         }
       ]
     }
@@ -411,88 +492,6 @@
           "height": "2149",
           "altImage": "Diseño del proyecto de workshop de Brownie",
           "id": "Workshop_04_peooeq"
-        }
-      ]
-    }
-  },
-  "brownie-ds": {
-    "client": "Brownie",
-    "clientWebsite": "https://www.browniespain.com/",
-    "name": "Design System",
-    "creativeFields": "UX/UI Design",
-    "description": "Design System",
-    "mediaCover": {
-      "desktop": [
-        {
-          "type": "video",
-          "width": "2880",
-          "height": "1618",
-          "altImage": "Captura de pantalla de una interfaz de usuario con diversos componentes de diseño, incluyendo botones, filtros, tarjetas y campos de búsqueda.",
-          "id": "portada_ofivyw",
-          "coverId": "portada_dl6qqh",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771982/portada_ofivyw.mp4"
-        }
-      ]
-    },
-    "mediaDetails": {
-      "desktop": [
-        {
-          "type": "image",
-          "width": "2880",
-          "height": "1794",
-          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-          "id": "2_kayjjd"
-        },
-        {
-          "type": "video",
-          "width": "2880",
-          "height": "1604",
-          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-          "id": "3_cduhdt",
-          "coverId": "",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771974/3_cduhdt.mp4"
-        },
-        {
-          "type": "image",
-          "width": "2880",
-          "height": "1800",
-          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-          "id": "4_xmf40v",
-          "url": "https://res.cloudinary.com/deayvavyl/image/upload/v1719771975/4_xmf40v.jpg"
-        },
-        {
-          "type": "video",
-          "width": "3456",
-          "height": "2160",
-          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-          "id": "5_nwyogl",
-          "coverId": "",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771975/5_nwyogl.mp4"
-        },
-        {
-          "type": "video",
-          "width": "2880",
-          "height": "1708",
-          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-          "coverId": "",
-          "id": "6_bzkgl7",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/6_bzkgl7.mp4"
-        },
-        {
-          "type": "video",
-          "width": "2904",
-          "height": "884",
-          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-          "id": "7_d1vumk",
-          "coverId": "",
-          "url": "https://res.cloudinary.com/deayvavyl/video/upload/v1719771977/7_d1vumk.mp4"
-        },
-        {
-          "type": "image",
-          "width": "2880",
-          "height": "516",
-          "altImage": "Diseño del proyecto del sistema de diseño de Brownie",
-          "id": "8_rsk6xz"
         }
       ]
     }
