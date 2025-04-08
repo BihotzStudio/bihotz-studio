@@ -54,6 +54,7 @@
 .container {
   min-height: calc(100dvh - var(--header-height));
   display: flex;
+  border-bottom: 1px solid #000;
 }
 
 .image,
@@ -64,6 +65,18 @@
 
 .imageSmallScreen {
   height: 200px;
+}
+
+.projects {
+  width: 100%;
+  text-align: center;
+}
+
+.projectsTitle {
+  margin-top: 128px;
+  margin-bottom: 32px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 @keyframes fadeIn {
@@ -94,7 +107,7 @@
   }
 
   .secondary .coverImage {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 40vw;
     z-index: 1000;
