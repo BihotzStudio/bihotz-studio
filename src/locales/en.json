@@ -1,7 +1,7 @@
 {
   "Home": {
     "seoTitle": "Bihotz Studio | Digital design & Development",
-    "seoKeywords": "Bihotz Studio, Bihotz, UX/UI Design, Web and app development, Digital banding, Design system, Design and development studio, Barcelona, UX, UI, Create website, Website design, Programming",
+    "seoKeywords": "Bihotz Studio, Web design and development studio, UX/UI design, Digital branding, Web design Barcelona, Web design Sabadell, Digital agency, App development, User-centered design, Shopify partner",
     "altImage": "Black and white image of a minimalist room with two empty frames hanging on the wall and a modern curved design chair placed on the parquet floor.",
     "title": "Digital Design & Development.",
     "description": "We are a design and development studio specializing in the retail sector. We collaborate with large companies offering services that help them grow and consolidate their digital businesses by providing expertise in digital innovation.",
@@ -10,7 +10,7 @@
   },
   "About": {
     "seoTitle": "About Us | Bihotz Studio",
-    "seoKeywords": "Bihotz Studio, web design and development, design studio, design experience, usability and design, aesthetics and design, development solutions, Laura Cantabrana, Roger Gomà, unique design experiences, projects with Zara and Mango, design and development services, user experience design, fashion design experience, collaboration with fashion brands, design studio in 2024",
+    "seoKeywords": "Creative studio Barcelona, Design and development team, Bihotz Studio, UX/UI agency, Design culture, User-centered methodology, Collaborative design, Web designers Barcelona, Sabadell web design, Strategic branding",
     "altImage": "Black and white image showing three Bihotz Studio workers sitting at their office desk",
     "title": "About Us.",
     "description": "Our story began in 2021 when Laura decided to start her own venture by founding the studio. With over a decade of experience working with renowned brands like Massimo Dutti, Mango, or Bershka, the early years focused on the vision of creating unique experiences through designs that combine usability and aesthetics.",
@@ -21,6 +21,7 @@
   "Services": {
     "pageTitle": "Services",
     "titleMetaData": "Services | Bihotz Studio",
+    "seoKeywords": "UX/UI design services, Custom web development, Mobile app design, Digital branding for brands, Design system, Shopify for e-commerce, Web design provider, Design and development agency, Responsive web design, Web development Barcelona",
     "metaDescription": "Discover the creative services of Bihotz Studio. We offer graphic design, web development, branding, and more to boost your brand and projects. Contact us today!",
     "designTitle": "UX/UI Design",
     "designDescription": "Our design team is dedicated to understanding user needs and behaviors to develop intuitive interfaces focused on usability and aesthetics. We strive to optimize the interaction between users and digital products, providing solutions that are not only visually appealing but also functional.",
@@ -45,6 +46,7 @@
   "Projects": {
     "pageTitle": "Projects",
     "titleMetaData": "Projects | Bihotz Studio",
+    "seoKeywords": "Bimani ecommerce design, Pronovias web design projects, Brownie website redesign, Fashion e-commerce design, Digital design system, UI design portfolio, UX success stories, Homepage design for brands, Fashion industry web design, Ecommerce design studio",
     "descriptionMetaData": "Explore the featured projects of Bihotz Studio. Discover our success stories in graphic design, web development, branding, and more. Get inspired by our creative work.",
     "client": "CLIENT",
     "project": "PROJECT",

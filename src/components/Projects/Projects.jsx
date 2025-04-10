@@ -59,7 +59,7 @@ export default async function Projects({ locale }) {
                   <h3 className={styles.client}>{project.client}</h3>
                   <p className={styles.type}>{project.creativeFields}</p>
                 </div>
-                <p className={styles.description}>{project.description}</p>
+                <h2 className={styles.description}>{project.description}</h2>
               </div>
             </div>
           </Link>

@@ -8,6 +8,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t.titleMetaData,
     description: t.descriptionMetaData,
+    keywords: t.seoKeywords,
     alternates: {
       canonical: `${locale}/proyectos`,
       languages: {

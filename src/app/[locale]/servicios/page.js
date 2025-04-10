@@ -13,6 +13,7 @@ export async function generateMetadata({ params }) {
   return {
     title: t.titleMetaData,
     description: t.metaDescription,
+    keywords: t.seoKeywords,
     alternates: {
       canonical: `${locale}/servicios`,
       languages: {

@@ -1,27 +1,28 @@
 {
   "Home": {
     "seoTitle": "Bihotz Studio | Diseño digital y Desarrollo",
-    "seoKeywords": "Bihotz Studio, Bihotz, Diseño UX/UI, Desarrollo de webs y de apps, Branding digital, Sistema de diseño, Estudio de diseño y desarrollo, Barcelona, UX, UI, crear página web, diseño de página web, programación, Proveedor, Proveedor ux, Proveedor diseño web, Proveedor desarrollo web, Diseño web Sabadell, Sabadell, Barcelona, Diseño web Barcelona",
+    "seoKeywords": "Bihotz Studio, Estudio de diseño y desarrollo web, Diseño UX/UI, Branding digital, Diseño web Barcelona, Diseño web Sabadell, Agencia digital, Desarrollo de apps, Diseño centrado en el usuario, Shopify partner",
     "altImage": "Imagen en blanco y negro de una habitación minimalista con dos cuadros vacíos colgados en la pared y una silla moderna de diseño curvo colocada en el suelo de parqué.",
     "title": "Digital Design & Development.",
     "description": "Somos un estudio de diseño y desarrollo web y app especializado en el sector retail. Colaboramos con grandes empresas ofreciendo servicios que les ayuden a hacer crecer y consolidar sus negocios   digitales aportando experiencia en innovación digital.",
     "altSecondaryImage": "Imagen en blanco y negro de una mujer de espaldas que se está quitando un jersey.",
-    "metaDescription": "Estudio especializado en diseño y desarrollo web y app. Colaboramos con grandes empresas, impulsando y consolidando sus negocios digitales con innovación."
+    "metaDescription": "Estudio de diseño y desarrollo web especializado en UX/UI, branding digital y ecommerce. Creamos webs escalables y personalizadas para marcas con propósito."
   },
   "About": {
     "seoTitle": "Sobre nosotros | Bihotz Studio",
-    "seoKeywords": "Bihotz Studio, diseño y desarrollo web, estudio de diseño, experiencia en diseño, diseño y usabilidad, estética y diseño, soluciones de desarrollo, Laura Cantabrana, Roger Gomà, experiencias únicas en diseño, proyectos con Zara y Mango, servicios de diseño y desarrollo, diseño de experiencias de usuario, trayectoria en diseño de moda, colaboración con marcas de moda, estudio de diseño en 2024",
+    "seoKeywords": "Estudio creativo Barcelona, Equipo diseño y desarrollo, Bihotz Studio, Agencia UX/UI, Cultura de diseño, Metodología centrada en el usuario, Diseño colaborativo, Diseñadores web Barcelona, Sabadell diseño web, Branding estratégico",
     "altImage": "Imagen en blanco y negro donde se pueden ver tres trabajadores de Bihotz Studio sentados en las mesa de su oficina",
     "title": "Sobre nosotros.",
     "description": "Nuestra historia comenzó en 2021 cuando Laura decidió emprender su propia aventura fundando el estudio. Con más de una década de experiencia trabajando con marcas de renombre como Massimo Dutti,  Mango o Bershka, los primeros años se centraron en la visión de crear experiencias únicas a través de diseños enfocados en la combinación de usabilidad y estética.",
     "secondaryDescription": "En 2024, con una sólida trayectoria en proyectos para Zara y Mango, Roger se unió al proyecto para ser la otra mitad liderando la parte técnica Bihotz. Está nueva etapa nos permite ofrecer servicios mucho más completos a nuestros clientes, aportando así soluciones tanto de desarrollo como de diseño.",
     "altSecondaryImage": "Imagen en blanco y negro donde se ve la puerta de la oficina de Bihotz Studio, donde hay un vinilo pegado",
-    "metaDescription": "Descubre la historia de Bihotz Studio y sus fundadores Laura Cantabrana y Roger Gomà"
+    "metaDescription": "Somos Bihotz Studio, un estudio creativo de Barcelona especializado en diseño y desarrollo digital. Apostamos por la colaboración, el diseño centrado en el usuario y el enfoque estratégico."
   },
   "Services": {
     "pageTitle": "Servicios",
     "titleMetaData": "Servicios | Bihotz Studio",
-    "metaDescription": "Descubre los servicios creativos de Bihotz Studio. Ofrecemos diseño gráfico, desarrollo web, branding y más para impulsar tu marca y proyectos. ¡Contáctanos hoy!",
+    "seoKeywords": "Servicios de diseño UX/UI, Desarrollo web personalizado, Diseño de apps móviles, Branding digital para marcas, Sistema de diseño, Shopify para e-commerce, Proveedor diseño web, Agencia diseño y desarrollo, Diseño web responsive, Desarrollo web Barcelona",
+    "metaDescription": "Servicios de diseño UX/UI, desarrollo web a medida, apps móviles y branding digital. Creamos sistemas de diseño, tiendas Shopify y experiencias centradas en el usuario.",
     "designTitle": "Diseño UX/UI",
     "designDescription": "Nuestro equipo de diseño se dedica a entender las necesidades y comportamientos de los usuarios para desarrollar interfaces intuitivas centradas en la usabilidad y la estética. Nos esforzamos por optimizar la interacción entre los usuarios y los productos digitales, brindando soluciones que no solo sean visualmente atractivas, sino también funcionales.",
     "developmentTitle": "Desarrollo web y app",
@@ -44,8 +45,9 @@
   },
   "Projects": {
     "pageTitle": "Proyectos",
+    "seoKeywords": "Diseño ecommerce Bimani, Proyectos diseño web Pronovias, Rediseño web Brownie, Diseño de e-commerce para moda, Sistema de diseño digital, Portfolio diseño UI, Casos de éxito diseño UX, Diseño de homepage para marcas, Diseño web sector moda, Estudio de diseño para ecommerce",
     "titleMetaData": "Proyectos | Bihotz Studio",
-    "descriptionMetaData": "Explora los proyectos destacados de Bihotz Studio. Conoce nuestros casos de éxito en diseño gráfico, desarrollo web, branding y más. Inspírate con nuestro trabajo creativo.",
+    "descriptionMetaData": "Descubre nuestros proyectos con marcas como Bimani, Pronovias y Brownie. Rediseño de ecommerce, sistemas de diseño y experiencias digitales pensadas para crecer.",
     "client": "CLIENTE",
     "project": "PROYECTO",
     "brownie-workshop": {
@@ -105,7 +107,7 @@
     },
     "pronovias-the-edit": {
       "titleMetaData": "Pronovias The Edit | Bihotz Studio",
-      "descriptionMetaData": "Rediseñamos las editorial pages de Pronovias con una organización clara y elegante, manteniendo su esencia moderna y ofreciendo una navegación intuitiva que invita a descubrir más.",
+      "descriptionMetaData": "Rediseñamos las páginas editoriales de Pronovias respetando su estética elegante y ofreciendo una navegación intuitiva, clara y visualmente coherente.",
       "description": "Rediseñamos para Pronovias las editorial pages de la web, manteniendo la esencia de la marca en su elegancia moderna. Como objetivo la organización de los contenidos de forma sencilla y clara, a la vez que respetando la estética de la marca. Además, con el diseño asegurando al usuario una exploración intuitiva que le invite a seguir explorando."
     },
     "brownie-pdp": {
